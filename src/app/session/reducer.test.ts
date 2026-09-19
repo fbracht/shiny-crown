@@ -101,6 +101,35 @@ describe("session reducer and invariants", () => {
     expect(session.roles.chairman).toMatchObject({ status: "occupied", occupant: "crown" });
   });
 
+  it("preserves a Governor's Presidency association when a promotion vacates it", () => {
+    let session = createInitialSession("solo");
+    session = sessionReducer(session, {
+      type: "set-role",
+      role: "governor:bombay",
+      assignment: {
+        status: "occupied",
+        occupant: "human-1",
+        associatedPresidency: "bombay",
+      },
+    });
+    session = sessionReducer(session, {
+      type: "promote",
+      from: "governor:bombay",
+      to: "president:bombay",
+      actor: "human-1",
+    });
+
+    expect(session.roles.governors.bombay).toMatchObject({
+      status: "vacant",
+      previousOccupant: "human-1",
+      associatedPresidency: "bombay",
+    });
+    expect(session.roles.presidents.bombay).toMatchObject({
+      status: "occupied",
+      occupant: "human-1",
+    });
+  });
+
   it("persists discriminated Presidency order and completion", () => {
     let session = createInitialSession("solo");
     session = sessionReducer(session, {

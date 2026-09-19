@@ -46,9 +46,9 @@ Handbook p13 says human-player priority for each Writer follows the Button. Rule
 
 The Rules show common setup and name 1710, 1758, 1813, and Long 1710, but the scenario cards that define exact track/region/office setup and final turn were not supplied. The app can ship a safe setup instruction—follow the selected physical scenario card—and let the user mark final turn. A later scan can make setup more detailed without changing the phase architecture.
 
-### Physical office-card backs
+### Physical office-card backs — resolved in Session 3
 
-Rules pp14–16 provide hiring structure and candidate pools, and the aid includes the Company structure diagram. The card backs determine numbered vacancy order at the table. The app should let the user order actual vacant cards by their printed number rather than inventing a static complete numbering from incomplete assets.
+A user-supplied composite photograph provided the complete printed sequence, hirers, candidate pools, and the shared replacement numbers for Director of Trade/Governor General and Military Affairs/Commander in Chief. The verified transcription is in [office-card-register.md](office-card-register.md). Hiring may now sort vacancies deterministically rather than asking the player to order cards manually.
 
 ### Card-specific ongoing exceptions
 
@@ -67,4 +67,3 @@ Law, prestige, Blackmail, scenario, and setup cards can change rules. The suppli
 ## Next-session readiness
 
 Session 2 is unblocked. Its foundation should include the full discriminated role model, scenario/difficulty/deregulation state, structural optional offices, named human actors and Button holder, fixed flow with conditional skips, and typed Presidency-local progress. The four unresolved 2P rulings can remain conservative/manual until the 2P content pass; none requires a foundation redesign.
-

@@ -1,6 +1,8 @@
 import type { ComponentType } from "react";
 import type { PhaseId } from "../app/session/types";
 import {
+  BonusesPhase,
+  ChairmanPhase,
   ConfigurePhase,
   DeregulationPhase,
   FirmRevenuePhase,
@@ -13,6 +15,7 @@ import {
   SetupFinishPhase,
   TradeDirectoratePhase,
 } from "../phases/PhaseViews";
+import { BombayPresidencyPhase } from "../phases/BombayPresidencyPhase";
 
 type PhaseComponent = ComponentType;
 
@@ -35,15 +38,15 @@ export const phaseRegistry: Record<PhaseId, PhaseComponent> = {
   "round.family": generic("round.family"),
   "round.firms": generic("round.firms"),
   "round.hiring": HiringPhase,
-  "round.chairman": generic("round.chairman"),
+  "round.chairman": ChairmanPhase,
   "round.trade-directorate": TradeDirectoratePhase,
   "round.shipping": generic("round.shipping"),
   "round.military-affairs": generic("round.military-affairs"),
-  "round.presidency.bombay": presidency("round.presidency.bombay"),
+  "round.presidency.bombay": BombayPresidencyPhase,
   "round.presidency.madras": presidency("round.presidency.madras"),
   "round.presidency.bengal": presidency("round.presidency.bengal"),
   "round.china": generic("round.china"),
-  "round.bonuses": generic("round.bonuses"),
+  "round.bonuses": BonusesPhase,
   "round.firm-revenue": FirmRevenuePhase,
   "round.company-revenue": generic("round.company-revenue"),
   "round.events-india": generic("round.events-india"),

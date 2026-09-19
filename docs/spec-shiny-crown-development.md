@@ -1541,7 +1541,7 @@ Session 1 resolved the provisional unknowns. The remaining gaps do not block the
 - **Refusing Crown firm investment in 2P:** base manager consent and the solo-only paid refusal conflict in scope. Do not invent a free or paid refusal until ruled.
 - **Writer-placement Button passing:** apply a pass only when an actual choice between eligible human owners occurs, pending playtest confirmation.
 - **Scenario-card detail:** direct players to the selected physical card for scenario-specific setup and final-turn values until scans are supplied.
-- **Office-card numbering and card-specific exceptions:** use the physical cards for vacancy order and “apply card text” for uncatalogued exceptions.
+- **Card-specific ongoing exceptions:** office-card numbering was resolved from the complete card-back composite supplied in Session 3. Continue to apply uncatalogued law, prestige, Blackmail, scenario, and setup card text physically.
 
 The evidence and conservative implementation policy for each gap are in [`decisions-and-questions.md`](source-analysis/decisions-and-questions.md).
 

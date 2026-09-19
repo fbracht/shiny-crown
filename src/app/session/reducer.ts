@@ -1,5 +1,12 @@
 import { firstPhaseOfTurn, nextPhase } from "../../flow/flowDefinition";
-import { createPhaseState, createPresidencyState, notInPlay, occupied, vacant } from "./factories";
+import {
+  createPhaseState,
+  createPresidencyState,
+  defaultPresidencyOrder,
+  notInPlay,
+  occupied,
+  vacant,
+} from "./factories";
 import { actorIsAllowed, getRole, setRole } from "./roles";
 import { isPresidencyPhaseState } from "./types";
 import type {
@@ -232,20 +239,22 @@ export function sessionReducer(session: GameSessionV1, action: SessionAction): G
       if (!actorIsAllowed(session, action.actor))
         throw new Error("Actor is invalid for this mode.");
       const from = getRole(session.roles, action.from);
+      if (from.status !== "occupied" || from.occupant !== action.actor) {
+        throw new Error("Promotion source must be occupied by the promoted actor.");
+      }
+      const destination = getRole(session.roles, action.to);
+      if (destination.status !== "vacant") {
+        throw new Error("Promotion destination must be a vacant in-play role.");
+      }
+      const vacatedSource = vacant(from.occupant);
       let roles = setRole(
         session.roles,
         action.from,
-        vacant(from.status === "occupied" ? from.occupant : from.previousOccupant),
+        action.from.startsWith("governor:") && "associatedPresidency" in from
+          ? { ...vacatedSource, associatedPresidency: from.associatedPresidency }
+          : vacatedSource,
       );
-      const destination = getRole(roles, action.to);
-      roles = setRole(
-        roles,
-        action.to,
-        occupied(
-          action.actor,
-          destination.status === "occupied" ? destination.occupant : destination.previousOccupant,
-        ),
-      );
+      roles = setRole(roles, action.to, occupied(action.actor, destination.previousOccupant));
       return { ...session, roles };
     }
     case "activate-deregulation":
@@ -308,9 +317,12 @@ export function sessionReducer(session: GameSessionV1, action: SessionAction): G
     case "set-presidency-order": {
       const local = session.progress.phaseState;
       if (!isPresidencyPhaseState(local)) return session;
+      const presidency = local.phaseId.slice("round.presidency.".length) as PresidencyId;
+      const eligible = defaultPresidencyOrder(presidency, session.roles);
       if (
-        action.order.length !== local.order.length ||
-        action.order.some((item) => !local.order.includes(item))
+        action.order.length !== eligible.length ||
+        action.order.some((item) => !eligible.includes(item)) ||
+        new Set(action.order).size !== action.order.length
       ) {
         throw new Error("Presidency order must contain every eligible action exactly once.");
       }
@@ -318,21 +330,32 @@ export function sessionReducer(session: GameSessionV1, action: SessionAction): G
         ...session,
         progress: {
           ...session.progress,
-          phaseState: { ...local, order: action.order },
+          phaseState: {
+            ...local,
+            order: action.order,
+            completed: local.completed.filter((item) => eligible.includes(item)),
+          },
         },
       };
     }
     case "complete-presidency-action": {
       const local = session.progress.phaseState;
-      if (!isPresidencyPhaseState(local) || !local.order.includes(action.actionId)) {
+      if (!isPresidencyPhaseState(local)) {
         return session;
       }
+      const presidency = local.phaseId.slice("round.presidency.".length) as PresidencyId;
+      const eligible = defaultPresidencyOrder(presidency, session.roles);
+      if (!eligible.includes(action.actionId)) return session;
+      const order = [
+        ...local.order.filter((item) => eligible.includes(item)),
+        ...eligible.filter((item) => !local.order.includes(item)),
+      ];
       const completed = action.complete
         ? [...new Set([...local.completed, action.actionId])]
         : local.completed.filter((item) => item !== action.actionId);
       return {
         ...session,
-        progress: { ...session.progress, phaseState: { ...local, completed } },
+        progress: { ...session.progress, phaseState: { ...local, order, completed } },
       };
     }
     case "set-firm-labels":

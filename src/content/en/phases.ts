@@ -1,7 +1,7 @@
 import type { GameMode, PhaseId } from "../../app/session/types";
 
 export type SourceRef = {
-  document: "aid-v3.2" | "rules" | "crown-handbook";
+  document: "aid-v3.2" | "rules" | "crown-handbook" | "office-cards";
   pages: number[];
   section: string;
   mode: "shared" | "solo" | "two-player";
@@ -40,6 +40,15 @@ const twoPlayer = (pages: number[], section: string): SourceRef => ({
   section,
   mode: "two-player",
   use: "replacement",
+});
+
+const officeCards = (section: string): SourceRef => ({
+  document: "office-cards",
+  pages: [1],
+  section,
+  mode: "shared",
+  use: "primary",
+  note: "User-supplied composite photograph of all office-card backs, 2026-09-19.",
 });
 
 export const phaseCopy: Record<PhaseId, PhaseCopy> = {
@@ -132,7 +141,11 @@ export const phaseCopy: Record<PhaseId, PhaseCopy> = {
     title: "Hiring",
     summary: "Resolve the Chairman election, then actual vacant office cards in printed order.",
     shared: ["Never put a not-in-play position in the vacancy queue."],
-    sources: [aid([4], "4. Hiring"), rules([14, 15, 16], "Hiring")],
+    sources: [
+      aid([4], "4. Hiring"),
+      rules([14, 15, 16], "Hiring"),
+      officeCards("Printed office numbers, hirers, and candidate pools"),
+    ],
   },
   "round.chairman": {
     title: "Chairman",

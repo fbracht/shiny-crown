@@ -11,6 +11,7 @@ This directory is the source-traceable handoff for Shiny Crown development. It s
 
 ## Deliverables
 
+- [office-card-register.md](office-card-register.md): visually transcribed office numbers, hirers, candidate pools, and replacement-title pairs supplied during Session 3.
 - [`source-register.md`](source-register.md): authority, hashes, provenance syntax, extraction qualifications, and reference-app audit.
 - [`normalized-reading-order.md`](normalized-reading-order.md): corrected text-layer reading order for the combined aid. It is evidence, not ready-to-ship copy.
 - [`image-transcriptions.md`](image-transcriptions.md): verified transcription of all material tables, diagrams, climate grids, favors, the crisis flowchart, and voting plan.
@@ -34,4 +35,3 @@ This directory is the source-traceable handoff for Shiny Crown development. It s
 - Treat `not-in-play`, `vacant`, and `occupied` as distinct role states.
 - Do not infer game facts the app cannot observe. When a rule depends on money, pieces, shares, routes, dice, cards, or the board, present the applicable decision procedure and let the players evaluate the physical state.
 - Every shipped content unit must carry at least one provenance record. Mode-specific replacements carry both the solo-aid source and the 2P source that replaces it.
-

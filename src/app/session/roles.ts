@@ -100,3 +100,42 @@ export const ROLE_LABELS: Record<RoleRef, string> = {
   superintendentChina: "Superintendent of Trade in China",
   primeMinister: "Prime Minister",
 };
+
+export const HIRING_ROLE_REFS: RoleRef[] = [
+  "directorOfTrade",
+  "governorGeneral",
+  "managerOfShipping",
+  "militaryAffairs",
+  "president:bombay",
+  "president:madras",
+  "president:bengal",
+  "governor:bombay",
+  "governor:madras",
+  "governor:bengal",
+  "governor:punjab",
+  "governor:delhi",
+  "governor:maratha",
+  "governor:mysore",
+  "governor:hyderabad",
+  "superintendentChina",
+];
+
+export const OFFICE_CARD_NUMBERS: Partial<Record<RoleRef, number>> = {
+  chairman: 1,
+  directorOfTrade: 2,
+  governorGeneral: 2,
+  managerOfShipping: 3,
+  militaryAffairs: 4,
+  "president:bombay": 5,
+  "president:madras": 6,
+  "president:bengal": 7,
+  superintendentChina: 8,
+  "governor:bombay": 9,
+  "governor:madras": 10,
+  "governor:bengal": 11,
+  "governor:punjab": 12,
+  "governor:delhi": 13,
+  "governor:maratha": 14,
+  "governor:hyderabad": 15,
+  "governor:mysore": 16,
+};

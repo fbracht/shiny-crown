@@ -6,7 +6,7 @@ The application will guide players through setup and the recurring round sequenc
 
 ## Status
 
-Sessions 1 and 2 are complete. The repository now contains the implementation-ready source map and a working application foundation: the complete typed session model, verified conditional flow, setup-to-round navigation, browser persistence, portable backup/restore, safe Back snapshots, localization-ready content, and a mobile-first interface. Later sessions will replace foundation copy with complete phase-specific English content and bespoke interactions.
+Sessions 1–3 are complete. The repository contains the implementation-ready source map, typed and persistent application foundation, and four source-faithful architecture slices: Bonuses, Chairman, Hiring, and Bombay Presidency. Later sessions will extend the locked bespoke-phase pattern across the remaining English content.
 
 ## Stack
 
@@ -39,6 +39,7 @@ npm run build
 - [Authoritative phase inventory](docs/source-analysis/phase-inventory.md)
 - [State-model audit](docs/source-analysis/state-model-audit.md)
 - [Two-player pass](docs/source-analysis/two-player-pass.md)
+- [Session 3 architecture decision](docs/architecture/session-3-vertical-slices.md)
 
 ## Scope
 

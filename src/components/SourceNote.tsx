@@ -4,6 +4,7 @@ const names: Record<SourceRef["document"], string> = {
   "aid-v3.2": "Combined aid v3.2",
   rules: "Rules",
   "crown-handbook": "Crown Handbook",
+  "office-cards": "Office card backs",
 };
 
 export function SourceNote({ sources }: { sources: SourceRef[] }) {

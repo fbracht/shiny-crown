@@ -14,6 +14,7 @@ import {
   SCHEMA_VERSION,
   type Scenario,
 } from "./types";
+import { HIRING_ROLE_REFS, OFFICE_CARD_NUMBERS, getRole } from "./roles";
 
 export function notInPlay(previousOccupant?: ActorId): RoleAssignment {
   return previousOccupant === undefined
@@ -79,6 +80,12 @@ export function createPhaseState(phaseId: PhaseId, actions: PresidencyActionId[]
   return { phaseId } as PhaseState;
 }
 
+export function currentHiringVacancies(roles: RoleState) {
+  return HIRING_ROLE_REFS.filter((role) => getRole(roles, role).status === "vacant").sort(
+    (left, right) => (OFFICE_CARD_NUMBERS[left] ?? 99) - (OFFICE_CARD_NUMBERS[right] ?? 99),
+  );
+}
+
 export function createInitialSession(mode: GameMode, scenario: Scenario = "1710"): GameSessionV1 {
   return {
     schemaVersion: SCHEMA_VERSION,
@@ -106,7 +113,7 @@ export function defaultPresidencyOrder(presidency: PresidencyId, roles: RoleStat
 
   for (const region of REGIONS) {
     const governor = roles.governors[region];
-    if (governor.status !== "not-in-play" && governor.associatedPresidency === presidency) {
+    if (governor.status === "occupied" && governor.associatedPresidency === presidency) {
       actions.push(`governor:${region}`);
     }
   }
