@@ -1,0 +1,55 @@
+     If successful, perform the following steps:
+
+          1. Divide Loot. Gather cash from the bank based on the target region:
+                  Each Tower Level          Loot Modifier (if faceup)
+                        +£4                        +£4 to +£9
+                 M Loot Minimum. If there is less cash than the number of
+                   officers + 1 (that were used in this action and that survived),
+                   increase it by the difference from the bank.
+
+    £          Distribute this cash among those that participated and survived the
+               Deploy action. First, give yourself £1 (the Commander’s share) and £1
+               for each of your officers. Then continue clockwise to the next player
+               and give them £1 for each of their officers. Continue clockwise in this
+               fashion until all players with officers have been paid or no further
+               cash remains. After paying players, if cash remains, give £1 to the
+               bank for each regiment and local alliance (regardless of strength). If
+               cash remains, continue distributing as described, starting with your
+               Commander’s share and officers.
+
+                                  DIVIDING LO OT
+When it comes to dividing loot, Hyderabad      In the first round, Pink takes £2 (one for an
+is worth £15: £4 for each tower level and      officer and one for the Commander’s share), Yellow
+£7 for the loot token. The Army of Madras      takes £1, Blue takes £1, and £2 is paid to the
+is under the command of Pink and used          bank for the regiments. Loot still remains so
+the following pieces in the action:            payouts continue for a second round where
+                                               everyone is paid again. After the second round,
+                                               £3 remains, so payouts continue for a third
+                                               round, and Pink takes £2 and Yellow £1.
+     Three Officers        Two Regiments                      Final Loot Payouts
+                                                                                        (Bank)
+The current seating order from the
+Commander is Pink, Yellow, then Blue.                 £6          £3           £2         £4
+
+          2. Take Trophies. Take one trophy token for each level in the targeted
+             region’s tower (since you are the Commander). Then, remove the tower
+             and dome. If it was a capital, remove all matching flags.
+
+          3. Impose Order. Open all orders and remove any unrest in the region.
+
+          4. Form Governorship. If the region is not Company-controlled,
+             move the region’s loot/control token to the space above the
+             President’s box with the region symbol side faceup. This region is
+             now associated with this President. Place the matching Governor
+             overlay in the region. Finally, take the matching Governor card
+             from the stack of unused offices and place it in the Vacant Offices
+             box. This region is now Company-controlled.
+            M Elephant Redirect. If the Elephant was in the invaded region and
+              faced another region, place it in the center of the invaded region
+              to show that it now intends to rebel against the Company.
+     If the Deploy action is a catastrophic failure, first return half (rounding
+     up) of your trophies to the supply and return the Commander to your
+     supply.
+
+
+                                                                                                    23

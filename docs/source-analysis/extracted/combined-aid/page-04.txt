@@ -1,0 +1,44 @@
+4. Hiring                                                               When You Are Hiring
+1. Chairman Election
+If the Chairman office is vacant, the player with a majority of
+Company shares chooses the new Chairman by promoting a
+Company share to the Chairman office. If both players have
+an equal number of shares, the former Chairman chooses their
+successor. If there are no shares, the former Chairman hires a          When the Crown is Hiring
+family member from their supply. Note: The Chairman still               The Crown always hires their own family members if able.
+counts as a Company share!
+The Crown will always try to elect themselves as Chairman.
+                   If the Crown has a majority
+                   (or is former Chairman),
+
+
+
+
+                   If the player has a majority
+                                                                             Director of Trade/Governor General Selection: The
+                   (or is former Chairman) and votes to
+                                                                              Crown chooses the first eligible candidate, going
+                                                                              clockwise or counter-clockwise from the Chairman
+                                                                              according to the AI card.
+2. Remaining Vacancies                                                       Candidate Priority: The Crown will choose a
+Vacant offices are filled in order, from lowest to highest                    Writer > Officer > Governor. Break ties with AI card.
+numbered. Available candidates and the hirer are detailed on
+the back of the office’s card and the chart below. If there is no       5. Company Operations
+candidate or hirer, the office stays vacant.                            Each office, from left to right, performs their operations (skip
+     Nepotism: A player may only hire their own family                 vacant offices). It is not allowed to perform an action that
+      member to an office if they get consent from the other            would have no effect or no chance of success.
+      player, or the other player has no viable candidates.             Success Checks
+     Promotions: When a family member is promoted,                     When making a success check, roll the given number of dice
+      their old position is immediately added to the Vacant             and consult the lowest value rolled.
+      Offices box. Transfer any fatigue to their new office.
+                                                                             1-2: The check succeeds.
+                                                                             3-4: The check fails, but may be attempted again
+                                                                              (provided you have sufficient resources).
+                                                                             5-6: The check fails. The office holder is immediately
+                                                                              returned to their owner’s supply and their office is
+                                                                              returned to the Vacant Offices box.
+
+
+
+
+                                                                    4

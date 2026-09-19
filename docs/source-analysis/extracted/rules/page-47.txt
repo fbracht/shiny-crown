@@ -1,0 +1,63 @@
+Notes
+Credits
+Game Design, Graphic Design, and Research: Cole Wehrle
+Development: Drew Wehrle (Second Edition), Chas Threlkeld (First Edition)
+Design of the Crown: Richard Wilkins
+Art: Janek Lipiński (board, portraits, icons, textures), Amita Pai (ganjifa paintings), Amarjeet
+Bitke (sculpts), Corey DeVore (sculpts)
+Editor: Travis D. Hill
+Tabletop Simulator Module: Drew Wehrle
+Playtesting: Daniil Afanasev (Otto von Afusbah), Leonard Ash, Mathieu Barsacq, Adam Bell, Vincent Bertoni,
+Luke Bridwell, Thomas Butler, Trysten Cain, Cat, Aaron Chady, Glen Cupples, Alexander Dimic, Nahvid Etedali,
+Zane Fisher, Paul Forman, Don Gunnell, Reid H, Haze, Lee Hook, Christian Jensen, Matthew A. Jonassaint, Tom
+Kassel, Tom Kenny, Vytauta Kubilius, JC Kwok, Drew Lawson, Jason Lindner, Sergio López Fernández, Jaiden
+Manacsa, Christopher McKeon, Jon Mott, Brad Neuhauser, Michael Norrish, Olyball, Joshua Orkin Clark, Matthew
+J. H. Peronto, Álvaro Manuel Recio Pérez, Alexander Ploberger, Stephen Rausch, Gareth Roberts, Arden Rogow-
+Bales, Matthew Rohn, Chip Roush, Andreas Rovio, Guerric Samples, John Schmidt, Ryan Schneider, Charles Simon,
+Matilda Simonsson, Matthew Smith, Charles Smith, Jason Stone, Cole Swingholm, Karl Södrén, Chas Threlkeld,
+Liam Trench, Nic Tringali, uropb, Voltaire Valdellon, Arno van de Velde, Nicholas Vetterli, Samuel Vriezen, Russell
+White, Richard Wilkins, Brian Williams, Don Wilson, Mark Wright, Alex Yeghiazarian
+
+Design History and Dedication
+The first outlines of John Company’s design were sketched out sometime in late 2009 on a porch
+in Bloomington, Indiana. At that time, I had just discovered Avalon Hill’s The Republic of Rome
+(1990), and I wanted badly to see more games that explored institutional history. I made serious
+attempts to finish a game about the state-sanctioned monopolies of the seventeenth and eighteenth
+centuries in 2011 and 2013, but both attempts floundered. Then, having completed a couple of
+smaller designs, I tried again in 2016 and succeeded in finishing the first edition of John Company
+about a year later.
+The completion of John Company was challenging. At that time, my wife and I were raising our two
+young sons in a tiny apartment in the University of Texas at Austin’s graduate student housing and
+had barely enough income to keep our little family afloat. The completion of the game coincided
+with the final stages of my dissertation and our move back to the Midwest. Though I was grateful
+that I was able to finish the design on time, I also wanted to revisit the title someday.
+Shortly after finishing the second edition of Pax Pamir in the winter of 2018, Drew and I began
+revising John Company. The original plan was to keep the changes small and largely cosmetic.
+However, as we dug into the core architecture of the design, we soon realized that some of the
+game’s foundations would need to be rebuilt. We kept our general priorities close to those which
+had informed Pax Pamir’s redevelopment. We wanted the new edition to offer a beautiful but
+sensible production that strengthened the game’s foundations and made the full scope of the design
+more accessible.
+The second crowdfunding campaign for Pax Pamir performed twice as well as the first, and gave
+Drew and I some much needed breathing room that allowed us to spend an additional year preparing
+John Company before we began public testing. We showed our work for the first time publicly at
+the 2020 San Diego Historical Games Convention at the invitation of Harold Buchanan. The show
+gave Drew and I the confidence to push the game into public playtesting and schedule a Kickstarter
+for the spring of 2021. The campaign raised nearly $800,000 and allowed us to pursue the most
+ambitious production we’ve ever attempted.
+As with the development of Oath: Chronicles of Empire and Exile (2020), John Company benefited
+from a large group of remote playtesters. These testers were hosted on the Wehrlegig Games &
+Friends Discord server and participated in nearly constant discussion of the game. At times, it was
+overwhelming to juggle this discussion with my own playtesting, editing, and graphic design work.
+But, the game is much better for that conversation. I am immensely proud of our work over the past
+year, and I truly think that we have all built something really special together. The final design is a
+testament to their care and attention.
+This was a very difficult project to complete, and Drew and I are both grateful for the support of
+our friends and families who, among other things, tolerated our many unscheduled work sessions.
+We love you all so much and promise to spend less time talking about global commerce in the
+eighteenth century and debating the merits of different punchboard thicknesses. Furthermore, I
+would like to dedicate this game to my partner Cati who helped me through problems both big and
+small this year and to my brother Drew, who, perhaps more than any other person, has made the
+work of our little company possible.
+
+                                                                                                                      47

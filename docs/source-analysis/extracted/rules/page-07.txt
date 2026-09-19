@@ -1,0 +1,56 @@
+Empires
+When a region conquers another region, it either forms an empire or expands its
+existing empire. All empires are composed of one capital region (marked by a
+flag with a star) and at least one dominated region (marked by a smaller version
+of that flag). Empires combine the strengths of their regions when attacking
+and defending in many situations, as described later in the rules.
+     M Empire Decline. If an empire is ever reduced to only its capital region,
+       return its flag to the supply. It is no longer an empire.
+
+
+                        READING INDIA EXAMPLE
+
+                                                The order on the right will
+                                                generate £7 if filled by a
+                                                President. (The small number
+                                                is used in deregulation.)
+
+
+                                                                   Orders covered by a closed
+                                       £   7                       order token cannot be filled.
+
+                                               On this map there is one empire whose
+                                               capital is Hyderabad and extends into
+                                               Mysore. Its combined strength is 3 (2+1).
+
+                                               Bombay is a sovereign region with a strength of 0.
+
+                                               Madras is currently controlled by the
+                                               Company and has its Governor sitting on
+                                               a Governor overlay. Its strength depends
+                                               on the status of the Army of Madras.
+
+                                               Currently there are 2 unrest cubes in Madras
+        £5                                     which will increase the strength of attacks
+                                               against the Company in that region.
+
+                                               Hyderabad and Mysore also still have
+                                               loot tokens, which are taken only           £   5 £7
+                                               after their conquest.
+
+
+
+
+The Looming Crisis (The Elephant)
+India is always faced with a looming Crisis. This is represented by the Elephant
+and its position and direction on the map. The Elephant is always in play.
+It indicates one of two types of Crisis:
+     Ƙ Impending Invasions. When the Elephant is placed on a border
+       between two regions, the acting region (with the Elephant’s tail) is
+       getting ready to invade the region the Elephant faces.
+     Ƙ Impending Rebellions. If the Elephant is in the center of a region or
+       facing the region that dominates it, the acting region is getting ready
+       to rebel against its sovereign.
+Invasions and Rebellions are described in detail in the Events in India phase.
+
+                                                                                                      7

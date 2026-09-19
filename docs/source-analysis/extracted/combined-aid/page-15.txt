@@ -1,0 +1,54 @@
+15. Superintendent of Trade in China
+The Superintendent’s treasury contains only ships, which can be sent there by the Manager of Shipping or Director of Trade.
+
+Trade in China
+Up to once per turn, and only if the Company controls a region with opium icons, roll a die for each ship in the Superintendent’s
+treasury. If successful, for each opium icon in Company-controlled regions: Player gets £1 and Company Balance increases by £4.
+
+If the Crown is Superintendent
+The Crown will roll as many dice as possible, so long as they will roll the minimum number of dice listed below.
+
+
+
+
+16. Bonuses
+Players gain £1 for each Shipyard with a fitted ship and each non-invested Workshop they own. Additional bonuses may apply.
+
+
+
+17. Firm Revenue
+1. Firm Expenses and Dissolution
+The firm must spend money from the London and/or India treasury to pay expenses:
+     £1 for each ship owned by the firm.
+     The higher of: £1 for each firm share or £ equal to the firm’s value.
+If a firm cannot pay its expenses, it can seek emergency investments or be dissolved.
+     Emergency Investments: A player may invest Company Shares (not if it was created this turn, nor if Company Standing
+      and/or Debt is on a lined space) and/or non-invested Workshops (flip them to invested). For each emergency investment,
+      add £5 to the firm’s London treasury, and the investing player places a family member in the firm’s Shares box (unless
+      there are already 10 shares present). After all expenses are paid, remove any leftover money in the firm’s treasury and
+      reduce the firm’s value by 1 space for each emergency investment received this turn.
+
+         The Crown will not invest in a firm seeking emergency investment.
+
+
+
+
+     Dissolution: Move each share piece to the Debtor’s Prison. Return all firm ships to their Shipyards. Flip the firm board to
+      its family side. Any Workshops invested in the firm remain invested.
+
+2. Firm Dividends
+You may choose to pay dividends from the firm’s India treasury. To pay a dividend, you must pay each player £1 per firm share
+they own, and pay yourself (the firm manager) an additional £1. You may choose to not pay any number of your own shares.
+
+
+
+
+Record the total amount of money paid out in dividends by placing the firm’s dividend cube on the Company Balance track. If the
+firm did not pay out dividends and chose the ‘Hobnobbing’ strategy, keep the dividend cube in its current space. Otherwise, set the
+dividend cube to zero.
+Move any money remaining in the firm’s India treasury to their London treasury.
+
+
+
+
+                                                                15

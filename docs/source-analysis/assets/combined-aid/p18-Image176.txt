@@ -1,0 +1,3 @@
+~ 9 y ‘The Crown stops drawing and selects the law just drawn.
+‘The Crown skips the law drawn and draws again (must select 3rd law
+DO aisvm

@@ -1,0 +1,57 @@
+      The remaining offices in this section are created through player actions over the course
+       of the game. When they are created, add their office card to the Vacant Offices box.
+
+     Governors
+     Governors are created through the Deploy action.
+     Governors take a series of Administer actions using a diminishing dice pool.
+     First, take dice equal to the number listed on the office card. Then you may take
+     an Administer action.
+
+              Administer
+              Make a check using the number of dice remaining in the pool. There is
+              no penalty.
+
+
+     £        If successful, take £1 then choose one of the three following options. If
+              the previous roll was not a success, take an additional £1.
+
+            Ƙ Build Company Ship. Building a ship occurs over two successful
+              actions. If there is no Company ship in your region, place one there. If
+              there is already a Company ship in your region, move that ship to the
+              sea zone associated with your President. Note: a ship in a region represents
+              a ship that is partially built and has no other effect.
+            Ƙ Commission Regiment. Place a regiment from the supply in the Army
+              associated with your President. Regiments are treated as officers, but
+              any loot they earn is paid to the bank and they cannot be removed
+              through a loss check.
+            Ƙ Tax. Add £2 from the bank to either the Company Balance or your
+              President’s treasury. You may not split this amount. Each time you
+              choose this after your first time this turn, add one unrest to the
+              region.
+              If the check did not succeed, add an unrest to the region.
+
+              Then lower the number of dice in the pool by 1 regardless of its result.
+              You may continue taking actions until one the following happens: you
+              roll a catastrophic failure, you run out of dice, or you decide to stop.
+
+
+                                             ADMINISTERING
+     The Governor of Madras decides to take the Administer action. They have 4 dice in their dice pool.
+
+     Their first roll is a success                                            They only have two dice in
+     and they decide to tax.                                                  their pool, but are desperate
+     They add £2 to their                                                     for more cash and decide
+     President’s treasury.                                                    to Administer again. It’s a
+                                                                              failure! They add one unrest.
+     They decide to
+     Administer again.                                                        Against the advice of their friends
+     They once more decide                                                    and loved ones, they decide to
+     to tax and add £2                                                        take a final roll, and succeed! This
+     to their President’s                                                     time they opt for a Company ship,
+     treasury. Because this                                                   which is placed in the region.
+     was their second tax,                                                    It will take a later Administer
+     they must also add an                                     £4             action to complete it and advance
+     unrest to the region.                                                    it to the South Indian Ocean.
+     After a risky turn, they have made a bonus of £4 on three successful Administer actions.
+     Note because their last action was a success after a failure, it generated £2 instead of just £1.
+24

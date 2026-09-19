@@ -1,0 +1,47 @@
+                                                     Game End
+                                                     Each scenario of John Company concludes
+                                                     at the end of the turn indicated by
+                                                     the scenario. The game can also end
+                                                     immediately if the Company Standing
+                                                     marker ever moves to the leftmost space on
+                                                     the Standing track.
+                                                     Once the game is over, players may not
+                                                     negotiate, cash in promises, or play
+                                                     blackmail cards (unless a card’s text explicitly
+                                                     allows it). Then players perform the Final
+                                                     Scoring phase.
+
+
+                                  Final Scoring
+                                  Final scoring has several steps which are described
+                                  in the list below. Any ties after Final Scoring
+                                  are broken in favor of the player with the most
+                                  window icons and then in Prime Minister order
+                                  (clockwise, starting with the Prime Minister).           Victory Point
+                                                                                               Icon
+
+
+        1. Power Award. Each player totals their power. Power comes from these sources:
+               Ƙ Power Track. Each enterprise (remember: some prestige cards are enterprises) or
+                 Company share is worth the amount of power indicated next to its token on
+                 the Power track. The bottom two spaces are worth 0 power.
+               Ƙ Prime Minister and Laws. Each passed law token in your play area is worth
+                 +1 power. The Prime Minister grants its holder +2 power.
+               Ƙ Cards. Some blackmail cards and one spouse are worth power. Power for
+Power
+ Icon            blackmail cards in your player area is gained if the card is faceup or down.
+               Ƙ Trophies. Each trophy token in your play area is worth +1 power.
+           The players with the most and second most power gain victory points depending
+           on which turn was the final game turn, as indicated by the table on the board. If
+           players are tied for the most power, award the lower value to the tied players only,
+           and no other power award is given. Players tied for second place get nothing.
+
+        2. Score Court and Workshops. If the Company survived, each Company share is
+           worth the number of victory points indicated on the Court. If the Company failed,
+           players lower their score by that number instead for each, and players score 1 for
+           each workshop they own. Scores may drop below zero.
+
+        3. Final Retirement or Consequence of Failure. If the Company survived, all players
+                roll for attrition and retire any pensioners. No prestige cards are gained. If the
+                 Company failed, draw one Company failure card and resolve it.
+                                                                                                        9

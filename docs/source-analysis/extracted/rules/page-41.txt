@@ -1,0 +1,62 @@
+                                        TRADING WITH FIRMS
+     The President of Madras (Pink) is
+     about to begin Presidency operations.
+                                                                                Filled
+     Green’s firm reveals that their strategy
+     is set on the South Indian Ocean with
+     £4. Green rolls and is successful. They
+     have 2 ships and rolled 3 successes
+     so they announce that their initiative
+     value is -1. That’s a very good result!
+                                                                                             Filled
+     The President resumes their operation
+     and later decides to Trade and declares
+     two regions outside of their home and
+     rolls 5 dice (spending £7). Their initiative
+     value is 2 (4 ships minus 2 successes).
+
+                                                       Filled
+
+     Orders are filled in initiative order. Green’s
+     firm fills the two orders in Madras and the
+     one in Hyderabad (£16 total). Remember: firms
+     fill one more order than they have ships! Green            9
+                                                                £
+     then advances their Value marker 2 spaces
+     (1 for every £6 generated in Trade) and the
+     £16 is added to the firm’s India treasury.
+     The President goes next. They fill those same orders but only take half of their value and
+     fill an additional order in Maratha with their last ship (£9 total). The President then takes
+     their bonus of £4 and each writer placed generates £1 (£2 for Yellow, £1 for Pink).
+
+
+Firm Expenses and Dividends
+At the start of the Revenue phase, before the Company pays expenses, firms will pay expenses
+and dividends in initiative order followed by all other firms with any ties broken by their
+Manager’s windows and then clockwise starting with the Prime Minister.
+
+      Firm Expenses and Dissolution
+      Each firm must pay for the following expenses:
+
+            Ƙ Pay £1 for each ship on the firm’s charter.
+            Ƙ Pay £1 for each share in the firm’s Share box or pay £ equal to the firm value,
+              whichever is higher.
+      Expenses can be paid from a firm’s London and/or India treasury.
+
+      If a firm cannot pay expenses it must be dissolved. Move each share piece to the
+      Debtor’s Prison box on the Deregulation card (pieces here lower a player’s score by one
+      victory point). All ships owned by the firm are returned to their matching shipyard. The
+      manager of the firm then flips their firm’s charter back to the family side. Note: any
+      workshops invested in the firm will remain on their invested side for the rest of the game!
+
+            M Emergency Investments. A firm facing dissolution may receive investments
+              from any player and use that money to cover expenses following the Court and
+              Workshops Investment rules (page 38). Any cash remaining after expenses are
+              paid is lost. Finally, lower the firm’s value by 1 space per emergency investment
+              received. Note: if a firm has 10 shares, it is still possible to invest in a firm, but no new
+              shares are generated.
+            M Emergency Mergers. A firm facing dissolution may participate in a negotiated
+              merger with one other firm at this time. As part of the merger, the other firm
+              must first pay their own expenses (if it hasn’t already done so), and pay any
+              outstanding expenses owed by the firm facing dissolution.
+                                                                                                              41

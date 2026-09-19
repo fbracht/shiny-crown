@@ -1,0 +1,43 @@
+11. Presidencies
+Each President decides the order of their Commander, Governor and Trade actions (each action must be completed before
+proceeding to the next one). If the Presidency is vacant, the Chairman chooses, but they cannot initiate Trade or approve alliances.
+
+If the Crown is President
+Crown Presidents choose the action order: Governor > Commander > Trade.
+
+
+
+
+Firm Initiative
+If your firm is trading in the acting Presidency’s region, before resolving any Presidential actions, check the firm’s Initiative value:
+Roll 1 die for each £ in the Trade Bid box (return the money to the bank). If at least 1 success is rolled, the firm may trade this turn.
+The firm’s Initiative equals their total number of ships minus their number of successful die rolls.
+
+12. Governors
+Administer
+Governors attempt the Administer action, starting with the number of dice listed on their office card. They may make multiple
+Administer attempts, rolling one less die each time, until they run out of dice, choose to stop, or suffer a catastrophic failure.
+If successful, the Governor player gets £1 (£2 if the previous roll was unsuccessful) and chooses one of the following options:
+     Build Company Ship: If there is a Company ship in the Governor’s region, move it to their Presidency’s sea zone.
+      Otherwise, place a Company ship in the Governor’s region (it is under construction).
+     Commission Regiment: Add a regiment to their Presidency’s Army.
+     Tax: Add £2 to the Company Balance or their Presidency’s treasury. Add 1 unrest to the region for each Tax after the first.
+If unsuccessful: Add 1 unrest to the Governor’s region.
+
+If You Are Governor
+
+
+
+
+If the Crown is Governor
+The Crown will repeat the Administer action so long as they can roll at least as many dice as listed below:
+
+
+
+
+If the Administer action was successful, the Crown will:
+
+
+
+
+                                                                   11

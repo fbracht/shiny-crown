@@ -1,0 +1,52 @@
+     Elephant’s March
+     After resolving some events, the Elephant will move. First, check for Imperial
+     Ambitions. Otherwise, it will move to the region pictured on the top of the draw stack.
+          M Imperial Ambitions. After resolving a successful Invasion Crisis, the Elephant
+            will always be moved to the successful capital’s region, regardless of which
+            tile is on top of the draw stack.
+     After moving the Elephant, determine its position using the following procedure:
+          Ƙ If the region is Company-controlled, put the
+                                                                            ELEPHAN T ’S MARCH
+            Elephant in the center of the region.
+          Ƙ If the region is currently dominated by                           RESOLVE
+                                                                               CRISIS
+            another region, place the Elephant on the
+            border facing its current sovereign to indicate                                           +3
+            a looming Rebellion.                                               Imperial Ambitions?
+                                                                                  OTHERWISE
+                                                                                  Top of Stack
+                                                                                   Invade or Rebel?
+
+
+
+          Ƙ If the region is sovereign, place the Elephant
+                                                                         After resolving the Crisis event, the
+            on the border matching the shape (circle,                    Elephant moves to the region indicated
+            triangle, or square) printed on the tile to                  on the top of the draw stack, Mysore.
+            indicate a looming Invasion. The Elephant                    Because Mysore is sovereign, the
+            should be facing towards the region on the                   Elephant takes an offensive posture,
+            other side of that border. If the Elephant                   and points across the border marked
+                                                                         with the circle (into Bombay).
+            faces a region that is already dominated by
+            the acting region (with the Elephant’s tail),
+            use the first clockwise region from that border
+            where this is not true.
+                M Fully-Formed       Empires.     In   the
+                  rare instance that all neighbors are
+                  dominated, place the Elephant on
+                  the border matching the shape on the
+                  Elephant redirect arrow and position
+                  it so that it is pointing at the empire’s
+                  capital.
+                                                 Three Noblemen in Procession on an Elephant (ca. 1790) by Venkatchellum.
+                                                 Painted in or around Hyderabad during the time of Nizam ‘Ali Khan, the
+                                                 artist depicts three important noblemen in parade. Here the noblemen march
+                                                 alongside both Indian and British soldiers. While the Company was engaged
+                                                 in conflicts with the Maratha Confederacy, Hastings worked hard to maintain
+                                                 an alliance with Hyderabad against their common enemies. This effort
+                                                 eventually forced the Nizam into a subsidiary alliance with the Company.
+
+
+
+
+30

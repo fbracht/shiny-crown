@@ -1,0 +1,51 @@
+           Seek Share
+           Place a family member on an empty space on the Stock Exchange track
+           above the Court of Directors and pay the price printed on that space to
+           the bank. These family members may become shares at the end of the
+           Family phase. Once shares, they may provide income through dividends
+           and will be worth victory points at the end of the game if the Company
+           survives. If the Company fails, they will cost victory points instead.
+
+
+     New Company Shares
+     Once all players have completed their turn, check to see if any family members
+     on the Stock Exchange track are added to the Court. One will be added for
+     each Company Debt as described below.
+     If the Company has Debt, move the rightmost family member on the Stock
+     Exchange into the Court box and lower the Company Debt marker by one.
+     A family member in the Court is called a Company share. If Company Debt
+     remains, repeat this step again.
+     Finally, if there are still pieces in the Stock Exchange track but no Company
+     Debt, slide rightward all remaining family members on the Stock Exchange as
+     far as possible, preserving their order.
+
+
+     III. Hiring
+     In this phase, all vacant offices in the Company are filled through hiring.
+
+     General Hiring Procedure
+     Offices are hired in ascending order using the number on the back of each office
+     card. Vacant offices can only be hired by certain officeholders who choose from
+     a specific pool of candidates. The hiring office and the available candidates are
+     listed on the back of the office card. Once a candidate is hired, move that family
+     member to the new office and give that player the matching office card.
+          M Nepotism. You may select your own family member to hire, but you
+            must have the verbal consent of every other player in that office’s
+            candidate pool. This does not apply to electing the Chairman.
+          M Promotions. Some higher offices (like the Director of Trade) are hired
+            from family members who already hold offices. Whenever a family
+            member is promoted in this way, their previously held office card
+            should be flipped over and added to the stack of vacant offices in the
+            appropriate order (ascending). Any fatigue tokens on the promoted
+            officeholder’s previous card are moved over to the new office card.
+
+     No Candidates or Hirer? In some circumstances there may be no eligible
+     candidates for an office. When this happens the office is skipped in the hiring
+     process and will remain vacant through the turn, taking no actions (including
+     hiring others). If the office responsible for hiring a candidate is vacant, that
+     office is skipped.
+
+
+
+
+14

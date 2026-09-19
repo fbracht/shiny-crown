@@ -1,0 +1,59 @@
+Presidents
+If you are President
+
+       +X
+                         Place X Crown writers when filling orders. This always applies, even if you
+                         have no choice but to place Crown writers.
+
+If the Crown is President
+Trade
+The Crown will spend the necessary funds to roll the required number of dice to trade given by this table:
+
+
+
+              2                    3                 4                  5                   6
+The Crown first attempts to trade for the highest value trade route, but will trade in fewer regions if that is
+the only way to reach the required minimum number of dice to still trade.
+
+
+
+         -1             Increase or decrease the required number of dice by 1         .
+
+Additional Funds
+If there are funds remaining in the treasury, the Crown will also spend up to an additional £3 on the Trade
+action.
+
+Filling Orders
+When determining which Orders to fill, the Crown will first try to trade for the highest value trade route;
+if multiple orders/routes have the same value, the Crown will prefer orders in the home region first, then
+orders closest to home region, and then most southerly equidistant orders.
+The Crown will always place their own writers first, and then start placing player writers.
+
+
+
+         -1             The Crown places your writer instead of another.
+
+[2P ONLY] Player priority for each writer placed is determined according to the Player Button.
+
+
+Superintendent of Trade in China
+If you are Superintendent
+Perform office actions as usual.
+
+If the Crown is Superintendent
+Trade in China
+The Crown will roll as many dice as possible to take a valid Trade in China action, so long as they can roll
+the required number of dice given by this table:
+
+
+
+
+              1                            2                                      3
+
+
+         -1             Increase or decrease the required number of dice by 1         .
+
+
+
+
+                                                                                                                  13

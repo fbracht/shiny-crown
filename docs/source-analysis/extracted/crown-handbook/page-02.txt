@@ -1,0 +1,68 @@
+    Vote to Deregulate                                              Family
+    The Crown will never initiate The Vote to Deregulate
+    when they are Prime Minister unless they must. They will        Free Writer Enlistment
+    always vote last and against. They may spend up to the          If there are four or more vacant offices, the Crown will first
+    amount below (once) if it moves the Votes marker to a           Enlist Writer as a free action. Then, if there is a Presidential
+    failing position:                                               vacancy with no Crown writer, they will use a free action
+                                                                    to Enlist Writer in that Presidency.
+
+                                                                    Family Actions
+                                                                    The Crown always takes two family actions each turn
+         £6          £5          £4         £3          £2          based on the following chart, proceeding left to right.
+                                                                    Skip any action that is not viable or cannot be afforded.
+    London Season                                                   [2P ONLY] The Crown takes one family action each turn.
+    At the start of this phase (before retirements) you may:
+                                                                    Extra Action
+
+      -2
+                     Take £1 from the Crown family                  If the most recently passed extra action is an action the
+                     treasury.                                      Crown chooses to take based on the following chart, the
+                                                                    Crown will treat that action as an extra action. E.g. the
+    Retirements                                                     Crown may end up taking 3 actions from the following chart in
+                                                                    a solo game.
+    The Crown will retire pensioners one at a time, each time
+    choosing the highest VP prize spending no more than             After the Crown has completed their actions from the
+    half (rounded up) of their remaining family treasury. The       following chart, they will attempt to take the most recently
+    Crown will only retire to the £2 space if it entitles them to   passed extra action unless they have already done so.
+    a card from the London Season.
+    [HARD/EXPERT ONLY] During Final Retirement, the
+    Crown will spend as much as possible on pensioners.
+    Once the Crown has completed their retirements, you may:
+
+
+      -1
+                     Take £1 from the Crown family
+                     treasury.
+
+    Special Retirements
+    When Deregulation is in effect, the Crown will take the
+    single highest VP special retirement they can afford.
+
+    Prestige Cards
+    The Crown selects a card from the London Season based
+    on the location of the shaded card at the top of the faceup
+    AI card. If that card not available, they choose the next
+    card to the right, wrapping around to the leftmost card.
+      Ƙ The Crown ignores any text effects on Spouse cards
+        but receives retirement discounts and victory points.                    When Seeking Shares, the Crown places on
+      Ƙ Any Crown blackmail cards are kept facedown.                             the cheapest space (will take rightmost of the
+                                                                                 £3 spots if £3 is the cheapest).
+      Ƙ Any enterprise cards are awarded faceup and are
+        effective for the Crown.                                                 When Enlisting Writers, the Crown always
+                                                                                 gives priority to:
+      Ƙ If any card says the Crown “may” do something,
+        they will not.                                                           Ƙ Vacant Presidencies with no Crown
+                                                                                   writers.
+      Ƙ If any card requires permission or consent from the
+        Crown, they will not give it.                                            Ƙ Crown Presidencies with the fewest
+                                                                                   Crown writers.
+
+      -5
+                     Take an enterprise prestige card from
+                     the Crown.                                                  Ƙ Presidencies with the fewest Crown
+                                                                                   writers.
+                     Take a blackmail card from the Crown.                       Ƙ Presidency priority on AI card.
+
+2
+      -4             Note: You may not peek at blackmail cards
+                     held by the Crown.

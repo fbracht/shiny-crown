@@ -1,0 +1,37 @@
+                 Sequence of Play
+                 John Company is a procedural game played over a set number of game turns.
+                 Each game turn consists of phases performed in the following order:
+
+                               I.    The London Season. Officeholders retire and compete for prestige
+                                     cards.
+
+                              II.    Family. Players invest in the Company and increase their holdings.
+                                     Then new Company shares may be created.
+
+                            III.     Hiring. The Company fills all vacant positions.
+
+                             IV.     Company Operation. Each Company office operates following the
+                                     red ribbon from left to right on the game board.
+
+                               V.    Bonuses. Players take bonus income.
+
+                             VI.     Revenue. The Company pays its expenses, the Chairman may pay
+                                     dividends, and the Company adjusts its Standing.
+
+                           VII.      Events in India. Storms and events in India are resolved.
+
+                         VIII.       Parliament Meets. Parliament meets to vote on a law.
+
+                            IX.      Upkeep and Refresh. Players pay upkeep on their prizes and
+                                     prepare for the next game turn.
+“The Political-Banditti Assailing the Savior of India” (1786) by James Gillray.
+Gillray’s earlier cartoons regarding Warren Hastings, the Governor General
+of India, cast him in a heroic light. Here he is assaulted by Charles
+James Fox, Edmund Burke, and Frederick North, portrayed as highway
+robbers. However, as the Impeachment trial wore on, Gillray would
+revise his attitude (see page 21).
+
+
+
+
+10

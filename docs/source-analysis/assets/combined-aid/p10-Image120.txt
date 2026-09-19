@@ -1,0 +1,5 @@
+Transfer 1 officer or regiment from a Presidency to another Presidency
+Ls (counts as one of the Crown’s two transfers).
+
+Prevent any transfer from happening this round (counts as one of the
+Oo Crown’s two transfers).

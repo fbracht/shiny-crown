@@ -1,0 +1,62 @@
+If a you are Prime Minister
+Climate Shift
+After the law is chosen, and before voting begins, roll 6 . If the number of successes is greater or equal
+to Company Standing (which runs from 0-7 where Company Failure = 0), shift the Crown Climate one
+position to the right, if able.
+Then, if the number of successes is greater than Company Standing, shift it once more to the right, if able.
+Then, if number of failures + catastrophic failures is less or equal to Company Standing, shift Crown
+Climate to the left, if able.
+Finally, if the number of failures + catastrophic failures is less than Company Standing, shift it once more
+to the left, if able.
+If the Crown is Prime Minister
+Climate Shift
+First, perform Climate Shift as described above.
+The Crown will draw cards from the Law deck according to the position indicated by the card with the
+shaded card. If a Dilemma is drawn, the Crown must stop drawing and vote on the Dilemma.
+Unlike players, the Crown may vote against the current law even if they are the Prime Minister. The Crown
+can hold both the Prime Minister dial and be Opposition Leader.
+
+
+         -2             The Crown stops drawing and selects the law just drawn.
+
+
+
+         -2
+                        The Crown skips the law drawn and draws again (must select 3rd law
+                        drawn).
+
+Policy Marker Movement Priority
+Compare the two policy space choices and their net effects.
+For each choice, determine their effect by counting the number of affected Player entities (i.e. workshops,
+shipyards, shares, luxuries, windows) and compare the total against the number of Crown entities to get
+the Crown total. Multiply this total by -1 if the choice is tax.
+The Crown will choose the option where the Crown total is highest (e.g. -1 is preferable to -2). Break ties
+using the AI card clockwise/counterclockwise arrows. If the Crown chooses a Power policy in which the
+Power marker is already in the highest position, swap the position of the two bottom Power markers.
+
+
+         -4             The Crown moves the policy marker to the alternative policy.
+
+
+Royal Privilege
+If the Crown cannot afford a tax (or family expenses), the Crown will use additional funds from the
+Company treasury as needed to pay for the cost. The Crown will take emergency loans if necessary to create
+the necessary cash. This may cause Company failure. If the Crown is Chairman, Royal Protection will
+always be discarded if it is available.
+
+Upkeep and Refresh
+The Crown will pay family expenses. If the Crown cannot afford expenses, they will use Royal Privilege.
+
+
+        +1
+                         [SOLO] You have one or more writers in a Crown Presidency, but you do
+                         not have at least one writer return from filling an order in that Presidency.
+
+
+Game End                                                Game Turn      1    2    3    4    5    6    7    8
+[SOLO ONLY] Only award victory points for                   1710       -5   -4   -3   -2   -1   0    0    0
+first place for the Power Award. If the Company
+                                                            1758                 -5   -4   -3   -2   -1
+failed, the soloist should adjust their own victory
+points [only] according to this table.                      1813                           -4   -3   -2   -1
+                                                                                                               15

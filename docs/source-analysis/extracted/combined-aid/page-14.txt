@@ -1,0 +1,50 @@
+14. Trade
+Presidents attempt to fill open orders, starting from their home port and continuing through connected open orders. Each President
+may only perform one successful Trade per turn. It is not allowed to fill an order in another Presidency’s home region.
+         1.   The President declares which regions they will trade in, starting from their home region and including regions
+              connected via open orders. The total number of orders crossed cannot exceed the number of ships in their sea zone.
+         2.   Make a check: Spend any amount of money from the President’s treasury and roll one die per £1 spent. Roll one die
+              less for each region traded in beyond the President’s home region.
+         3.   If successful: For each ship in the President’s sea zone, place a Writer (or ‘Filled Order’ token if none remaining) on
+              an open, empty order in a declared region. Filled orders must start from the Presidency’s home port, and must be
+              placed adjacent to other filled orders after that.
+                   a. For each filled order, add the amount listed to the Company Balance.
+                   b. The President player gets £1 for each filled order.
+                   c. Each player gets £1 for each of their Writers placed on an order.
+
+If You Are President
+
+
+If the Crown is President
+The Crown will spend the money necessary to roll the number of dice listed below. They will first attempt the highest value trade
+route, but will trade in fewer regions if they cannot reach the required number of dice listed below. Then, if there are treasury funds
+remaining, the Crown will spend up to £3 additional on the Trade action.
+
+
+
+
+When filling orders, the Crown prefers the highest-value trade route. If tied in value, the Crown prefers:
+    1.   Home region orders
+    2.   Orders closest to home region
+    3.   Most southerly equidistant orders
+The Crown places their own Writers before placing your Writers.
+
+
+
+
+If the Firm is Trading
+Compare the firm’s Initiative with the Company’s Initiative (number of ships in sea zone minus number of trade successes rolled).
+Conduct trade from lowest to highest Initiative (President breaks ties – the Crown will choose the Company first). If the Company
+is not trading, conduct firm trading after any Commander and/or Governor actions.
+     Firms fill orders in the same way as the Company, but they do not roll less dice for crossing borders, they do not use Writers
+      (use ‘Filled Order’ tokens instead), they fill a number of orders equal to the number of their ships plus one, and the may
+      fill orders in another Presidency’s home region.
+     The firm and the Company may fill orders previously filled by the other, but they only receive half the value of the order
+      (round down).
+Add money generated from filled orders to the firm’s India treasury. Increase the firm’s Value marker 1 space for each £6 added to
+the Firm’s India treasury this turn.
+
+
+
+
+                                                                  14

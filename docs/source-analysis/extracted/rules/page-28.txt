@@ -1,0 +1,60 @@
+     VII. Events in India
+     During this phase, roll the storm die, resolve any storms and then resolve a
+     number of events in India during which the political and economic landscape of
+     India will shift and Company-controlled regions may face Rebellion.
+
+     The Storm Die
+     Roll the storm die. The resulting face indicates which ships are subject to storms
+     and how many events occur in India.
+          M Storms. If one of the three sea zones is rolled, roll a die for each ship in
+            that sea zone except Company and Extra ships. If the die face with three
+            storms is rolled, you must check for all sea zones.
+             On a 1 or 2, nothing happens to the ship. On a 3 or 4, flip the ship to its
+             fatigued side. If the ship is already fatigued, the ship is sunk and should
+             be returned to its shipyard. On a 5 or 6, the ship is sunk and returned to
+             its shipyard. When a ship is returned to a shipyard, it should be flipped
+             to its non-fatigued side.
+          M Events in India. After resolving any storms, resolve as many events in
+            India as indicated by the number on the storm die. For each event in
+            India, flip one tile from the draw stack. These events will often open or
+            close orders, alter a region’s strength, and may lead to Cascades. The
+            location of the event often depends on the back of the top tile in the
+            India draw stack.
+
+                                            FLIPPING AN EVEN T
+
+                                         TURMOIL
+
+
+
+                                      Close northernmost open order.
+                                     If all are closed, perform Cascade
+                                    (close orders in connected regions).
+
+
+
+
+                      The newly drawn event tile is Turmoil. This will occur in the region
+                      of Maratha as this card is now the top tile of the draw stack.
+
+
+
+             Writer Loss
+             When resolving events, orders sometimes become closed. If a writer is
+             on such an order, the writer is returned to its owner’s supply. If the order
+             has a filled order token, flip it instead.
+
+             Cascade
+             If you are ever required to close an order but all orders in that region are
+             already closed, a Cascade occurs. Close all open orders connected to the
+             orders in that region. When doing this, if a connected order is already
+             closed, close the northernmost open order in that region instead. If every
+             order in that region is already closed, trigger an additional Cascade.
+
+             Each region can only Cascade once during the resolution of each event
+             tile. However, a region may receive the effects of more than one Cascade
+             per tile. In other words, while a region might be “flooded” by closed
+             orders from more than one region, it can only “overflow” once.
+
+
+28

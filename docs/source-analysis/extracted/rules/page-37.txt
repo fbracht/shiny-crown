@@ -1,0 +1,56 @@
+   The next section is only used when players are playing games with Deregulation.
+
+
+Deregulation
+These rules are in play during the 1813 scenario. In addition, they may be
+triggered if players vote to deregulate the Company during the long 1710
+scenario or the 1758 scenario.
+
+Firms
+Players may now own shares in and manage firms. Firms can trade in India
+independently of the Company and provide shareholders with alternate ways
+to score victory points.
+
+      The Two Firm Treasuries
+      Each firm has two treasury boxes: the London treasury and the India
+      treasury.
+
+           M London Treasury. The London treasury is used to pay expenses
+             and fit new ships. Any cash raised from investments is placed
+             in this treasury. Note: players may not transfer cash in their family
+             treasury to or from firm treasuries!
+           M India Treasury. The India treasury holds revenue gained from
+             trade in India. This treasury is used to pay dividends and
+             expenses. Any remainder is then transferred to the London
+             treasury.
+
+      Dissolving a Firm
+      If all shareholders consent, a firm may be dissolved following the firm
+      dissolution rules described later (page 41).
+
+      Special Retirement
+      During the London Season phase, each player with at least one firm share
+      may take one additional retirement using a piece from their supply instead
+      of a pensioner. The total amount of money spent for this retirement
+        cannot exceed the value of the highest total dividend paid out by a
+         firm in which they own a share. This retirement is otherwise like any
+         other retirement a player can make with a pensioner. Note: even if a
+         player owns shares in multiple firms, only one special retirement can be taken!
+        Furthermore, note that discounts on spouses can be used to retire on prizes with
+           a value higher than the dividend paid by a firm.
+
+           M Disreputable Firms. A firm that has not yet placed its dividend
+             cube or that has its dividend cube on the zero space may not be
+             used for any special retirement.
+
+                Firms in Final Scoring
+               At the start of Final Scoring, players will score or lose the number
+               of victory points indicated by the firm’s value for each firm
+              share they own or each family piece they have in Debtor’s Prison.
+             After totaling victory points earned, any remaining fractions are
+           rounded down.
+
+           Then, regardless of Company success or failure, shareholders may
+           perform one special retirement before proceeding with the rest of
+           Final Scoring. Note: as this is not a London Season phase, no cards are
+            taken from the London Season Display.                                          37

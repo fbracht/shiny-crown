@@ -1,0 +1,5 @@
+. 1 @ Prevent a transfer (counts as one of two available to the Crown).
+‘Transfer 1 writer/ship to a Presidency/sea zone of player’s choice (counts
+
+. 9 y as one of two available to the Crown). Players may not undo a previous
+transfer.

@@ -1,0 +1,7 @@
+docs/
+references/
+scripts/
+README.md
+node_modules/
+dist/
+coverage/

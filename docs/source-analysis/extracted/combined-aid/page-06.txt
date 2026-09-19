@@ -1,0 +1,30 @@
+3. Allocate Company Balance
+The Crown will allocate funds in the priority order. Give as much money as possible to each step. The Crown allocates any left over
+money to the Manager of Shipping.
+
+
+
+
+7. Director of Trade
+1. Special Envoy
+The Director of Trade can perform the Special Envoy action any number of times. For each attempt, spend any amount of money
+from their treasury and roll one die per £1 spent. If successful, choose one outcome:
+     Open a Closed Order in any region in India not controlled by the Company.
+     Open Trade with China: Add Superintendent of Trade in China office to play and immediately hire a Writer there
+      (following normal Nepotism rules).
+
+If You Are Director of Trade
+
+
+
+
+If the Crown is Director of Trade
+The Crown will conduct Special Envoys using exactly £X per attempt,
+depending on their Climate, targeting the northern-most closed order of
+a non-company controlled region chosen based on the AI card priority.
+Repeat until less than £X is available, whereupon the Crown will pass.
+
+
+
+
+                                                                6

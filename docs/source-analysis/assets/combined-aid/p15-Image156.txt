@@ -1,0 +1,5 @@
+The Crown invests in your firm with Company shares (unless they are
+weak), and then workshops, regardless of majority of Company shares.
+
+= 4 Note: players cannot use this bribe if doing so results in the Crown having more
+_firm shares than manager.

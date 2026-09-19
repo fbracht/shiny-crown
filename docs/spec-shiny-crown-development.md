@@ -1,6 +1,6 @@
 # Shiny Crown — Development Specification
 
-Status: Initial development specification  
+Status: Revised after Session 1 source analysis
 Working title: Shiny Crown  
 Target: Web application, mobile-first  
 Primary game: *John Company: Second Edition*  
@@ -28,21 +28,32 @@ The main product objective is:
 
 ## 2. Source material and project context
 
-Development should expect two major pieces of reference material to be provided.
+The supplied source set has been extracted, rendered, and mapped in [`source-analysis/`](source-analysis/README.md). The authority order is part of the implementation contract.
 
-### 2.1 Reference application
+### 2.1 Primary solo source
 
-An existing community-created application already attempts to solve essentially the same problem.
+`references/Solo_Player_Aid_Combi_V3.2.pdf` is the primary English content source for solo play. It combines the base-game and Crown procedures and incorporates the changes named on its first page. Its substantive sections on pages 1–20 have an exactly-once destination in the [phase inventory](source-analysis/phase-inventory.md); page 21 is a table of contents used for verification.
 
-It should be treated as:
+Extracted text is evidence rather than ship-ready copy. Tables, grids, icons, and diagrams must use the visually reconciled transcriptions in [`image-transcriptions.md`](source-analysis/image-transcriptions.md). OCR must never be imported without checking it against the rendered page.
 
-- a reference for understanding the required workflow;
-- a source of ideas about how the Crown procedure can be represented interactively;
-- a benchmark that Shiny Crown should intentionally surpass in clarity, presentation, usability, and overall polish.
+### 2.2 Auxiliary rules
+
+`references/Rules.pdf` and `references/Crown Handbook.pdf` supply base-game structure, multiplayer procedure, and 2P Crown differences. They clarify the primary aid but do not replace it for solo wording. Both are required for 2P: the relevant differences extend beyond Rules pp43–46 and include setup, Family actions, Firms, Hiring, Parliament, Refresh, and scoring.
+
+The scenario cards are not in the supplied set. The app records 1710, 1758, 1813, or Long 1710, guides shared setup, and directs players to the matching physical scenario card for scenario-specific values.
+
+### 2.3 Reference application
+
+The community application at `https://the-crown-81cb9.web.app/handbook` and its public repository are behavior references only.
+
+It contributes two useful interaction ideas:
+
+- a persistent quick climate selector;
+- direct phase navigation for recovery and lookup.
 
 The purpose of Shiny Crown is not merely to reproduce that application.
 
-The existing app should not dictate the new application's architecture. If its source repository is available, it may be inspected to understand behavior, edge cases, or rules mappings, but its implementation should not automatically be copied.
+Its content is incomplete for Shiny Crown because it omits most base procedure. Its flat phase list, unconditional 18-phase cycle, lack of setup/endgame/persistence, and styling-only role flags are not authoritative. Its phase order and content must not be copied.
 
 The new application should particularly improve the quality of:
 
@@ -54,22 +65,7 @@ The new application should particularly improve the quality of:
 - reduction of irrelevant information;
 - navigation through the Crown procedure.
 
-### 2.2 Crown guidance PDF
-
-A PDF already exists that contains essentially the complete procedural guidance that Shiny Crown needs to present.
-
-This PDF is the primary content source for the English version.
-
-Development should:
-
-1. extract its content;
-2. understand its structure and meaning;
-3. map its material onto the actual game phases;
-4. identify climate-dependent sections;
-5. identify role-dependent sections;
-6. identify solo/two-player differences;
-7. identify tables, callouts, flowcharts, and unusual structures;
-8. convert that information into appropriate interactive UI.
+### 2.4 Conversion rule
 
 The task is explicitly **not** to dump extracted PDF text into generic HTML.
 
@@ -116,9 +112,15 @@ If keeping a small amount of state allows the application to eliminate repeated 
 The app should therefore track, at minimum:
 
 - game mode;
+- scenario and difficulty;
+- current turn and first-turn status;
 - current phase;
 - Crown climate;
-- role occupancy.
+- Deregulation;
+- role availability and occupancy;
+- Prime Minister and Opposition Leader;
+- the 2P Player Button holder;
+- narrow phase-local progress.
 
 ### 3.5 Do not over-model the game
 
@@ -256,18 +258,18 @@ The player selects this when starting a new game.
 
 This mode generally remains fixed for the entire session.
 
-The two-player Crown rules appear to be mostly additive: the ordinary solo procedure remains applicable, but certain phases contain additional rules when there are two human players.
+The app is built and content-audited for solo first, then receives a complete 2P pass before launch. All five difficulties—Easy, Normal, Hard, Expert, and Legendary—are sourced for solo. The books publish 2P setup only through Expert, so the app must reject or clearly hold the unsourced Legendary+2P combination until a deliberate ruling exists.
 
-Therefore phase content should be able to render blocks conditionally based on game mode.
+2P is a mode-aware replacement layer, not merely extra paragraphs. Some shared procedure remains, but 2P replaces material in setup, Family, Firms, Hiring, Parliament, Refresh, and scoring. It also requires distinct `human-1` and `human-2` identities and the persistent Player Button.
+
+Phase content must therefore support shared material, additions, and replacements.
 
 Example conceptual behavior:
 
 ```tsx
-<StandardProcedure />
-
-{gameMode === "two-player" && (
-  <TwoPlayerAdditionalRules />
-)}
+<ModeProcedure shared={sharedProcedure}>
+  {gameMode === "solo" ? <SoloProcedure /> : <TwoPlayerProcedure />}
+</ModeProcedure>
 ```
 
 The actual implementation should use the application's content/localization architecture rather than necessarily embedding literal strings here.
@@ -288,15 +290,38 @@ There are two major sections in the game flow.
 
 ### 9.1 Initial setup sequence
 
-Several screens occur only once at the beginning of the game.
-
-These include setup-related procedures such as initial allocation/hiring.
+Six screens occur only once: `setup.configure`, `setup.table`, `setup.crown`, `setup.cards`, `setup.finish`, and `setup.ai`.
 
 After setup is completed, these screens are not part of the recurring round loop.
 
 ### 9.2 Recurring round sequence
 
-After setup, the app enters the game's normal sequence of approximately fifteen phases.
+After setup, the app enters the verified sequence below. Conditional positions remain in the flow definition and are skipped from rendered navigation when their gate is false.
+
+```text
+Vote to Deregulate (eligible turns only)
+  → London Season (skip on first turn)
+  → Family
+  → Firms (Deregulation only)
+  → Hiring
+  → Chairman
+  → Director of Trade or Governor General
+  → Manager of Shipping
+  → Military Affairs
+  → Bombay Presidency
+  → Madras Presidency
+  → Bengal Presidency
+  → Superintendent of Trade in China (only when in play)
+  → Bonuses
+  → Firm Revenue (Deregulation and firms only)
+  → Company Revenue
+  → Events in India
+  → Parliament Meets
+  → Upkeep and Refresh
+  → next turn or Game End and Scoring
+```
+
+The full entry/skip rules and exits are normative in [`phase-inventory.md`](source-analysis/phase-inventory.md). Company failure can occur outside its most common phases, so an always-available deliberate “Company failed / End game” action must route to scoring.
 
 Once the final phase of a round is completed, pressing Next should return to the first phase of the **round**, not to the first setup screen.
 
@@ -319,42 +344,39 @@ Round Phase N
    └──────────────→ Round Phase 1
 ```
 
-The exact sequence must be derived from the reference PDF, reference app, and game rules.
+On a non-final turn, Upkeep and Refresh returns to the turn-start Deregulation gate; it never returns to setup. On a final turn, perform Upkeep, skip Refresh, and enter scoring.
 
 ---
 
 ## 10. Non-linear sub-procedures
 
-Although the overall round structure is primarily sequential, individual phases may contain their own navigation behavior.
+The three Presidency screens are linearly ordered **Bombay → Madras → Bengal**. Users must not reorder them.
 
-One known example is the group of regional presidency procedures.
+Each Presidency has a locally ordered set of eligible actions: Trade, its Commander, and every associated in-play Governor. A human President chooses that local order. A Crown President defaults to Governors → Commander → Trade and can accept the sourced one-change favor. If the President is vacant, the Chairman orders the remaining Governor and Commander actions; Trade and local-alliance consent are unavailable.
 
-Several regional procedures occur during the same broader part of the round and may be completed in different orders.
-
-The app therefore requires support for a phase containing a collection of sub-steps that are not linearly ordered.
-
-A possible interface is a small checklist or selectable set of region cards:
+The app therefore requires a checklist or selectable set of local action cards inside each Presidency:
 
 ```text
-Regional Presidencies
+Bombay Presidency
 
-✓ Bengal
-○ Bombay
-✓ Madras
+✓ Governor of Bombay
+○ Commander of Bombay
+○ Trade
 
 Continue
 ```
 
 This interface is not yet locked.
 
-The implementation should allow the final interaction design to be determined after seeing the actual content and testing it on a phone.
+The implementation should follow the verified local-action model while allowing the final card/checklist treatment to be settled through phone prototyping.
 
 What is required is the underlying capability:
 
-- track which sub-procedures have been completed;
-- allow them to be performed in any valid order;
+- derive eligible local actions from role state;
+- persist the chosen valid local order and completed actions;
 - prevent accidental loss of that progress;
-- continue the main sequence when appropriate.
+- support multiple Governors associated with one Presidency;
+- continue to the next fixed Presidency only when appropriate.
 
 ---
 
@@ -362,19 +384,10 @@ What is required is the underlying capability:
 
 Climate is one of the application's most important pieces of global state.
 
-The Crown has five climates.
-
-The exact names should be populated from the source material rather than invented during scaffolding.
-
-Conceptually:
+The five sourced climates are:
 
 ```ts
-type ClimateId =
-  | "climate-1"
-  | "climate-2"
-  | "climate-3"
-  | "climate-4"
-  | "climate-5";
+type ClimateId = "bull" | "stag" | "lion" | "bear" | "peacock";
 ```
 
 ### Climate requirements
@@ -428,29 +441,32 @@ There must never be separate "local" and "global" climate values.
 
 Role occupancy is another major component of global state.
 
-For every relevant company role, Shiny Crown should know whether it is occupied by:
+Availability and occupancy are separate. Every role uses this discriminated state:
 
 ```ts
-type RoleOccupant =
-  | "player-1"
-  | "player-2"
-  | "crown"
-  | "vacant";
+type ActorId = "human-1" | "human-2" | "crown";
+
+type RoleAssignment =
+  | { status: "not-in-play"; previousOccupant?: ActorId }
+  | { status: "vacant"; previousOccupant?: ActorId }
+  | { status: "occupied"; occupant: ActorId; previousOccupant?: ActorId };
 ```
 
-In a solo game, `"player-2"` is not a valid assignment.
+In solo, `human-2` is invalid. `vacant` means an existing position can be filled. `not-in-play` means the position does not currently exist and must not appear in Hiring or Company Operations.
 
-The complete role list should be derived from the game/reference materials.
+The verified inventory is:
 
-Known examples mentioned during discovery include:
+- Chairman;
+- Director of Trade or Governor General, mutually exclusive;
+- Manager of Shipping;
+- Military Affairs;
+- Presidents of Bombay, Madras, and Bengal;
+- Superintendent of Trade in China, initially not in play;
+- regional Governors for Bombay, Madras, Bengal, Punjab, Delhi, Maratha, Mysore, and Hyderabad, each with a current Presidency association;
+- Commanders of Bombay, Madras, and Bengal;
+- Prime Minister and Opposition Leader.
 
-- Chairman
-- Director of Shipping
-- President of Bengal
-- General of Bengal
-- other regional presidents and company offices
-
-This list is illustrative, not authoritative.
+Commanders and political positions are tracked because they change instructions, even though they are not Company office cards. Chairman retains `previousOccupant` for election and retirement ordering.
 
 ---
 
@@ -458,7 +474,7 @@ This list is illustrative, not authoritative.
 
 Many phases correspond directly to a particular company office.
 
-Examples include the Chairman phase or Director of Shipping phase.
+Examples include the Chairman phase and Manager of Shipping phase.
 
 For a role-specific phase, the UI should prominently show who currently occupies the relevant position.
 
@@ -515,19 +531,21 @@ The hiring phase is an example of a phase that requires bespoke UI.
 
 Its purpose involves filling vacant company roles.
 
-At the beginning of this phase, the app should be able to identify the currently vacant roles.
+First resolve the Chairman election. Then build a queue from Company office cards whose state is exactly `vacant`, ordered by the printed number on the physical card. Never include `not-in-play` positions.
 
 The screen can then show those roles together with the specific hiring procedure relevant to each office.
 
-For example, different offices may be appointed by different other offices.
+Chairman hires the Director/Governor General, Manager of Shipping, Military Affairs, and China office. Director/Governor General hires Presidents. Presidents hire associated Governors. Military Affairs assigns Commanders outside Hiring.
 
 The UI therefore needs access to the global role state while presenting phase-specific hiring information.
 
 Changes made during hiring should immediately update global role occupancy.
 
+Promotion occupies the destination and vacates the person's former office. Hiring must preserve actor identity and `previousOccupant`, support Crown candidate priorities, and present the 2P election, consent, and nepotism replacements from [`two-player-pass.md`](source-analysis/two-player-pass.md).
+
 When all relevant vacancies have been resolved—or whenever the rules permit proceeding—the user can advance normally.
 
-The final visual treatment should be designed after inspecting the actual source material.
+The final visual treatment should use the verified vacancy and hirer model in the implementation brief and be tested on a phone-sized viewport.
 
 ---
 
@@ -535,7 +553,7 @@ The final visual treatment should be designed after inspecting the actual source
 
 Game procedures may remove people from offices through retirement, dismissal, death, or other effects.
 
-Whenever the displayed procedure directly creates this possibility, the relevant content should provide a fast contextual control for updating that role to `"vacant"`.
+Whenever the displayed procedure directly creates this possibility, the relevant content should provide a fast contextual control for updating that existing role to `vacant`.
 
 For example:
 
@@ -545,7 +563,7 @@ If the officeholder is removed:
 [ Mark office vacant ]
 ```
 
-That action updates global role state.
+That action updates global role state. Structural changes are different: activating China creates a previously absent office; conquering or losing a region creates or removes its Governor; the Governor General law removes Director of Trade and every regional Governor from play. These transitions must use explicit domain actions rather than relabeling absence as vacancy.
 
 Again, the goal is to place state manipulation at the point where the rules require it.
 
@@ -573,7 +591,7 @@ Different phases may contain:
 - role controls;
 - climate controls;
 - lists;
-- arbitrary-order sub-procedures;
+- locally ordered Presidency actions;
 - specialized interactive widgets;
 - flow-style decisions.
 
@@ -735,31 +753,45 @@ Closing the browser, refreshing the page, or reopening the application should al
 
 ## 23. Game-session state model
 
-The exact model will evolve when the complete rules are mapped, but an initial shape should resemble:
+The source audit established the minimum persistent model. Exact TypeScript organization may evolve, but schema v1 must represent these facts and invariants:
 
 ```ts
-interface GameSession {
-  schemaVersion: number;
-
-  gameMode: "solo" | "two-player";
-
+interface GameSessionV1 {
+  schemaVersion: 1;
+  mode: "solo" | "two-player";
+  scenario: "1710" | "1758" | "1813" | "long-1710";
+  difficulty: "easy" | "normal" | "hard" | "expert" | "legendary";
+  turn: number;
+  firstTurn: boolean;
   climate: ClimateId;
-
-  roles: Record<RoleId, RoleOccupant>;
-
+  deregulated: boolean;
+  roles: RoleState;
+  twoPlayer: null | { buttonHolder: "human-1" | "human-2" };
   progress: {
     phaseId: PhaseId;
-    roundNumber?: number;
-    phaseState?: Record<string, unknown>;
+    phaseState: PhaseState;
+    endReason: "scenario-end" | "company-failure" | null;
   };
-
-  history?: NavigationSnapshot[];
+  history: NavigationSnapshot[];
 }
 ```
 
-`roundNumber` should only be tracked if it proves useful. It is not currently a core requirement.
+`RoleState` uses the three-state assignments in section 13 and separately includes the three Commanders, Prime Minister, Opposition Leader, regional Governor associations, and mutually exclusive Director/Governor General variants.
 
-`phaseState` should remain narrow. It exists for exceptional phases such as unordered sub-steps rather than as a dumping ground for board state.
+`PhaseState` is a discriminated union owned by the current phase. Required initial variants cover setup-card progress, Presidency-local order/completion, and optional firm-label completion. Avoid `Record<string, unknown>`.
+
+Required invariants include:
+
+- solo forbids `human-2`; 2P requires a valid Button holder;
+- Director of Trade and Governor General cannot both be in play;
+- Governor General removes every regional Governor from play;
+- an in-play Governor has a Presidency association;
+- 1813 begins deregulated; Deregulation only changes from false to true;
+- China cannot be visited while its office is not in play;
+- Legendary+2P cannot be extrapolated silently;
+- imports satisfy all invariants before replacing the current save.
+
+The normative shape, mutations, and exclusions are in [`state-model-audit.md`](source-analysis/state-model-audit.md). The app deliberately does not persist money, cubes, shares, units, routes, dice, cards, firms, or physical-board predicates.
 
 The state model should be versioned from the beginning to support migrations as the application evolves.
 
@@ -833,9 +865,16 @@ Opening one must not change:
 
 These references should appear as a layer over the main experience.
 
-One known reference is a flowchart.
+The global/contextual reference surfaces are:
 
-For version 1, simply reproducing the flowchart in a usable mobile form is acceptable.
+- glossary;
+- Basic Favors, visually enabled from the Firms boundary through Company Revenue;
+- Success Checks;
+- the page-17 Crisis/Rebellion/Invasion flowchart;
+- the page-20 Crown Voting Plan;
+- 2P Player Button help.
+
+For v1, use the extracted 1353×1670 page-17 raster as a pan/zoom surface and provide the reconciled semantic text equivalent. No separate pre-launch reference sheets or external graphic sourcing are required. The voting plan is a Parliament reference, not a round phase.
 
 ---
 
@@ -954,12 +993,14 @@ When determining what information belongs on a screen, state should conceptually
 ```text
 Current phase
     ↓
-Applicable role / role occupant
+Mode, scenario, Deregulation, and structural gates
+    ↓
+Applicable role / availability / occupant
     ↓
 If Crown is acting:
     current Crown climate
     ↓
-Game mode additions
+Shared, solo, or 2P replacement content
     ↓
 Any phase-specific local state
 ```
@@ -1096,9 +1137,10 @@ For example:
 {
   text: "...",
   source: {
-    document: "crown-guide",
-    page: 12,
-    section: "Chairman"
+    documentId: "aid-v3.2",
+    page: 5,
+    section: "Chairman",
+    mode: "solo"
   }
 }
 ```
@@ -1113,7 +1155,7 @@ It is useful for:
 - mapping Portuguese text later;
 - auditing rule updates.
 
-Do not complicate trivial content solely to attach metadata, but retain provenance during the content-conversion workflow.
+Every shipped content unit must retain at least one provenance record in source data or an adjacent content module. Mode-specific replacements retain both the solo source and the source that replaces it. Stable semantic IDs should describe the rule rather than its page location so later localization can change wording without changing behavior. See [`source-register.md`](source-analysis/source-register.md) for the schema and source hashes.
 
 ---
 
@@ -1205,10 +1247,16 @@ This has advantages here because state changes can be represented as explicit do
 
 ```ts
 setClimate(...)
-setRoleOccupant(...)
+setRoleStatus(...)
+promote(...)
+activateDeregulation()
+replaceTradeDirectorWithGovernorGeneral()
+activateChinaOffice()
+resolveButtonChoice(...)
 advancePhase()
 returnToPreviousPhase(...)
-completeSubstep(...)
+completePresidencyAction(...)
+endGame(...)
 restoreSession(...)
 ```
 
@@ -1307,14 +1355,21 @@ At minimum, unit tests should cover:
 - role ownership updates;
 - Crown content changing when climate changes;
 - human/Crown phase branching;
-- role vacancy updates;
-- unordered sub-step persistence;
+- role `not-in-play`/`vacant`/`occupied` transitions and invariants;
+- Director/Governor General mutual exclusion;
+- Deregulation and optional-office skips;
+- first-turn London Season skip and final-turn Refresh skip;
+- fixed Bombay → Madras → Bengal flow;
+- Presidency-local action-order persistence;
+- 2P actor identity and explicit Button pass triggers;
+- solo/2P replacement content, including Family count, Parliament, Refresh, and scoring;
+- rejected Legendary+2P configuration until ruled;
 - local-storage serialization;
 - save-string round trips;
 - malformed save imports;
 - schema migration behavior.
 
-Content itself also needs manual comparison against the supplied source PDF.
+Content itself needs manual comparison against the primary aid and, for 2P replacements, both auxiliary books. Visual tables and diagrams must be checked against rendered pages rather than OCR alone.
 
 For critical conditional content, lightweight rendering tests can verify that mutually exclusive variants appear under the correct state.
 
@@ -1328,7 +1383,7 @@ The safest implementation process is not to attempt every phase simultaneously.
 
 For each phase:
 
-1. locate it in the reference PDF;
+1. locate its primary-aid section and any mapped auxiliary replacement in the source register;
 2. inspect the equivalent behavior in the reference app;
 3. identify the applicable game role, if any;
 4. identify human-vs-Crown branching;
@@ -1347,21 +1402,9 @@ This process should cause the component vocabulary to emerge from the content ra
 
 ## 46. Development milestones
 
-### Milestone 1 — Source analysis
+### Milestone 1 — Source analysis — complete
 
-Deliver:
-
-- extracted PDF content;
-- complete phase inventory;
-- setup sequence;
-- round sequence;
-- role inventory;
-- five climate identifiers;
-- matrix of phases versus applicable roles/climates/modes;
-- inventory of special phase behaviors;
-- initial content provenance mapping.
-
-No major UI implementation should occur before this map exists.
+The complete handoff is indexed in [`docs/source-analysis/README.md`](source-analysis/README.md). It includes reproducible extraction, visually reconciled graphics, exact setup/round/role inventories, an exactly-once content ledger, phase-by-state matrix, state audit, implementation briefs, complete pre-launch 2P pass, provenance rules, and explicit open source edges.
 
 ### Milestone 2 — Application skeleton
 
@@ -1377,17 +1420,14 @@ Deliver:
 - round looping;
 - phone-first responsive layout.
 
+Build the complete discriminated state foundation at the same time as the shell: mode, difficulty, scenario, turn/first-turn, Deregulation, climate, structural role availability, occupants, political roles, 2P Button, terminal reason, and typed phase-local progress. Do not scaffold against the discarded four-field model.
+
 Use placeholder content only where necessary.
 
-### Milestone 3 — State layer
+### Milestone 3 — Persistence and recovery
 
 Deliver:
 
-- game mode;
-- climate;
-- role occupancy;
-- phase progress;
-- phase-local state;
 - autosave;
 - session restore;
 - backup string export/import;
@@ -1397,12 +1437,12 @@ Deliver:
 
 Before implementing every phase, build a small selection representing different challenges.
 
-Ideally include:
+Use the verified representative slices:
 
-- one mostly textual phase;
-- one Crown/climate-dependent role phase;
-- Hiring;
-- the unordered regional procedure.
+- Bonuses, for mostly textual shared content;
+- Chairman, for role/climate branching and branch-specific climate timing;
+- Hiring, for availability, promotion, and solo/2P replacement rules;
+- Bombay Presidency, for a fixed regional position with locally configurable Governor/Commander/Trade order.
 
 This milestone should validate the architecture.
 
@@ -1491,26 +1531,19 @@ These features would add complexity without advancing the core purpose of the ap
 
 ---
 
-## 49. Known unknowns
+## 49. Bounded source gaps
 
-The following items should be resolved by inspecting the reference app, PDF, and rulebooks rather than guessed:
+Session 1 resolved the provisional unknowns. The remaining gaps do not block the foundation or solo implementation:
 
-- exact names and order of all setup screens;
-- exact recurring phase sequence;
-- exact five climate names;
-- complete company-role inventory;
-- precise role-hiring relationships;
-- all Crown/player branching rules;
-- all places where climate may change;
-- all places where roles can become vacant;
-- all two-player-only additions;
-- whether any game state beyond mode, climate, roles, and limited phase-local state needs tracking;
-- exact behavior of the unordered regional sequence;
-- exact set of global reference sheets;
-- whether the v1 flowchart should be static or interactive;
-- whether any other phase has bespoke navigation comparable to the regional procedure.
+- **Legendary in 2P:** the books publish 2P difficulty only through Expert. Do not offer Legendary+2P until the user chooses to hide it permanently or defines an adaptation.
+- **Player Button after generic Crown choices:** passing is explicit for Crown choices between humans and disputed action rights. Keep manual transfer available when a free choice or Crisis choice has no explicit pass instruction.
+- **2P Nepotism with only one human candidate:** no promise reward is stated. Present the sourced consent procedure without inventing one.
+- **Refusing Crown firm investment in 2P:** base manager consent and the solo-only paid refusal conflict in scope. Do not invent a free or paid refusal until ruled.
+- **Writer-placement Button passing:** apply a pass only when an actual choice between eligible human owners occurs, pending playtest confirmation.
+- **Scenario-card detail:** direct players to the selected physical card for scenario-specific setup and final-turn values until scans are supplied.
+- **Office-card numbering and card-specific exceptions:** use the physical cards for vacancy order and “apply card text” for uncatalogued exceptions.
 
-These are discovery tasks, not omissions to be filled through invention.
+The evidence and conservative implementation policy for each gap are in [`decisions-and-questions.md`](source-analysis/decisions-and-questions.md).
 
 ---
 
@@ -1525,11 +1558,11 @@ Shiny Crown v1 is successful when a player can:
 5. begin another round without returning to setup;
 6. always see the current Crown climate;
 7. update climate quickly wherever the rules require it;
-8. track which human/Crown/vacant occupant holds every relevant company role;
+8. distinguish absent, vacant, and occupied roles and track the correct human/Crown occupant;
 9. see the correct procedure for the current role occupant;
 10. see only the Crown instructions relevant to the current climate;
-11. receive two-player additions only in a two-player game;
-12. complete non-linear sub-procedures where required;
+11. receive the correct shared, solo, or two-player replacement procedure;
+12. complete the fixed Presidency sequence while preserving each Presidency's local action order;
 13. go backward safely after an accidental advance;
 14. close and reopen the application without losing progress;
 15. copy a backup code and later restore the same session from it;
@@ -1544,12 +1577,12 @@ The experience should be fast enough that the application disappears into play r
 
 ## Final implementation directive
 
-When working from this specification, treat the provided reference app and PDF as essential development inputs.
+When working from this specification, use [`docs/source-analysis/README.md`](source-analysis/README.md) as the source-map entry point. Treat the combined aid as the primary solo content source, both rulebooks as required 2P sources, and the reference app as behavior inspiration only.
 
 Do not invent rules that are absent from the supplied material.
 
-Do not attempt to design the full phase abstraction before examining the content.
+Do not flatten the mapped phase-specific behavior into a universal content abstraction.
 
-Build the smallest robust global model necessary—game mode, climate, roles, procedural position, limited phase state—and let individual phase implementations remain bespoke where the rules demand it.
+Build the verified global model—mode, difficulty, scenario, turn/first-turn, climate, Deregulation, three-state roles, political positions, 2P Button, procedural position, terminal reason, and typed local progress—and let individual phase implementations remain bespoke where the rules demand it.
 
 The distinguishing quality of Shiny Crown should not be technical sophistication for its own sake. It should be the precision with which a complicated body of procedural rules has been transformed into a calm, elegant, state-aware mobile interface.

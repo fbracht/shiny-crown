@@ -1,0 +1,53 @@
+18. Company Revenue
+1. Expenses
+Reduce Company Balance by £1 for each Company Debt, Regiment, Officer (not Commanders!) and Ship in a sea zone.
+     Emergency Loans: If the Company cannot pay expenses, emergency loans must be taken: Advance the Debt marker (if
+      able) and add £5 to the Company Balance, repeating as needed. Once all expenses are paid, set Company Balance to zero
+      and reduce Company Standing by 1 space (if 1-2 loans were taken) or 2 spaces (if 3+ loans were taken).
+     If there are emergency loans, the Crown will always discard Royal Protection if they are Chairman and it is available.
+
+2. Check Expectations
+Lower Company Standing by 1 space if Company Balance is less than the Expectations value listed beneath the Company Standing.
+
+3. Pay Dividends
+The Chairman may pay out Dividends: Lower Company Balance equal to the number of shares, and each player gains £1 per share
+they own. Multiple dividends may be paid.
+
+If the Crown is Chairman
+The Crown will always pay 1 dividend if able, and will pay more if they can keep a minimum Company Balance of:
+
+
+
+
+4. Company Standing
+If the total amount of money paid out in dividends exceeded Expectations, advance Company Standing by 1 space.
+
+19. Events in India
+Roll the Storm die.
+
+1. Storms
+Roll a die for each player-owned ship (including firms) in the rolled sea zone(s) (ships in the China treasury are in the East):
+     1-2: No effect.
+     3-4: Flip the ship to fatigued. If already fatigued, return the ship (face-up) to its Shipyard.
+     5-6: Return the ship (face-up) to its Shipyard.
+
+2. Events
+Draw and resolve Event cards, one at a time, until the number rolled on the Storm die is reached.
+     Writer Loss: When an order with a Writer on it is closed, return that Writer to their supply.
+     Cascade: If required to close an order in a region where all orders are already closed, Cascade occurs. Close all open orders
+      connected to that region. If a connected order is already closed, close the northern-most open order in that region. If all
+      orders in that region are already closed, trigger an additional Cascade. Each region may only Cascade once per event.
+Crisis     Use Elephant position to determine the Crisis type and follow flowchart on next page.
+           Roll Storm die: Resolve an invasion in each of Bombay/Madras/Bengal adjacent to rolled sea zone(s) (top of deck
+ Foreign   region if ‘4’ rolled). For each, follow Invasion steps, but roll a die for attack strength. If invasion succeeds: Close all
+ Invasion orders and set tower level = ½ invasion strength (round down); If Elephant is inside a conquered Company-
+           controlled region, point it out across the ⚫ shape (otherwise, leave it in place).
+ Leader    Check region on top of deck: Sovereign? Add 1 Tower. Dominated? Resolve rebellion (see flowchart).
+           If Elephant connects 2 regions, remove connected closed orders and add 1 tower in each. Then move Elephant to
+ Peace
+           If Elephant is inside a region, open all closed orders and remove any unrest there.                region on top of deck.*
+ Shuffle   Move Elephant to region on top of deck.* Shuffle this card into deck. Shuffle discards and place on top of deck.
+ Turmoil Close northern-most order in region on top of deck. If all closed, perform Cascade.
+ Windfall Players gain £1 per Writer in/adjacent to region on top of deck.
+*When moving the Elephant, place it inside the region if Company-controlled, else on border shape (facing capital if dominated).
+                                                                16

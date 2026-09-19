@@ -1,0 +1,17 @@
+2. Transfers
+The Director of Trade may make up to 2 transfers. Each transfer moves 1 Writer or Ship from one Presidency/sea zone to another.
+
+If You Are Director of Trade
+
+
+
+
+If the Crown is Director of Trade
+The Crown will attempt up to 2 transfers using the following priority list (skip any that cannot be performed and stop when the
+bottom of the list is reached). Use the AI card to break ties for origins/destinations. The Crown will transfer a Company ship > non-
+fatigued ship > Crown ship > your ship.
+
+
+
+
+                                                                 7

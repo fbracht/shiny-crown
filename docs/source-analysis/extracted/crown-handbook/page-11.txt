@@ -1,0 +1,61 @@
+Commanders
+If you are the Commander
+Local Alliances
+
+
+                    Consent to purchase a Local Alliance from a Crown President.
+
+                    -2                        -1                            0
+Deploy
+
+
+                       Successfully complete a Deploy action in a non-Company
+                               region using one or more Crown officers.
+
+                      —                                           +1
+                Successfully complete a Deploy action in a Company-controlled region
+                associated with a Crown Presidency that has at least one Crown writer.
+
+                             +1                                               —
+
+If the Crown is Commander
+Local Alliances
+Crown Presidents will always give consent to purchasing Local Alliances to Crown Commanders.
+
+
+
+                                   If the Crown’s Army strength
+                                                                   If the Crown’s Army strength is 2+
+                                   is 3+ they will attempt to
+                                                                   they will attempt to purchase the
+ Will not purchase a Local         purchase the cheapest
+                                                                   most expensive affordable Local
+ Alliance.                         affordable Local Alliance
+                                                                   Alliance (requires presidential
+                                   (requires presidential
+                                                                   consent).
+                                   consent).
+
+             Will purchase an additional Local Alliance of your choice, and you must give
+              consent to the Crown if they purchase Local Alliances in your Presidency.
+
+                             -2                                                   -1
+                                     The Crown must purchase
+                                                                        The Crown must purchase a
+                —                        a more expensive
+                                                                       less expensive Local Alliance.
+                                          Local Alliance.
+
+                —                             -1                                  -1
+                                               If the Crown has the Presidency, the Crown
+                —
+                                                    will not purchase a Local Alliance.
+
+                —                             -1                                  -2
+
+       +1
+                      Give consent to the Crown purchasing Local Alliances in your Presidency
+                      if you did not pay promises to make them purchase Local Alliances.
+
+
+                                                                                                        11

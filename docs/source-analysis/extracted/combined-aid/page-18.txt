@@ -1,0 +1,57 @@
+20. Parliament Meets
+If You Are Prime Minister
+           1.   You reveal up to 3 Law cards and chooses one (if a Dilemma! is drawn, it must immediately be chosen).
+           2.   You then rotate the PM wheel in either direction, stopping at the first policy which matches the chosen law card.
+           3.   Set the initial number of Votes indicated on the law card.
+           4.   Roll 6 dice on the Climate Shift table below to adjust the Crown’s Climate.
+           5.   The Crown will vote for or against a law depending on their voting plan (last page). The Crown receives votes from
+                their enterprises and additional free votes based on the size of their personal treasury (see below). If voting against
+                the law, the Crown becomes the Opposition Leader.
+           6.   You cannot vote against a law (you may abstain). You receive votes from your enterprises, and you can gain an
+                additional vote for each £1 you spend from your personal treasury.
+           7.   If the law has 0 or more net votes, it passes. You gain a Law Passed marker, implement the law’s instructions (the
+                effects may be ongoing), and implement the law’s policy (see below).
+           8.   If the law has -1 or fewer votes, it fails. Discard the law, resolving any “If Failed” effects. The Crown becomes Prime
+                Minister and shifts the policy wheel one space left or right and implements that policy (see Policy Selection below).
+
+If the Crown is Prime Minister
+           1.   Roll 6 dice on the Climate Shift table below to adjust the Crown’s Climate.
+           2.   The Crown draws Law cards up to the number shown on the AI card, and chooses the last card drawn (if a Dilemma!
+                is drawn, it must immediately be chosen).
+
+
+
+
+           3.   The Crown will rotate the PM wheel in either direction, stopping at the first policy which matches the chosen Law
+                card. The card will choose which direction to rotate based on the Policy Selection rules below.
+           4.   Set the initial number of Votes indicated on the law card.
+           5.   The Crown will vote for or against a law depending on their voting plan (last page). The Crown may vote against a
+                law while Prime Minister. The Crown receives votes from their enterprises and additional free votes based on the size
+                of their personal treasury (see below).
+           6.   You may vote for or against the law (or abstain). You receive votes from your enterprises, and you can gain an
+                additional vote for each £1 you spend from your personal treasury.
+           7.   The player with the most votes against the law becomes Opposition Leader (no change if tied).
+           8.   If the law has 0 or more net votes, it passes. The Crown gains a Law Passed marker, implement the law’s instructions
+                (the effects may be ongoing), and implement the law’s policy (see below).
+           9.   If the law has -1 or fewer votes, it fails. Discard the law, resolving any “If Failed” effects. The player who cast the
+                most votes against the law becomes Prime Minister (this may be the Crown!). If tied, the Opposition Leader becomes
+                Prime Minister. The new PM shifts the policy wheel one space left or right and implements that policy (see Crown
+                Policy Selection below).
+
+Extra Crown Votes (Based on the amount of money in the Crown’s treasury)
+
+
+
+
+Climate Shift Table (Roll 6 dice and compare the number of successes with the current Company Standing – perform as many
+of the listed rightward shifts as possible, followed by as many leftward shifts as possible)
+                                                          Company Standing
+    Successes          £4                £6              £8             £10              £12            £14             £16
+       0                                                                                                                  
+       1                                                                                                               
+       2                                                                                                           
+       3                                                                                                       
+       4                                                                                                   
+       5                                                                                               
+       6                                                                                            
+                                                                   18

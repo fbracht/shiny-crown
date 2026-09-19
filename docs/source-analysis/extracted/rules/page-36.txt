@@ -1,0 +1,48 @@
+     Resolving the Vote
+     When voting stops, the law passes or fails depending on the position of the Votes
+     marker. There are two possible outcomes:
+          Ƙ If the law has -1 support or less, it fails. Discard the law, resolving any “If
+            Failed” effects if it is a dilemma. Then, the player with the Opposition
+            Leader token returns it to the supply and takes the Prime Minister wheel.
+            Finally, the new Prime Minister moves the selected policy to either adjacent
+            space on the Policy track and then resolves its effect.
+          Ƙ Otherwise, the law passes. Place the law near the board next to the other
+            passed laws. The Prime Minister should take a passed law token into their
+            play area. Then, resolve the policy consequence in the space selected and
+            then any immediate effects of the law.
+     Finally, return any cards used for votes to their regular orientation.
+          M Legislated Company Failure. If a law causes the Company to fail, the
+            game is over. Finish resolving the vote then perform Final Scoring.
+
+     The Vote to Deregulate
+     In the 1758 and long 1710 scenarios, the Prime Minister may initiate a special session
+     of Parliament at the start of the turn before the London Season phase. To do this,
+     the Company Standing marker and/or Company Debt marker must be on a lined
+     space. If at least one of these markers is on one of the spaces marked with a star, the
+     Prime Minister must initiate a special session to vote on Deregulation.
+     If the vote passes, lower Company Debt one space for every two Debt and place the
+     Standing marker on the space marked “S.” The Prime Minister gains a passed law
+     token. Refer to the Deregulation rules for additional changes.
+     If the law fails, increase the value of Company shares by placing (or flipping) the
+     Company share victory point token in the Court. Shares cannot be worth more
+     than +/-3 victory points. Unlike other proposed laws, this law is not associated
+     with a policy. If it fails, the current Prime Minister will remain in power and this
+     law is not discarded. The Prime Minister may also vote against the law.
+
+
+     IX. Upkeep and Refresh
+     Everyone must pay for their family members on prizes. Each is paid for individually,
+     using the indicated amount on that prize (printed to the right of the prize’s cost). If a
+     player cannot pay for a prize’s expense, instead return the family member to its
+     supply and lower their owner’s victory point marker by that prize’s value.
+     Remember, players can transfer funds to each other at any time. If you’re having trouble
+     meeting your expenses, see if other players might be willing to loan you some money.
+     Players now prepare the board for the next turn. If it is the final turn of the game,
+     skip this step and proceed to Final Scoring (page 9).
+          Ƙ Return writers to their associated Presidency.
+          Ƙ Return filled order tokens and Presidency dividers to the supply.
+          Ƙ Return all extra ships to the supply.
+          Ƙ Any exhausted officers and regiments become active. Any active local
+            alliances are exhausted.
+
+36        Ƙ Then, advance the turn marker and proceed with the first phase.

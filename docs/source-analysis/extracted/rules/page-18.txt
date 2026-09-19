@@ -1,0 +1,56 @@
+     Chairman
+     The Chairman may first increase Company Debt and then must allocate the
+     Company Balance.
+     You may advance the Company Debt marker up to three times. For each
+     advance, increase the Company Balance by £5. If you wish to advance the Debt
+     marker additional times, you must have the consent of players who control a
+     majority of Company shares for each additional advancement (Remember: the
+     Chairman counts as a share for this purpose!). The Chairman may not advance the
+     debt beyond the end of the track.
+     Then, allocate all funds on the Company Balance track to any other office
+     treasuries. Reduce the marker on the Company Balance track by the amount
+     transferred and add it to the respective office treasuries. Note: a Chairman may
+     wish to increase Debt as they allocate to make it easier to plan. As long as they follow the
+     rules for taking debt described in the previous paragraph, this is fine.
+
+                                           SEEKING DEBT
+     The Company has 2 Debt and a Balance of £3,
+     which was carried over from the previous turn.
+     Since the office treasuries are mostly empty,
+     the Chairman wishes to raise additional cash.
+     The Chairman may increase the Company Debt
+     marker up to 6 spaces with the support of a
+     majority of the Court. The Chairman doesn’t
+     wish to beg and so chooses to increase it 3 spaces.
+     This adds £15 to the Balance for a total of £18.
+
+
+     Director of Trade
+     The Director of Trade may take the Special Envoy action and then may move
+     writers and ships between the Presidencies. The Special Envoy action can be
+     taken multiple times.
+
+             Special Envoy
+             Make a check. Each £1 you spend gives you one die. There is no penalty.
+
+             If you are successful, choose one of the following:
+
+                   Ƙ Open trade with China. Create the Superintendent of Trade in
+                     China by placing the office overlay to the right of the board near
+                     the Bengal Presidency and taking its office card from the stack of
+                     unused offices. The office should be hired immediately.
+                   Ƙ Open an Order. Open one closed order in any region in India
+                     that is not controlled by the Company.
+     Then, you may make up to two transfers. In each, move one writer or ship from
+     one Presidency or sea zone to any other.
+                                           SPECIAL ENVOY
+      The Director of Trade decides to spend £3
+      on a Special Envoy. Their check is successful
+      and they choose to open an order.
+
+      Because Bengal is Company-controlled,
+      the Director of Trade cannot open its
+      second order by Special Envoy.
+      Instead, they decide to open
+      the order in Maratha.
+18

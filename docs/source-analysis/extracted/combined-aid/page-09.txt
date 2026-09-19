@@ -1,0 +1,42 @@
+9. Manager of Shipping
+The Manager of Shipping must spend money from their treasury until they have at most £2 remaining. Money can be spent to:
+     Fit Ships on Shipyards: Pay £3 to the bank to move a ship in a Shipyard to any sea zone (owner’s consent is not required).
+     Buy Company Ships: If there are no ships on Shipyards, pay £5 to the bank to place a Company ship in any sea zone.
+     Lease Extra Ships: Pay £2 to the bank to place an Extra ship in any sea zone.
+
+If You Are Manager of Shipping
+
+
+
+
+If the Crown is Manager of Shipping
+1. Fitting Ships
+    The Crown will fit as many of their own ships as possible, then your ships.
+
+
+
+
+                    If the Crown fits one of your ships; you must always perform this favor
+                    if able, and prior to picking the sea zone.
+
+2. Buying Company Ships
+
+
+
+
+3. Leasing Extra Ships
+    The Crown will spend as much remaining money as possible on Extra ships.
+
+
+
+
+4. Placing Ships
+    The Crown will place all ships they have fitted, bought and/or leased this turn...
+
+
+
+
+                                     The Crown places the ship into a sea zone (or China) of your choice.
+
+
+                                                                 9

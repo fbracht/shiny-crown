@@ -1,0 +1,3 @@
+If you pay the Crown firm share dividends equal to or more than any
++X@ (all) other player(s) in the firm (i.e. do not include cash paid for the firm
+manager dividend). X = the number of Crown firm shares (max 3).

@@ -1,0 +1,76 @@
+I. The London Season
+The London Season has three steps: Attrition, Retirements, and Prestige Cards.
+This phase is skipped on the game’s first turn.
+
+Attrition
+This step should be completed simultaneously by all players.
+Roll one die for each office card you hold. Each fatigue on a card adds +1 to the
+result of that office’s die roll. The result determines what happens:
+       Ƙ 1 or 2: Nothing happens.
+       Ƙ 3 or 4: Add a fatigue to the office card.
+       Ƙ 5 or more: That officeholder retires. Move the family member holding                                                                                                 Fatigue
+                                                                                                                                                                            (and Unrest)
+         that office to the Pensioners box on the board. Then, flip the office card                                                                                            Cube
+         to its vacant side and place it in the Vacant Offices box nearby. Any
+         fatigue that was on the office card should be returned to the supply.
+       M The Stress of Being Chairman. When rolling for the Chairman, add
+         +1 to the result.
+
+Retirements
+Starting with the Chairman (or former Chairman if the office is vacant) and
+going clockwise, each player may retire their pensioner(s). For each pensioner,
+choose a prize on the left side of the board, pay the cost indicated on the top left
+of the prize box, and move your pensioner to that box. Increase your victory
+point marker by the amount listed.
+Note: most prizes also have an upkeep value listed to the right of their cost which must be
+paid during the Upkeep and Refresh phase. In addition, many prizes also have window
+tax icons, which may need to be paid for during the Parliament Meets phase.
+                                                                                                                                                                            Window Tax
+                                                                                                                                                                               Icon
+Instead of paying the cost of your retirements directly to the bank, set it near
+your player area. It will be used to determine turn order in the next step and
+should be paid to the bank at the end of the London Season.
+
+                                                   ATTRITION & RETIRING PENSIONERS
+Blue rolls one die for the Manager                                                               Then, the Manager of                            Finally, players perform
+of Shipping and will retire.                                                                     Shipping and the Director                       the Retirements step.
+                                                                                                 of Trade are flipped                            Yellow goes first
+Yellow rolls a die for each office.
+                                                                                                 facedown and added to the                       and retires to the
+Both offices have a fatigue so
+                                                                                                 Vacant Offices box and the                      £4 prize. Blue opts
+the rolls are modified by +1. The
+                                                                                                 family members are moved                        for the £8 prize.
+Director of Trade retires. The
+                                                                                                 to the Pensioners box.
+President of Madras adds a fatigue.
+
+
+                MAN AGE R O F                                     DI RECTOR OF                                   PRES I DEN T OF
+                S H I PPI NG                                        TRADE                                         MADRAS
+
+
+
+
+                                                     May take Special Envoy actions:          Decide the order of operations.
+       Fit ships until your office
+                                                                                                 May take Trade actions:
+       has £2 or less remaining:                      Dice Pool        Success
+                                                                     Open one order in a       Dice Pool                Success
+                                                       £1           region not controlled
+                                                                                                 £1                Fill orders and increase
+                                                                     by the Company or                             the Company Balance.
+                                                                   open trade with China.
+                                                                                                                   You gain £1 per order.
+                                                                                                     For each
+      £2         £3             £5                   Then, may transfer two pieces:                      other     Players gain £1 for each
+                                                                                                        region
+                            Fit only if all                                                          declared.                      .
+     Place fitted ships     player ships                                                     Aer a success you may not Trade again this turn.
+                             are fitted.
+     in any sea zone.                         59                                        58                                                  62
+
+
+
+
+                                                                                                                                                                                   11

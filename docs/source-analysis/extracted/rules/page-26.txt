@@ -1,0 +1,52 @@
+     Governor General
+     The Governor General is created by passing a law of the same name. When
+     passed, all Governors immediately become pensioners. Remove any Governor
+     overlays on the map and any partially-built Company ships. No new Governors
+     are created (or overlays placed) when additional regions become Company-
+     controlled. Note: the printed Company icons on the board show players which regions
+     are Company-controlled when the Governor General is in play.
+     The player holding the Director of Trade card should replace it with the
+     Governor General card and place the Governor General overlay on the ribbon.
+     Any fatigue on the Director of Trade office card should be moved to the new
+     office card. Return all Governor cards and the Director of Trade card to the
+     box.
+     The Governor General is hired like the Director of Trade by the Chairman and
+     is subject to attrition like any other office.
+     The Governor General hires Presidents and performs all of its actions during the
+     part of the Company Operation phase formerly used by the Director of Trade
+     office. The Director of Trade’s treasury is now used by the Governor General.
+     From now on, if any regions are lost via attacks on the Company, follow the
+     Region Loss rules but skip the Governor Elimination step.
+     When acting, first increase the Company Balance by £3 for each region that is
+     Company-controlled.
+     Then the Governor General may attempt the Govern action any number of
+     times.
+
+           Govern
+           The procedure for governing is as follows:
+
+               1. Make a check. Each £1 you spend gives you one die. There is no
+                  penalty.
+
+               2. For each 6 rolled, place one unrest in each Company-controlled
+                  region.
+
+     £     If you are successful, take £1 for each region that is Company-controlled.
+
+           Then, for each region that is Company-controlled, choose one of the
+           following (note: you must choose an option!):
+
+                Ƙ Governor General’s Shipbuilding. Place a Company ship in
+                  any sea zone (including China).
+                Ƙ Governor General’s Commission Regiment. Place a regiment
+                  from the supply in any Army.
+                Ƙ Governor General’s Tax. Either increase the Company Balance
+                  by £2 or place £2 in any Company treasury except your own.
+                  Then place an unrest in a Company-controlled region. If you
+                  make this choice multiple times in a single turn, you must place
+                  the unrest in a different region for each.
+           If the check did not succeed, place 1 unrest in each Company-controlled
+           region.
+
+                M One Govern. The Governor General may only successfully
+26                govern at most once per game turn.

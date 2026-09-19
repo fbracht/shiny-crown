@@ -1,0 +1,62 @@
+Region Loss
+Attacks against the Company can trigger the loss of a Company-controlled
+region. When this occurs, follow these steps:
+
+     1. Tarnish the Commander’s Name. The Commander of the Army
+        associated with this region returns half (rounding up) of the trophies
+        their family owns to the supply e.g. a player with 3 trophies would lose 2.
+        Return the Commander to its supply.
+
+     2. Officer Rout. Roll a die for every officer in the Army and remove it if
+        the roll is a 6.
+
+     3. Governor Elimination. If this region has a Governor, return it to the
+        unused offices stack and return the officeholder’s family member to that
+        player’s supply. Any fatigue on the office card is returned to the supply.
+
+     4. Restore Local Authority. Remove the Governor overlay, any Company
+        ship, and any unrest in the region, and place a dome back in the region
+        with one tower level (place the appropriate flag if this region fell as part
+        of a successful Invasion Crisis). Place the region’s control token back in
+        its region with the loot side facedown (it will not generate additional loot
+        in the future and is no longer associated with the Presidency). If triggered
+        by an Invasion Crisis, close every open order in the region, resolving
+        a Cascade if all are already closed. Note: this closing only occurs in an
+        Invasion Crisis because a Foreign Invasion and Rebellion close orders by default.
+
+     5. Company Humiliation. Lower the Company’s Standing by one to the
+        left for each region lost this turn (including this region). E.g. The first lost
+        region lowers Standing by 1 space, the second lowers Standing an additional 2
+        spaces, etc. This can cause Company failure. If this happens the game is
+        over. Finish the Events in India phase, then resolve Final Scoring.
+
+                                     REGION LOSS EXAMPLE
+The event is a Crisis with a strength modifier of +3. The Elephant is pointing at Bengal,
+which is currently Company-controlled, so the Crisis is an Attack on the Company (all of the
+different Crisis events are described in detail on pages 32-33). The total strength of the attack is 8
+(3 for the event tile, 2 for the attacker’s region, and 3 for the 3 unrest cubes. The Commander
+of Bengal’s Army has 2 officers, 2 regiments, and the Jagat Seths. They have a collective
+strength of 6, and cannot mount a successful defense. The Commander (Pink) exhausts the
+entire Army and the region is then lost. A new empire is born with Maratha as capital.
+The Commander then loses half (round up) of their
+trophies. They have 3 trophies, so they must lose 2. The
+Commander is then returned to their family’s supply.
+Next, each player rolls a die for each officer in the
+Army associated with the region. Pink rolls 1 die and
+Yellow rolls 1. Yellow rolls a 6 and must lose an officer.
+
+                           2          Next, the region is cleaned up and restored to local
+                       Jagat Seths
+
+                           £   4      authority. The Governor and its office card are returned to
+                                      their supply. The Governor overlay and unrest is added to
+                                      the supply. The region’s control token is returned to the
+                                      region. Note: a region only generates its loot bonus once!
+
+Finally, every order in the region is then closed and a
+dome with one level is placed in the region. Finally, the
+Company lowers its Standing. This is the first region
+loss this turn so the Company’s Standing is lowered by
+one. Note: as this was an Attack on the Company, additional
+attacks will occur if there are other regions with unrest.
+                                                                                                         29

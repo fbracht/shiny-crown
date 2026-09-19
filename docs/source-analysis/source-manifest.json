@@ -1,0 +1,391 @@
+[
+  {
+    "id": "combined-aid",
+    "file": "references/Solo_Player_Aid_Combi_V3.2.pdf",
+    "sha256": "7ec5e40bbd1c242325ef62427b659bb2b8e53a38c27873c14f2cce76415b0397",
+    "pages": 21,
+    "page_numbering": "PDF page index, one-based; printed numbering matches in supplied files",
+    "metadata": {
+      "/Author": "Christine Acton",
+      "/Creator": "Microsoft\u00ae Word for Microsoft 365",
+      "/CreationDate": "D:20240622210647+02'00'",
+      "/ModDate": "D:20240622210647+02'00'",
+      "/Producer": "Microsoft\u00ae Word for Microsoft 365"
+    },
+    "page_stats": [
+      {
+        "pdf_page": 1,
+        "chars": 4863
+      },
+      {
+        "pdf_page": 2,
+        "chars": 5677
+      },
+      {
+        "pdf_page": 3,
+        "chars": 4999
+      },
+      {
+        "pdf_page": 4,
+        "chars": 3336
+      },
+      {
+        "pdf_page": 5,
+        "chars": 957
+      },
+      {
+        "pdf_page": 6,
+        "chars": 1102
+      },
+      {
+        "pdf_page": 7,
+        "chars": 581
+      },
+      {
+        "pdf_page": 8,
+        "chars": 1785
+      },
+      {
+        "pdf_page": 9,
+        "chars": 1223
+      },
+      {
+        "pdf_page": 10,
+        "chars": 1271
+      },
+      {
+        "pdf_page": 11,
+        "chars": 1932
+      },
+      {
+        "pdf_page": 12,
+        "chars": 2155
+      },
+      {
+        "pdf_page": 13,
+        "chars": 487
+      },
+      {
+        "pdf_page": 14,
+        "chars": 3052
+      },
+      {
+        "pdf_page": 15,
+        "chars": 2635
+      },
+      {
+        "pdf_page": 16,
+        "chars": 3603
+      },
+      {
+        "pdf_page": 17,
+        "chars": 172
+      },
+      {
+        "pdf_page": 18,
+        "chars": 4863
+      },
+      {
+        "pdf_page": 19,
+        "chars": 3910
+      },
+      {
+        "pdf_page": 20,
+        "chars": 404
+      },
+      {
+        "pdf_page": 21,
+        "chars": 7586
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "file": "references/Rules.pdf",
+    "sha256": "29fdc157234951b517190c82298ea578a543d25f183224e9fa86c1ca8c470dd0",
+    "pages": 48,
+    "page_numbering": "PDF page index, one-based; printed numbering matches in supplied files",
+    "metadata": {
+      "/CreationDate": "D:20230416122348-05'00'",
+      "/Creator": "Adobe InDesign 18.2 (Windows)",
+      "/ModDate": "D:20230807195351+02'00'",
+      "/Producer": "3.0.2 (5.0.5) ",
+      "/Title": "",
+      "/Trapped": "/False"
+    },
+    "page_stats": [
+      {
+        "pdf_page": 1,
+        "chars": 1926
+      },
+      {
+        "pdf_page": 2,
+        "chars": 5248
+      },
+      {
+        "pdf_page": 3,
+        "chars": 25120
+      },
+      {
+        "pdf_page": 4,
+        "chars": 4517
+      },
+      {
+        "pdf_page": 5,
+        "chars": 35455
+      },
+      {
+        "pdf_page": 6,
+        "chars": 3271
+      },
+      {
+        "pdf_page": 7,
+        "chars": 3123
+      },
+      {
+        "pdf_page": 8,
+        "chars": 2486
+      },
+      {
+        "pdf_page": 9,
+        "chars": 3437
+      },
+      {
+        "pdf_page": 10,
+        "chars": 1805
+      },
+      {
+        "pdf_page": 11,
+        "chars": 6174
+      },
+      {
+        "pdf_page": 12,
+        "chars": 5183
+      },
+      {
+        "pdf_page": 13,
+        "chars": 3274
+      },
+      {
+        "pdf_page": 14,
+        "chars": 2827
+      },
+      {
+        "pdf_page": 15,
+        "chars": 3650
+      },
+      {
+        "pdf_page": 16,
+        "chars": 7858
+      },
+      {
+        "pdf_page": 17,
+        "chars": 2554
+      },
+      {
+        "pdf_page": 18,
+        "chars": 2868
+      },
+      {
+        "pdf_page": 19,
+        "chars": 2970
+      },
+      {
+        "pdf_page": 20,
+        "chars": 3284
+      },
+      {
+        "pdf_page": 21,
+        "chars": 1983
+      },
+      {
+        "pdf_page": 22,
+        "chars": 3668
+      },
+      {
+        "pdf_page": 23,
+        "chars": 3635
+      },
+      {
+        "pdf_page": 24,
+        "chars": 3835
+      },
+      {
+        "pdf_page": 25,
+        "chars": 1760
+      },
+      {
+        "pdf_page": 26,
+        "chars": 2907
+      },
+      {
+        "pdf_page": 27,
+        "chars": 2317
+      },
+      {
+        "pdf_page": 28,
+        "chars": 3041
+      },
+      {
+        "pdf_page": 29,
+        "chars": 3898
+      },
+      {
+        "pdf_page": 30,
+        "chars": 3682
+      },
+      {
+        "pdf_page": 31,
+        "chars": 4899
+      },
+      {
+        "pdf_page": 32,
+        "chars": 5900
+      },
+      {
+        "pdf_page": 33,
+        "chars": 5723
+      },
+      {
+        "pdf_page": 34,
+        "chars": 11710
+      },
+      {
+        "pdf_page": 35,
+        "chars": 2762
+      },
+      {
+        "pdf_page": 36,
+        "chars": 3334
+      },
+      {
+        "pdf_page": 37,
+        "chars": 2898
+      },
+      {
+        "pdf_page": 38,
+        "chars": 2870
+      },
+      {
+        "pdf_page": 39,
+        "chars": 2254
+      },
+      {
+        "pdf_page": 40,
+        "chars": 3735
+      },
+      {
+        "pdf_page": 41,
+        "chars": 3626
+      },
+      {
+        "pdf_page": 42,
+        "chars": 9669
+      },
+      {
+        "pdf_page": 43,
+        "chars": 1964
+      },
+      {
+        "pdf_page": 44,
+        "chars": 2974
+      },
+      {
+        "pdf_page": 45,
+        "chars": 2511
+      },
+      {
+        "pdf_page": 46,
+        "chars": 2136
+      },
+      {
+        "pdf_page": 47,
+        "chars": 5112
+      },
+      {
+        "pdf_page": 48,
+        "chars": 3965
+      }
+    ]
+  },
+  {
+    "id": "crown-handbook",
+    "file": "references/Crown Handbook.pdf",
+    "sha256": "2001e4b7547a239e7b788fbd9da6436afe37d9610c7ee067ac37ef7ecf2d8728",
+    "pages": 16,
+    "page_numbering": "PDF page index, one-based; printed numbering matches in supplied files",
+    "metadata": {
+      "/CreationDate": "D:20220118175755-05'00'",
+      "/Creator": "Adobe InDesign 17.0 (Windows)",
+      "/ModDate": "D:20220118175831-05'00'",
+      "/Producer": "Adobe PDF Library 16.0.3",
+      "/Trapped": "/False"
+    },
+    "page_stats": [
+      {
+        "pdf_page": 1,
+        "chars": 14
+      },
+      {
+        "pdf_page": 2,
+        "chars": 4909
+      },
+      {
+        "pdf_page": 3,
+        "chars": 5859
+      },
+      {
+        "pdf_page": 4,
+        "chars": 1007
+      },
+      {
+        "pdf_page": 5,
+        "chars": 2915
+      },
+      {
+        "pdf_page": 6,
+        "chars": 2547
+      },
+      {
+        "pdf_page": 7,
+        "chars": 3332
+      },
+      {
+        "pdf_page": 8,
+        "chars": 3008
+      },
+      {
+        "pdf_page": 9,
+        "chars": 4262
+      },
+      {
+        "pdf_page": 10,
+        "chars": 1797
+      },
+      {
+        "pdf_page": 11,
+        "chars": 2972
+      },
+      {
+        "pdf_page": 12,
+        "chars": 2688
+      },
+      {
+        "pdf_page": 13,
+        "chars": 2027
+      },
+      {
+        "pdf_page": 14,
+        "chars": 2386
+      },
+      {
+        "pdf_page": 15,
+        "chars": 3435
+      },
+      {
+        "pdf_page": 16,
+        "chars": 2692
+      }
+    ]
+  }
+]

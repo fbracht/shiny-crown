@@ -1,0 +1,58 @@
+    Director of Trade / Governor General
+    If you are the Director of Trade
+    Special Envoy
+    If you open trade with China use the same rules as hiring to hire a new office.
+
+
+
+                                Open an order in the home region of a Crown Presidency
+                                          that has at least one Crown writer.
+
+                                      +1                                                         —
+
+
+
+                                  After the office has acted, no Presidency has 2 or more
+                                        ships or writers than any other Presidency.
+
+                                      +1                                                         —
+
+    If the Crown is Director of Trade
+    Special Envoy
+    The Crown will take this action using exactly £3 of available funds with priority going to the northernmost
+    closed order in the first priority region, given by the current AI card, not controlled by the Company. They
+    will skip if £3 is not available, and repeat as long as there is £3+ available.
+
+
+
+            Force the Crown to spend more or less money (any amount, including zero, and optionally
+                                    skip additional Special Envoy actions).
+
+                            -2                                                    -1
+
+              -1               Target a specific order.
+
+
+
+              -3               Open trade with China.
+
+    Transfers
+    The Crown will make 2 transfers from the priority list.
+    If there is more than one viable Presidency to transfer from/to, use AI card’s arrows to break ties, determining
+    the location in which the transfer occurs from first.
+    If there is more than one viable ship to transfer, use Company ships, then non-fatigued ships, then Crown
+    ships, then player ships.
+    E.g. If all three Presidencies are candidates to be transferred from, and all contain 2 ships, then the Presidency with
+    the fewest ships would be the one pointed at by the black arrow on the AI card. If the two ships eligible for transfer are a
+    player ship and a fatigued Crown ship, the Crown would transfer the player ship.
+
+
+
+              -1               Prevent a transfer (counts as one of two available to the Crown).
+
+
+                               Transfer 1 writer/ship to a Presidency/sea zone of player’s choice (counts
+
+              -2               as one of two available to the Crown). Players may not undo a previous
+                               transfer.
+6

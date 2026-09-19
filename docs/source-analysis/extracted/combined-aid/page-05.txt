@@ -1,0 +1,35 @@
+6. Chairman
+The Chairman may advance the Company’s Debt up to 3 times, adding £5 to the Company’s Balance per advance. The Chairman
+may seek additional Debt, but this requires the consent of the player(s) controlling a majority of shares for each additional advance.
+Then, the Chairman allocates all funds from the Company Balance to the different office treasuries.
+
+If You Are Chairman
+                                    You must always perform this favor if able, just once per turn, and prior
+                                    to any action being taken.
+
+1. Seek Debt
+
+
+
+
+2. Allocate Company Balance
+
+
+
+
+3. Set Climate
+When you have finished acting, flip a new AI card to set the new Crown climate.
+
+
+
+If the Crown is Chairman
+1. Set Climate
+Before the Crown acts, flip a new AI card to set the new Crown climate.
+
+2. Seek Debt
+The Crown will advance the Debt marker for each...
+
+
+
+
+                                                                  5

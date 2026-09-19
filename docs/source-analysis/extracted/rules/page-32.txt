@@ -1,0 +1,77 @@
+                                               Crisis
+     RESOLVE
+                                               Like Peace, the location of the Crisis is determined by the placement of
+      CRISIS                                   the Elephant piece, not by the top tile of the draw stack. The Elephant’s
+                            +1                 tail (where it is walking from) indicates the attacker. The Elephant’s head
+     Imperial Ambitions?
+        OTHERWISE
+        Top of Stack
+                                               (where it is walking to) indicates the defender. After resolving a Crisis,
+                                               perform the Elephant’s March.
+         Invade or Rebel?
+
+
+
+
+                                                             Invasion
+                                                             If the attacker is a sovereign region, resolve an Invasion. Determine
+                                                             whether the attacker’s strength (including the strength of any other regions
+                                                             in its empire) plus the modifier listed on the event tile is greater than
+                                                             the defender’s strength (including the strength of any other regions in its
+                                                             empire). If so, the Invasion is successful; otherwise, the Invasion fails.
+
+                                                             If the Invasion succeeded, remove any flag on the defending region’s
+                                                             dome and place a flag matching the attacker.
+
+                                                               M Shattered Empire. If the defending region was a capital, any
+                                                                 flags matching its empire are returned to the supply.
+                                                               M New Empire. If the attacker was successful and does not have a
+                                                                 flag, place any flag with a star still in the supply on their dome.
+                                                                 If none remain, a new empire cannot be formed and no flag is
+                                                                 added to the attacker or defender.
+                                                             If the Invasion failed, remove one tower level from the attacker.
+
+                                                             Rebellion
+                                                             If the attacker is a dominated region, resolve a Rebellion. In a
+                                                             Rebellion, the Crisis is only between a dominated region and the region
+                                                             that dominates it (other regions in the empire have no impact!). Determine
+                                                             whether the attacker’s strength plus the modifier listed on the event
+                                                             tile is greater than the defender’s strength. If so, the Rebellion is
+                                                             successful; otherwise it fails.
+
+                                                             When a Rebellion is successful the attacking region is now sovereign.
+                                                             Return its flag to the supply. Then, close every open order in the
+                                                             attacking region. If all are already closed, resolve a Cascade.
+
+                                                             If the Rebellion failed, remove one tower level from the capital.
+
+                                                                                     MYSORE INVADES
+                                 RESOLVE
+                                  CRISIS
+
+                                                                                   Mysore’s strength is greater, so
+                                                        +1
+                                 Imperial Ambitions?
+                                                                                   the Invasion is successful. A new
+                                                                                   empire is created. In addition,
+                                    OTHERWISE
+                                    Top of Stack
+                                     Invade or Rebel?
+
+
+
+
+                     The new event tile is a +1 Crisis.                            because Hyderabad was previously
+                     The Elephant is currently located                             a capital, all other regions in
+                     on the border of Mysore and                                   that empire lose their flag.
+                     Hyderabad, which means Mysore
+                                                                                   Finally, the Elephant Marches.
+                     will attempt to invade Hyderabad.
+                                                                                   Normally it would move to
+                     Hyderabad is part of an empire,                               Hyderabad, but because the
+                     so its defense will be 2 (1 for                               Invasion was successful, the
+                     Hyderabad + 1 for Madras).                                    Imperial Ambitions rule (p. 30) is
+                     Mysore’s strength is 3 (2 for                                 triggered. The Elephant will move
+                     Mysore + 1 for the Crisis tile).                              to Mysore’s square border next.
+
+32

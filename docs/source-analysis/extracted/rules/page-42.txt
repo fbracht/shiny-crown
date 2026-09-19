@@ -1,0 +1,90 @@
+                             Firm Dividends
+                             The manager may choose to pay out a number of dividends using cash
+                             in the firm’s India treasury. For each dividend, £1 for each share is paid
+                             to the player owning that share and £1 is given to the player who is the
+                             manager of the firm. All cash from dividends is only taken from the India
+                             treasury.
+
+                                             M Optional Dividends. Unlike Company dividends, any
+                                               shareholder may elect to not be paid for any number of their
+                                               shares on any dividend, so long as the manager consents. For
+                                               example, a firm has the following shareholders Blue (2 + Manager) and
+                                               Yellow (2) and £8 to payout. Normally each dividend would pay out
+                                               £5, but that doesn’t allow the manager to pay out all £8. If Blue forgoes
+                                               a share of dividends twice, all £8 could be paid out. Blue and Yellow
+                                               would take £4 each.
+                             Then, the firm manager should record the total amount of cash paid out in
+                             dividends by placing the firm’s dividend cube on the Company Balance
+                             track. This value will be used by shareholders to determine the max value of their
+                             special retirement (page 37).
+
+                                             M Hobnobbing Firms. Any firm that selected the “Hobnob”
+                                               strategy should keep their firm’s dividend marker in its present
+                                               space and not set it to zero to reflect their lack of dividends this
+                                               turn.
+                             Finally, any cash remaining in the firm’s India treasury should be
+                             moved to its London treasury.
+
+
+     Firms and Storms
+     When rolling for storms during the Events in India phase, treat all firm ships as
+     if they were in the sea zone indicated by the firm’s strategy. If the strategy was
+     “Hobnob,” firm ships will not be affected by storms.
+
+                                                                    FIRM EXPENSES AND DIVIDENDS
+     It is the start of the Revenue phase and Green must now pay expenses and dividends for their firm.
+
+     First, expenses must be paid. £2 are paid                                                                                            Next, Green decides to pay out dividends. Each
+     for the ships. Next, £5 must be paid for the                                                                                         dividend costs £4 (£3 for shares, £1 for the
+     value of the firm. (If the firm had 6+ shares,                                                                                       manager). They opt to pay out 3 dividends. Green
+     that number would be paid instead.) Money can                                                                                        takes £6, Pink and Blue both get £3 each. The
+     come out of either treasury for expenses. The                                                                                        firm’s dividend cube is then place on the 12 space
+     firm has £13 remaining in the India Treasury.                                                                                        on the Company Balance track. This number
+                                                                                                                                          will be referred to during special retirements.
+          Walsh & Co.                                       1         2        3         4     5
+                                                                                                Value
+                                                                                                         6        7         8         9        10
+                                                                                                                                                             India
+                                                                                                                                                            Treasury                  During the next London Season,
+        Firm CharterFirms Phase:                                                                                                                            £  16
+                                                                                                                                                                         Cash from
+                                                                                                                                                                            trade.
+                                                                                                                                                                                      Green, Pink, and Blue will be
+                                                           -1         0       ½         ½      1        1         1        1½       1½         2
+      May fit ships, receive investments, and merge.
+        At end of Firm phase set strategy and bid.
+                                                                                                                                                                     For each
+                                                                                                                                                                     £6 added         allowed to spend money on
+                       Trading:
+      Reveal strategy and roll at start of Presidency.
+                                                                      Ships                                         Shares
+                                                                                                                                                           Expenses:
+                                                                                                                                                      Pay £1 for each ship and £1     one special retirement from
+                                                                                                                                                     for either each share or value
+                                                                                                                      (Max 10)
+                                                                                                                                                                                      their supply who may retire to
+      Any revenue from trade goes in India treasury.                                                                                                 (whichever is higher). If you
+       You may fill orders equal to ships plus one.                                                                                                    cannot pay, you must take
+                                                                                                                                                    emergency investments or fail.
+
+                                                                                                                                                                                      any prize up to a cost of £12.
+                                                                                                                                                      Lower value by 1 for each.
+        London                                                                                                                                           Any remainder is lost.
+        Treasury                    Trade Bid                                                      When paying dividends, act as if the                  Finally, you may pay
+                                 You must have at least
+                                                                                                    manager has an additional share.      +1        dividends. Move remainder of
+                                                                                                                                                      India treasury to London.
+
+                                                                                                                                                                                      Note: this special retirement can be
+                                   one ship to trade.
+
+          £  4                  Firm Strategy             When trading, you may fill orders
+                                                                                              F am i l y
+                                                                                                                                                                                      used even during Final Scoring.
+     Cash from investments
+       are not paid out.                                      equal to ships plus one.        A c ti o n
+
+
+
+
+42

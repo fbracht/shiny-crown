@@ -1,0 +1,64 @@
+     Deploy Target Regions
+     The Crown will attempt to take the Deploy action in a...
+
+
+
+      ...Presidency’s home region with closed orders,
+                                                         ...Presidency’s home region if not Company-
+      then Company-controlled regions associated
+                                                         controlled, then any regions not Company-
+      with this Presidency with closed orders, then
+                                                         controlled and adjacent to Company-controlled
+      Presidency’s home region if not Company-
+                                                         Regions associated with this Presidency, then
+      controlled, then any non-Company-controlled
+                                                         Company-controlled regions associated with this
+      regions adjacent to Company-controlled
+                                                         Presidency with closed orders.
+      Regions.
+
+
+
+              -2             Choose a valid region in which the Crown will attempt to Deploy.
+
+
+
+     Deploy
+     A Crown Commander will exhaust all available Local Alliances first, then Crown officers, then player
+     officers, and then regiments, in order to match the exact number of dice listed below. They will only Deploy
+     if they can roll the required number of dice given by this table:
+
+
+
+        Non-Company
+       Controlled Region            6               5                4               3                2
+
+          Company
+       Controlled Region            2               3                4               5                6
+
+
+
+              -1             Increase or decrease the required number of dice by 1    .
+
+
+                             Once pieces have been exhausted and before rolling dice, exchange X
+
+            -X               value pieces that were exhausted for pieces that were not. Note: Local
+                             Alliance of strength X counts as X pieces.
+
+     Deploy Again?
+
+
+                                                                             The Crown will attempt to take
+         The Crown will not attempt to take the Deploy action again.
+                                                                                the Deploy action again.
+                                                                                 The Crown will not take
+                  The Crown takes the Deploy action again.
+                                                                                 the Deploy action again.
+
+                    -2                                  -1                                -1
+
+
+
+
+12

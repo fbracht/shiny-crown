@@ -1,0 +1,42 @@
+Superintendent of Trade in China
+This office is created either if the Director of Trade’s Special Envoy to China is
+successful or if Parliament passes the “Envoy to China” law. When created, the
+office is hired immediately by the Chairman who may promote any writer.
+Unlike a President’s treasury, the Superintendent’s treasury only contains ships.
+Ships can be sent here by the Manager of Shipping or the Director of Trade as if
+it were a sea zone. These ships count as if they were in the Eastern sea zone for
+storms, expenses, events, and laws.
+This office acts after the Presidency of Bengal operates.
+
+      Trade in China
+      To trade in China, make a check. Roll one die for each ship in your
+      office’s treasury. This check may only be attempted once and cannot be
+      attempted if there are no export icons in Company-controlled regions.
+
+      If successful, increase the Company Balance by £4 for each export icon
+£     in all Company-controlled regions. Then, you take £1 from the bank for
+      each export icon in all Company-controlled regions.
+                                                                                     Export Icon
+
+
+
+
+                                 TRADING IN CHINA
+    The Superintendent of Trade in
+    China decides to trade and will roll
+    3 dice (one for each ship here).
+
+
+
+
+    The check succeeds. The Superintendent
+    increases the Company Balance track
+    by £16 (£4 for each export icon in all                  SUPERINTENDENT OF
+                                                            TRADE IN CHINA
+    Company-controlled regions). As a bonus,
+    Blue takes £4 (£1 for each export icon).
+
+
+
+
+                                                                                            25

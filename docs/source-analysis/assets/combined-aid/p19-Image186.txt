@@ -1,0 +1,2 @@
+[SOLO] You have one or more writers in a Crown Presidency, but you do
++ not have at least one writer return from filling an order in that Presidency.

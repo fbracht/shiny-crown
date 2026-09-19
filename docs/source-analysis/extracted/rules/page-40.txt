@@ -1,0 +1,49 @@
+     Firm Strategy
+     After the Firm Investments step, all firm managers must simultaneously and secretly
+     decide their trading sea zone and how much money to spend trading.
+     First, each firm manager secretly selects which sea zone and home port they intend
+     to use in trade and how much cash from their firm’s London treasury they will
+     spend in the attempt. They indicate this by placing the matching firm strategy card
+     facedown near their player board and placing the money they wish to spend on the
+     matching box of the firm board. A firm may select a sea zone as long as they have
+     at least one ship, even if the associated home port is closed.
+     Firm managers that do not wish to trade may select the “Hobnob” strategy. No
+     cash may be placed on this strategy. A firm with this strategy will not trade or pay
+     dividends (it must still pay expenses!), but it will allow a firm to keep its previous
+     dividend marker for the purposes of special retirements.
+     Players should cover any money allocated to their strategy with their hands or by
+     any method they agree upon. Once all players have made their decisions, players
+     reveal the amount they have spent, however their strategy card should remain
+     facedown. Note: firms only get a single trade attempt each turn, so make sure you allocate
+     enough!
+
+     Filling Orders as a Firm
+     At the start of a Presidency’s Operations (before any actions are taken), any firm with
+     a strategy that is associated with that Presidency reveals their strategy and makes a
+     check with dice equal to the cash allocated to their strategy. The cash is then paid
+     to the bank. If at least one success is rolled, the firm may trade. Each firm that
+     successfully trades has an initiative value equal to the total of their ships minus
+     the number of successful dice (1s and 2s) they rolled. This number can be negative.
+     Orders are filled after the President has made a successful roll while taking the
+     Trade action. A President’s roll determines their initiative like a firm and counts all
+     ships in their Presidency’s sea zone.
+          M Vacant Presidency or Failure to Trade. If the President is vacant or does
+            not trade (for any reason), ties in initiative are decided by the Chairman
+            marker. Firms with strategies associated with this Presidency fill orders
+            after its Commander or Governors have had a chance to act.
+     Players then fill orders starting with the firm or Company with the lowest initiative
+     and proceeding to the highest. When it is their turn, the President or firm manager
+     trading in the associated Presidency fills as many orders as possible. Any ties in
+     initiative are decided by the operating President.
+     Firms fill a number of open orders up to the number of ships they own plus one.
+     Orders must be filled starting with the home port listed on their strategy. When
+     filling an order, you must be able to trace a path back to this port through any
+     number of orders that you have filled.
+     You may only fill each order once. When a firm first fills an order, mark it with a
+     filled order token. Then, add the value of the order(s) to your firm’s India treasury.
+          M Previously-Filled Orders. Firms may fill orders previously filled this turn
+            by other firms or the Company. The Company may fill orders previously
+            filled by firms this turn. The filling of a previously-filled order will generate
+            half of its listed value, rounding down.
+     Finally, advance your firm’s Value marker one space for each £6 you added to the
+40   firm’s India treasury this turn.

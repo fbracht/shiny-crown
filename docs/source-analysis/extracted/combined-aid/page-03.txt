@@ -1,0 +1,66 @@
+2. New Company Shares                                               of the Value track and add £5 to the firm’s London treasury
+If the Company has Debt, move the right-most family member          from the bank. You are the firm’s manager.
+on the Stock track to the Court box and lower Debt by 1.
+                                                                    2. Firm Investments
+Repeat this until there is no more Debt. If family members
+                                                                    Any player may invest in a firm. To do so, either return a
+remain on the Stock track, slide them to the right-most empty
+                                                                    Company share to their supply or flip a Workshop to invested.
+space on the Track, preserving their order.
+                                                                         A player cannot invest Company shares if the
+After new Company shares are resolved, you may:
+                                                                          Company Standing and/or Debt is on a lined space,
+                                                                          or if the Company share was created this turn.
+                                                                    When a player invests, they add a family member to the firm’s
+                                                                    Shares box and add £5 to its London treasury from the bank.
+                                                                         A firm can only have 10 shares. Any further
+                                                                          investments provide the £5, but no shares.
+
+          Take a Company Share from the Crown.                      After player investments, the Crown might invest in your firm
+                                                                    if they have the majority of Company shares. The Crown will
+                                                                    invest a Company share (if able) or a Workshop (otherwise).
+                                                                    The Crown will never invest in a firm if they would acquire the
+                                                                    majority of that firm’s shares.
+
+
+
+          Give a Company Share to the Crown.
+
+
+
+
+           Take a Firm Share from the Crown.
+                                                                    3. Acquiring Ships
+                                                                    You can spend money from the London treasury to fit player
+                                                                    ships (£3 each to bank) and/or buy player ships from the
+                                                                    Company (£3 if unfatigued, £2 if fatigued, money to the
+                                                                    Shipping Office’s treasury). In any case, you need the ship
+                                                                    owner’s consent to acquire their ship. Place acquired ships on
+  Give a Firm Share to the Crown (never to give majority).          your firm board.
+
+
+
+
+3. Firms
+1. Creating a Firm
+If the Deregulation law has passed and you do not own a firm,       4. Hostile Takeovers & Mergers
+you can form a firm by returning a Company share to your            These actions will never occur in a solo game.
+supply or flipping a Workshop to its invested side.
+                                                                    5. Firm Strategy
+     You cannot use Company shares if the Company
+                                                                    Select a Firm Strategy card to set which Presidency your firm
+      Standing and/or Debt is on a lined space, or if the
+                                                                    will trade in, and transfer as much money as you want from
+      Company share was created this turn (it is ‘weak’).
+                                                                    the London treasury to the Trade Bid box. If you do not wish
+The Crown never creates private firms, and you must spend           to trade (or have no ships), select the ‘Hobnob’ card and do
+promise cubes to start a private firm.                              not transfer any money.
+
+                                                                    6. Firm Dissolution
+                                                                    You may dissolve the firm following the steps in the Firm
+                                                                    Revenue phase. The Crown always grants consent for firm
+                                                                    dissolution.
+When you form a firm, flip your family board, place a family
+member in the Shares box, place a cube on the leftmost space
+
+                                                                3

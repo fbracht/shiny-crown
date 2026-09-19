@@ -1,0 +1,56 @@
+ If the Crown is Chairman
+ Set Climate
+ Before the Crown acts, flip a new AI card and set the climate on the Crown family board.
+
+ Seek Debt
+ Advance Debt marker for each...
+
+
+
+                                                                     ...Presidency
+                                                                  where the Crown
+      ...Presidency with an open home         ...sea zone with     is Commander         Do not advance
+                    port.                    less than 2 ships.    or has majority       Debt marker.
+                                                                    of total Army
+                                                                       box pieces.
+
+                            Request an additional Company Debt advancement.
+
+                   -1                                        -2                             -3
+                              Request one less Company Debt advancement.
+
+                             -2                                        -1                      —
+
+ Allocate Company Balance
+ Allocate funds in priority order. Give as much as possible to any step that cannot be performed in full.
+
+
+
+         -1
+                        At any point before each step, request that £3 (or less) be allocated to a
+                        specific office.
+
+
+
+
+1. £4 to each   1. £4 to each Crown 1. £5 to Shipping for      1. £4 to each            1. £5 to each
+   Presidency      Presidency           each Presidency           Presidency where         Presidency
+   with an open    with an open         with a sea zone           Crown has a              where Crown
+   home port.      home port.           with less than            majority of pieces       is Commander
+2. £5 to        2. £1 to each           2 ships.                  in the Army box.         or has majority
+   Director        Presidency with   2. £4 to the Crown        2. £2 to each               of officers.
+   of Trade /      a Crown writer.      Presidency with           Presidency with a     2. £2 to each
+   Governor     3. £3 to Director of    most ships.               Crown Governor.          Presidency with a
+   General.        Trade / Governor 3. £3 to Director of       3. £4 to Crown              Crown Governor.
+                   General.             Trade / Governor          Governor General.     3. £5 to Crown
+                                        General.               4. £2 to each               Governor General.
+                                     4. £1 to each                Presidency with
+                                        Presidency with           a Crown writer.
+                                        a Crown writer.
+
+ If there is a remainder, allocate remaining funds to the Manager of Shipping.
+
+
+
+
+                                                                                                               5

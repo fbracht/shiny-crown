@@ -1,0 +1,3 @@
+Assign the Crown as Commander of an Army when able. This always
++ 1 ” applies, even if you have no choice but to assign the Crown as
+Commander.

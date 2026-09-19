@@ -1,0 +1,729 @@
+# Combined aid: text layer in reading order
+
+Source: Solo_Player_Aid_Combi_V3.2.pdf. PDF/printed pages agree.
+Semantic line breaks are retained; hard-wrapped words are repaired. Image-only content is separate in image-transcriptions.md; OCR is unverified evidence.
+
+## Page 1
+
+John Company Solo Rules Full Player Aid v3
+This aid is intended to help you to walk step-by-step through a solo game. This document is a combination of the rules in the Crown
+Handbook and Rules book. The 2-player rules are not included. In this document, ‘You’ refers to the solo player, while third-person
+pronouns (e.g., the Chairman) refer to both you and the Crown. The Crown is also considered a ‘player’ for game rules. Crownrelated rules are written in italic. Important rules which are easily forgotten are denoted with: . Version 3 includes new rules
+changes proposed by Ricky Royal (https://boardgamegeek.com/thread/2936700/article/41627121#41627121).
+
+Setup
+1. Setup the Crown board. Use a glass opportunity marker to
+track the Crown’s Climate
+2. The Crown uses two sets of family members (36 total).
+3. Take 6 red promise cubes for yourself and give the other
+6 cubes to the Crown.
+4. Setup any scenario as normal (remember that Company
+Balance always starts at £5). For the setup cards, shuffle
+the 12 basic cards (no ‘extra’ cards) and draw the top 3
+cards. Choose 1 to keep and give the other 2 to the Crown.
+Repeat this 3 times. Alternately, deal yourself 4 random
+setup cards and deal the Crown 8.
+5. Shuffle the AI cards and reveal the top card to set the
+Crown’s initial Climate.
+Difficulty
+- Easy: Start with 5 promise cards, which can be traded
+for promise cubes.
+- Normal: Do not use promise cards.
+- Hard: As Normal, but the Crown also starts with 10
+promise cubes.
+- Expert: As Hard, but deal 3 ‘Extra’ cards to Crown.
+- Legendary: Do not use promise cards, the Crown
+starts with all 12 promise cubes and 6 ‘extra’ setup
+cards. If the company fails, select ‘Court of Directors
+Blameless’; the Crown benefits from this, you do not.
+Definitions
+- Associated: Any region controlled by a Presidency.
+- Climate: Refers to how the Crown views the
+company and whether or not they will support it.
+Climate is tracked on the Crown board.
+- Climate Set: Draw an AI card and refer to the chart
+to determine the Crown’s Climate.
+- Climate Shift: Roll 6 dice. Based on the number of
+successes relative to company standing, shift the
+Crown’s Climate to the left and/or right.
+- Favours: Give promise cubes to the Crown to force
+certain choices, or take promise cubes from the
+Crown under certain conditions.
+- Fewest: The Crown has as much or fewer of
+something than you, including 0.
+- Home: Region with Presidency’s home port (Bengal/
+Bombay/Madras).
+- Most: The Crown has as much or more of something
+than you, with a minimum of 1.
+- Shortest/Longest Trade Route: Refers to the
+maximum number of orders a President could fill
+with a success, regardless of number of ships.
+- Ties: If the Crown faces several options and there is
+no guideline in the rules, you may make the choice.
+
+Basic Favours
+Basic Favours can be done any time between the start of the
+Firms phase and the end of the Revenues phase. These are also
+described on the Crown board.
+You are now ready to start the game!
+0. Vote to Deregulate
+At the start of any turn in which the Company Standing and/or
+Company Debt are on a lined space, the Prime Minister may
+initiate a vote to Deregulate. If either marker is on the star
+space, the Prime Minister must initiate the vote. The Prime
+Minister may vote against this law.
+The Crown never voluntarily initiates a vote to Deregulate,
+and will always vote last and against it. They will spend up to
+the amount below (once) if it moves the Votes marker to a
+failing position.
+Pass: Lower Company Debt by 1 for every 2 Debt. Reset
+Company Standing to the ‘S’ space. The Prime Minister gains
+a passed law token. You may now create a firm.
+Fail: Increase the VP value of Company shares by 1 (up to
++/-3 VP). There are no further consequences for failure: The
+PM’s role does not change, and the law is not discarded, it may
+be initiated again.
+
+## Page 2
+
+1. London Season
+(Skip on first turn)
+1. Attrition
+Roll a die for each officeholder, adding +1 per fatigue.
+(The Chairman adds an additional +1 to their roll.)
+- 1-2: No effect.
+- 3-4: Add a fatigue to the card.
+- 5-6: Move the officeholder to the Pensioners box and
+their office card to the Vacant Offices box.
+2. Retirements
+Before conducting retirements, you may:
+Starting with the (former) Chairman, retire family members in
+the Pensioners box. For each pensioner: move them to a Prize,
+pay the indicated cost (some Prestige cards give a retirement
+discount), and gain any VP reward.
+The Crown retires pensioners one at a time. Each time, they
+choose the most expensive Prize they can afford using half
+(round up) of their current Treasury. They will only use the £2
+space if they have no other retirements this turn.
+When the Crown has completed all retirements, you may:
+2.5 Special Retirements
+Each player with at least 1 firm share may retire 1 family
+member from their supply. The maximum amount which can
+be spent on this retirement equals the firm’s last dividend
+payout (do not count the value of retirement discounts).
+If the Crown has a firm share, they will take the single highest
+VP special retirement they can afford.
+3. Prestige Cards
+Each player who retired 1 or more pensioners this turn may
+take or discard 1 Prestige card from the London Season
+display. Start with the player who spent the most on
+retirements this turn (break ties by total number of Windows,
+then whoever is Prime Minister). On your turn, you may look
+at face-down Blackmail cards.
+The Crown chooses the Prestige card in the spot shown by the
+AI card. If unavailable, choose the next card going clockwise.
+- The Crown ignores text on Spouse cards, but does
+receive discounts/VP.
+- Keep Crown Blackmail cards face-down.
+- Enterprises are effective for the Crown.
+- The Crown will not perform an optional card action.
+- The Crown never gives consent if a card requires it.
+Discard remaining Prestige cards and draw 3 new ones
+(Blackmail face-down). Non-retired pensioners to supply.
+
+2. Family
+0. Free Crown Writers
+If there are 4 or more vacant offices, the Crown will first enlist
+a Writer for free. Then, if there is a Presidential vacancy with
+no Crown Writer, the Crown will enlist a 2nd Writer for free.
+1. Family Action
+All players choose a Family Action, starting with the (former)
+Chairman. If you choose the same action as the previous turn,
+you can do the action twice. The most recently passed law may
+allow an additional action for you and the Crown.
+Enlist Writer: Place a family member in any
+Writers box. If there are 4+ vacant offices, you
+can place an additional Writer once this turn.
+Enlist Officer: Place a family member in the
+Officers-in-Training box.
+Buy Luxury: Pay £4 to buy a Luxury card.
+Gain 2 VP.
+Buy Shipyard: Pay £2 to buy a Shipyard card.
+Place the matching Ship token on it.
+Buy Workshop: Pay £5 to buy a Workshop
+card. Place it on the non-invested side.
+Seek Share: Place a family member on any
+open spot on the Stock track and pay the cost.
+The Crown will always do 2 actions, choosing the first viable
+actions on the list below, from left to right. If a law provides a
+free action, the Crown will perform it as well (either when
+encountered on the list, or after completing 2 other actions).
+Seeking Shares: The Crown takes the cheapest share
+(rightmost £3 space if available and cheapest).
+Enlisting Writers: Place Writers in priority:
+- Vacant Presidency with no Crown Writer.
+- Crown Presidency with fewest Crown Writers.
+- Presidency with fewer Crown Writers.
+- Presidency priority on AI card.
+Out of Family Members? You must take a family member
+from a prize (and lose their VP reward).
+
+## Page 3
+
+2. New Company Shares
+If the Company has Debt, move the right-most family member
+on the Stock track to the Court box and lower Debt by 1.
+Repeat this until there is no more Debt. If family members
+remain on the Stock track, slide them to the right-most empty
+space on the Track, preserving their order.
+After new Company shares are resolved, you may:
+Take a Company Share from the Crown.
+Give a Company Share to the Crown.
+Take a Firm Share from the Crown.
+Give a Firm Share to the Crown (never to give majority).
+3. Firms
+1. Creating a Firm
+If the Deregulation law has passed and you do not own a firm,
+you can form a firm by returning a Company share to your
+supply or flipping a Workshop to its invested side.
+- You cannot use Company shares if the Company
+Standing and/or Debt is on a lined space, or if the
+Company share was created this turn (it is ‘weak’).
+The Crown never creates private firms, and you must spend
+promise cubes to start a private firm.
+When you form a firm, flip your family board, place a family
+member in the Shares box, place a cube on the leftmost space
+
+of the Value track and add £5 to the firm’s London treasury
+from the bank. You are the firm’s manager.
+2. Firm Investments
+Any player may invest in a firm. To do so, either return a
+Company share to their supply or flip a Workshop to invested.
+- A player cannot invest Company shares if the
+Company Standing and/or Debt is on a lined space,
+or if the Company share was created this turn.
+When a player invests, they add a family member to the firm’s
+Shares box and add £5 to its London treasury from the bank.
+- A firm can only have 10 shares. Any further
+investments provide the £5, but no shares.
+After player investments, the Crown might invest in your firm
+if they have the majority of Company shares. The Crown will
+invest a Company share (if able) or a Workshop (otherwise).
+The Crown will never invest in a firm if they would acquire the
+majority of that firm’s shares.
+3. Acquiring Ships
+You can spend money from the London treasury to fit player
+ships (£3 each to bank) and/or buy player ships from the
+Company (£3 if unfatigued, £2 if fatigued, money to the
+Shipping Office’s treasury). In any case, you need the ship
+owner’s consent to acquire their ship. Place acquired ships on
+your firm board.
+4. Hostile Takeovers & Mergers
+These actions will never occur in a solo game.
+5. Firm Strategy
+Select a Firm Strategy card to set which Presidency your firm
+will trade in, and transfer as much money as you want from
+the London treasury to the Trade Bid box. If you do not wish
+to trade (or have no ships), select the ‘Hobnob’ card and do
+not transfer any money.
+6. Firm Dissolution
+You may dissolve the firm following the steps in the Firm
+Revenue phase. The Crown always grants consent for firm
+dissolution.
+
+## Page 4
+
+4. Hiring
+1. Chairman Election
+If the Chairman office is vacant, the player with a majority of
+Company shares chooses the new Chairman by promoting a
+Company share to the Chairman office. If both players have
+an equal number of shares, the former Chairman chooses their
+successor. If there are no shares, the former Chairman hires a
+family member from their supply. Note: The Chairman still
+counts as a Company share!
+The Crown will always try to elect themselves as Chairman.
+If the Crown has a majority
+(or is former Chairman),
+If the player has a majority
+(or is former Chairman) and votes to
+2. Remaining Vacancies
+Vacant offices are filled in order, from lowest to highest
+numbered. Available candidates and the hirer are detailed on
+the back of the office’s card and the chart below. If there is no
+candidate or hirer, the office stays vacant.
+- Nepotism: A player may only hire their own family
+member to an office if they get consent from the other
+player, or the other player has no viable candidates.
+- Promotions: When a family member is promoted,
+their old position is immediately added to the Vacant
+Offices box. Transfer any fatigue to their new office.
+
+When You Are Hiring
+When the Crown is Hiring
+The Crown always hires their own family members if able.
+- Director of Trade/Governor General Selection: The
+Crown chooses the first eligible candidate, going
+clockwise or counter-clockwise from the Chairman
+according to the AI card.
+- Candidate Priority: The Crown will choose a
+Writer > Officer > Governor. Break ties with AI card.
+5. Company Operations
+Each office, from left to right, performs their operations (skip
+vacant offices). It is not allowed to perform an action that
+would have no effect or no chance of success.
+Success Checks
+When making a success check, roll the given number of dice
+and consult the lowest value rolled.
+- 1-2: The check succeeds.
+- 3-4: The check fails, but may be attempted again
+(provided you have sufficient resources).
+- 5-6: The check fails. The office holder is immediately
+returned to their owner’s supply and their office is
+returned to the Vacant Offices box.
+
+## Page 5
+
+6. Chairman
+The Chairman may advance the Company’s Debt up to 3 times, adding £5 to the Company’s Balance per advance. The Chairman
+may seek additional Debt, but this requires the consent of the player(s) controlling a majority of shares for each additional advance.
+Then, the Chairman allocates all funds from the Company Balance to the different office treasuries.
+If You Are Chairman
+You must always perform this favor if able, just once per turn, and prior
+to any action being taken.
+1. Seek Debt
+2. Allocate Company Balance
+3. Set Climate
+When you have finished acting, flip a new AI card to set the new Crown climate.
+If the Crown is Chairman
+1. Set Climate
+Before the Crown acts, flip a new AI card to set the new Crown climate.
+2. Seek Debt
+The Crown will advance the Debt marker for each...
+
+## Page 6
+
+3. Allocate Company Balance
+The Crown will allocate funds in the priority order. Give as much money as possible to each step. The Crown allocates any left over
+money to the Manager of Shipping.
+7. Director of Trade
+1. Special Envoy
+The Director of Trade can perform the Special Envoy action any number of times. For each attempt, spend any amount of money
+from their treasury and roll one die per £1 spent. If successful, choose one outcome:
+- Open a Closed Order in any region in India not controlled by the Company.
+- Open Trade with China: Add Superintendent of Trade in China office to play and immediately hire a Writer there
+(following normal Nepotism rules).
+If You Are Director of Trade
+If the Crown is Director of Trade
+The Crown will conduct Special Envoys using exactly £X per attempt,
+depending on their Climate, targeting the northern-most closed order of
+a non-company controlled region chosen based on the AI card priority.
+Repeat until less than £X is available, whereupon the Crown will pass.
+
+## Page 7
+
+2. Transfers
+The Director of Trade may make up to 2 transfers. Each transfer moves 1 Writer or Ship from one Presidency/sea zone to another.
+If You Are Director of Trade
+If the Crown is Director of Trade
+The Crown will attempt up to 2 transfers using the following priority list (skip any that cannot be performed and stop when the
+bottom of the list is reached). Use the AI card to break ties for origins/destinations. The Crown will transfer a Company ship > nonfatigued ship > Crown ship > your ship.
+
+## Page 8
+
+8. Governor General
+Creation
+The Governor General is created by passing a law. When the position is created, immediately retire all regional Governors and
+remove their office cards and overlays from the game. The Director of Trade becomes the new Governor General: Place the
+Governor General overlay over the Director of Trade space, remove the Director of Trade office card from the game and transfer
+any fatigue to the Governor General card.
+1. Regional Income
+During the Governor General phase, first add £3 to the Company Balance for each Company-controlled region.
+2. Govern
+The Governor General may attempt to Govern any number of times, but must stop after a success.
+1. Make a check: Spend any amount of money from the Governor General treasury and roll one die per £1 spent.
+2. For each 6 rolled, add 1 unrest in each Company-controlled region.
+3. If successful: The player gains £1 for each Company-controlled region, and must perform one of the following actions in
+each Company-controlled region:
+- Shipbuilding: Place a Company ship in any sea zone (including China).
+- Commission Regiment: Place a new Regiment in any Army.
+- Tax: Add £2 to the Company Balance or to any treasury except the Governor General’s. Then, add 1 unrest in
+a Company-controlled region (place the unrest in a different region for each Tax action this turn).
+4. If unsuccessful: Place 1 unrest in each Company-controlled region.
+If You Are Governor General
+If the Crown is Governor General
+The Crown will attempt to Govern as long as they can roll the number of dice given by this table:
+If successful, the Crown will:
+
+## Page 9
+
+9. Manager of Shipping
+The Manager of Shipping must spend money from their treasury until they have at most £2 remaining. Money can be spent to:
+- Fit Ships on Shipyards: Pay £3 to the bank to move a ship in a Shipyard to any sea zone (owner’s consent is not required).
+- Buy Company Ships: If there are no ships on Shipyards, pay £5 to the bank to place a Company ship in any sea zone.
+- Lease Extra Ships: Pay £2 to the bank to place an Extra ship in any sea zone.
+If You Are Manager of Shipping
+If the Crown is Manager of Shipping
+1. Fitting Ships
+The Crown will fit as many of their own ships as possible, then your ships.
+If the Crown fits one of your ships; you must always perform this favor
+if able, and prior to picking the sea zone.
+2. Buying Company Ships
+3. Leasing Extra Ships
+The Crown will spend as much remaining money as possible on Extra ships.
+4. Placing Ships
+The Crown will place all ships they have fitted, bought and/or leased this turn...
+The Crown places the ship into a sea zone (or China) of your choice.
+
+## Page 10
+
+10. Military Affairs
+1. Transfers
+Each turn, Military Affairs makes up to 2 transfers. For each transfer, move 1 Officer or regiment from one Army to another.
+If the Crown is Military Affairs
+The Crown will attempt 2 transfers according to the priorities below. The Crown will transfer Regiments > Crown Officers > your
+Officers. Skip any transfer that cannot be completed, or which undoes a previous transfer. Use the AI card’s arrows to break ties.
+2. Assign Officers-in-Training
+Assign each Officer-in-Training to any Army.
+If the Crown is Military Affairs
+The Crown will assign your Officers > Crown Officers. For each assignment, start from the top of the priority list below and break
+ties by the following priorities (if still tied, use the AI card’s black arrow, then white arrow).
+3. Assign Commanders
+In each Army where a player has more total pieces than the Commander player, or where there is no Commander, assign a new
+Commander from among the players with the most total pieces in that Army. A replaced Commander is demoted to an Officer.
+If You Are Military Affairs
+If the Crown is Military Affairs
+The Crown will assign their own Officer as Commander if they are eligible.
+
+## Page 11
+
+11. Presidencies
+Each President decides the order of their Commander, Governor and Trade actions (each action must be completed before
+proceeding to the next one). If the Presidency is vacant, the Chairman chooses, but they cannot initiate Trade or approve alliances.
+If the Crown is President
+Crown Presidents choose the action order: Governor > Commander > Trade.
+Firm Initiative
+If your firm is trading in the acting Presidency’s region, before resolving any Presidential actions, check the firm’s Initiative value:
+Roll 1 die for each £ in the Trade Bid box (return the money to the bank). If at least 1 success is rolled, the firm may trade this turn.
+The firm’s Initiative equals their total number of ships minus their number of successful die rolls.
+12. Governors
+Administer
+Governors attempt the Administer action, starting with the number of dice listed on their office card. They may make multiple
+Administer attempts, rolling one less die each time, until they run out of dice, choose to stop, or suffer a catastrophic failure.
+If successful, the Governor player gets £1 (£2 if the previous roll was unsuccessful) and chooses one of the following options:
+- Build Company Ship: If there is a Company ship in the Governor’s region, move it to their Presidency’s sea zone.
+Otherwise, place a Company ship in the Governor’s region (it is under construction).
+- Commission Regiment: Add a regiment to their Presidency’s Army.
+- Tax: Add £2 to the Company Balance or their Presidency’s treasury. Add 1 unrest to the region for each Tax after the first.
+If unsuccessful: Add 1 unrest to the Governor’s region.
+If You Are Governor
+If the Crown is Governor
+The Crown will repeat the Administer action so long as they can roll at least as many dice as listed below:
+If the Administer action was successful, the Crown will:
+
+## Page 12
+
+13. Commanders
+1. Local Alliances
+A Commander can request money from their President to purchase local alliances. Move purchased alliances to the available forces.
+If You Are the Commander
+If the Crown is the Commander
+Crown Presidents always give consent to Crown Commanders to purchase local alliances.
+2. Deploy
+The Commander may deploy as many times as they wish and can afford, as long as there is a chance of success.
+1. Select a target: either a region controlled by the Commander’s Presidency (as long as there is at least one closed order
+and/or unrest) or any adjacent region not controlled by another Presidency.
+2. Make a check: Exhaust any number of Regiments, Officers and local alliances. Each exhausted unit lets you roll 1
+die (or dice equal to their strength for an alliance). Roll 1 less die for each tower level in the target region (plus
+associated regions if it is part of an empire).
+3. Death check: Roll a die for each committed Officer. On a roll of 6 they are returned to their supply (they get no Loot).
+4. If successful:
+a) Gain Loot: £4 per Tower Level + £ for any Loot token (minimum £ = surviving Officers + 1). Divide the
+loot evenly between all surviving participants: Commander > Officers (own first) > Regiments > Alliances.
+b) Player gains 1 trophy per Tower Level in target region.
+c) Open all orders and remove any unrest in the target region.
+d) If the region was not Company-controlled: Remove Tower + Dome, move the loot token to the Presidency’s
+box, add the region’s Governor overlay, and place the region’s Governor card in the Vacant Offices box.
+e) If the Elephant was facing out of the target region, place it in the centre of the region.
+5. If a catastrophic failure: The Commander’s player loses half (round up) of their trophies and returns their
+Commander to their supply.
+
+## Page 13
+
+If You Are the Commander
+If the Crown is the Commander
+The Crown will attempt a Deploy action in a...
+The Crown will only Deploy if they can roll the exact number of dice listed below (target lower priority regions if necessary, and in
+priority order, in order to reach this requirement). They will exhaust Alliances > Crown Officers > Your Officers > Regiments.
+The Crown might attempt to deploy again:
+
+## Page 14
+
+14. Trade
+Presidents attempt to fill open orders, starting from their home port and continuing through connected open orders. Each President
+may only perform one successful Trade per turn. It is not allowed to fill an order in another Presidency’s home region.
+1. The President declares which regions they will trade in, starting from their home region and including regions
+connected via open orders. The total number of orders crossed cannot exceed the number of ships in their sea zone.
+2. Make a check: Spend any amount of money from the President’s treasury and roll one die per £1 spent. Roll one die
+less for each region traded in beyond the President’s home region.
+3. If successful: For each ship in the President’s sea zone, place a Writer (or ‘Filled Order’ token if none remaining) on
+an open, empty order in a declared region. Filled orders must start from the Presidency’s home port, and must be
+placed adjacent to other filled orders after that.
+a. For each filled order, add the amount listed to the Company Balance.
+b. The President player gets £1 for each filled order.
+c. Each player gets £1 for each of their Writers placed on an order.
+If You Are President
+If the Crown is President
+The Crown will spend the money necessary to roll the number of dice listed below. They will first attempt the highest value trade
+route, but will trade in fewer regions if they cannot reach the required number of dice listed below. Then, if there are treasury funds
+remaining, the Crown will spend up to £3 additional on the Trade action.
+When filling orders, the Crown prefers the highest-value trade route. If tied in value, the Crown prefers:
+1. Home region orders
+2. Orders closest to home region
+3. Most southerly equidistant orders
+The Crown places their own Writers before placing your Writers.
+If the Firm is Trading
+Compare the firm’s Initiative with the Company’s Initiative (number of ships in sea zone minus number of trade successes rolled).
+Conduct trade from lowest to highest Initiative (President breaks ties – the Crown will choose the Company first). If the Company
+is not trading, conduct firm trading after any Commander and/or Governor actions.
+- Firms fill orders in the same way as the Company, but they do not roll less dice for crossing borders, they do not use Writers
+(use ‘Filled Order’ tokens instead), they fill a number of orders equal to the number of their ships plus one, and the may
+fill orders in another Presidency’s home region.
+- The firm and the Company may fill orders previously filled by the other, but they only receive half the value of the order
+(round down).
+Add money generated from filled orders to the firm’s India treasury. Increase the firm’s Value marker 1 space for each £6 added to
+the Firm’s India treasury this turn.
+
+## Page 15
+
+15. Superintendent of Trade in China
+The Superintendent’s treasury contains only ships, which can be sent there by the Manager of Shipping or Director of Trade.
+Trade in China
+Up to once per turn, and only if the Company controls a region with opium icons, roll a die for each ship in the Superintendent’s
+treasury. If successful, for each opium icon in Company-controlled regions: Player gets £1 and Company Balance increases by £4.
+If the Crown is Superintendent
+The Crown will roll as many dice as possible, so long as they will roll the minimum number of dice listed below.
+16. Bonuses
+Players gain £1 for each Shipyard with a fitted ship and each non-invested Workshop they own. Additional bonuses may apply.
+17. Firm Revenue
+1. Firm Expenses and Dissolution
+The firm must spend money from the London and/or India treasury to pay expenses:
+- £1 for each ship owned by the firm.
+- The higher of: £1 for each firm share or £ equal to the firm’s value.
+If a firm cannot pay its expenses, it can seek emergency investments or be dissolved.
+- Emergency Investments: A player may invest Company Shares (not if it was created this turn, nor if Company Standing
+and/or Debt is on a lined space) and/or non-invested Workshops (flip them to invested). For each emergency investment,
+add £5 to the firm’s London treasury, and the investing player places a family member in the firm’s Shares box (unless
+there are already 10 shares present). After all expenses are paid, remove any leftover money in the firm’s treasury and
+reduce the firm’s value by 1 space for each emergency investment received this turn.
+The Crown will not invest in a firm seeking emergency investment.
+- Dissolution: Move each share piece to the Debtor’s Prison. Return all firm ships to their Shipyards. Flip the firm board to
+its family side. Any Workshops invested in the firm remain invested.
+2. Firm Dividends
+You may choose to pay dividends from the firm’s India treasury. To pay a dividend, you must pay each player £1 per firm share
+they own, and pay yourself (the firm manager) an additional £1. You may choose to not pay any number of your own shares.
+Record the total amount of money paid out in dividends by placing the firm’s dividend cube on the Company Balance track. If the
+firm did not pay out dividends and chose the ‘Hobnobbing’ strategy, keep the dividend cube in its current space. Otherwise, set the
+dividend cube to zero.
+Move any money remaining in the firm’s India treasury to their London treasury.
+
+## Page 16
+
+18. Company Revenue
+1. Expenses
+Reduce Company Balance by £1 for each Company Debt, Regiment, Officer (not Commanders!) and Ship in a sea zone.
+- Emergency Loans: If the Company cannot pay expenses, emergency loans must be taken: Advance the Debt marker (if
+able) and add £5 to the Company Balance, repeating as needed. Once all expenses are paid, set Company Balance to zero
+and reduce Company Standing by 1 space (if 1-2 loans were taken) or 2 spaces (if 3+ loans were taken).
+- If there are emergency loans, the Crown will always discard Royal Protection if they are Chairman and it is available.
+2. Check Expectations
+Lower Company Standing by 1 space if Company Balance is less than the Expectations value listed beneath the Company Standing.
+3. Pay Dividends
+The Chairman may pay out Dividends: Lower Company Balance equal to the number of shares, and each player gains £1 per share
+they own. Multiple dividends may be paid.
+If the Crown is Chairman
+The Crown will always pay 1 dividend if able, and will pay more if they can keep a minimum Company Balance of:
+4. Company Standing
+If the total amount of money paid out in dividends exceeded Expectations, advance Company Standing by 1 space.
+19. Events in India
+Roll the Storm die.
+1. Storms
+Roll a die for each player-owned ship (including firms) in the rolled sea zone(s) (ships in the China treasury are in the East):
+- 1-2: No effect.
+- 3-4: Flip the ship to fatigued. If already fatigued, return the ship (face-up) to its Shipyard.
+- 5-6: Return the ship (face-up) to its Shipyard.
+2. Events
+Draw and resolve Event cards, one at a time, until the number rolled on the Storm die is reached.
+- Writer Loss: When an order with a Writer on it is closed, return that Writer to their supply.
+- Cascade: If required to close an order in a region where all orders are already closed, Cascade occurs. Close all open orders
+connected to that region. If a connected order is already closed, close the northern-most open order in that region. If all
+orders in that region are already closed, trigger an additional Cascade. Each region may only Cascade once per event.
+Crisis Use Elephant position to determine the Crisis type and follow flowchart on next page.
+Roll Storm die: Resolve an invasion in each of Bombay/Madras/Bengal adjacent to rolled sea zone(s) (top of deck
+Foreign region if ‘4’ rolled). For each, follow Invasion steps, but roll a die for attack strength. If invasion succeeds: Close all
+Invasion orders and set tower level = ½ invasion strength (round down); If Elephant is inside a conquered Companycontrolled region, point it out across the ⚫ shape (otherwise, leave it in place).
+Leader Check region on top of deck: Sovereign? Add 1 Tower. Dominated? Resolve rebellion (see flowchart).
+If Elephant connects 2 regions, remove connected closed orders and add 1 tower in each. Then move Elephant to
+Peace
+If Elephant is inside a region, open all closed orders and remove any unrest there. region on top of deck.*
+Shuffle Move Elephant to region on top of deck.* Shuffle this card into deck. Shuffle discards and place on top of deck.
+Turmoil Close northern-most order in region on top of deck. If all closed, perform Cascade.
+Windfall Players gain £1 per Writer in/adjacent to region on top of deck.
+*When moving the Elephant, place it inside the region if Company-controlled, else on border shape (facing capital if dominated).
+
+## Page 17
+
+Crisis/Rebellion/Invasion Resolution (If a Crown Commander is defending, you choose which pieces to exhaust.)
+
+## Page 18
+
+20. Parliament Meets
+If You Are Prime Minister
+1. You reveal up to 3 Law cards and chooses one (if a Dilemma! is drawn, it must immediately be chosen).
+2. You then rotate the PM wheel in either direction, stopping at the first policy which matches the chosen law card.
+3. Set the initial number of Votes indicated on the law card.
+4. Roll 6 dice on the Climate Shift table below to adjust the Crown’s Climate.
+5. The Crown will vote for or against a law depending on their voting plan (last page). The Crown receives votes from
+their enterprises and additional free votes based on the size of their personal treasury (see below). If voting against
+the law, the Crown becomes the Opposition Leader.
+6. You cannot vote against a law (you may abstain). You receive votes from your enterprises, and you can gain an
+additional vote for each £1 you spend from your personal treasury.
+7. If the law has 0 or more net votes, it passes. You gain a Law Passed marker, implement the law’s instructions (the
+effects may be ongoing), and implement the law’s policy (see below).
+8. If the law has -1 or fewer votes, it fails. Discard the law, resolving any “If Failed” effects. The Crown becomes Prime
+Minister and shifts the policy wheel one space left or right and implements that policy (see Policy Selection below).
+If the Crown is Prime Minister
+1. Roll 6 dice on the Climate Shift table below to adjust the Crown’s Climate.
+2. The Crown draws Law cards up to the number shown on the AI card, and chooses the last card drawn (if a Dilemma!
+is drawn, it must immediately be chosen).
+3. The Crown will rotate the PM wheel in either direction, stopping at the first policy which matches the chosen Law
+card. The card will choose which direction to rotate based on the Policy Selection rules below.
+4. Set the initial number of Votes indicated on the law card.
+5. The Crown will vote for or against a law depending on their voting plan (last page). The Crown may vote against a
+law while Prime Minister. The Crown receives votes from their enterprises and additional free votes based on the size
+of their personal treasury (see below).
+6. You may vote for or against the law (or abstain). You receive votes from your enterprises, and you can gain an
+additional vote for each £1 you spend from your personal treasury.
+7. The player with the most votes against the law becomes Opposition Leader (no change if tied).
+8. If the law has 0 or more net votes, it passes. The Crown gains a Law Passed marker, implement the law’s instructions
+(the effects may be ongoing), and implement the law’s policy (see below).
+9. If the law has -1 or fewer votes, it fails. Discard the law, resolving any “If Failed” effects. The player who cast the
+most votes against the law becomes Prime Minister (this may be the Crown!). If tied, the Opposition Leader becomes
+Prime Minister. The new PM shifts the policy wheel one space left or right and implements that policy (see Crown
+Policy Selection below).
+Extra Crown Votes (Based on the amount of money in the Crown’s treasury)
+Climate Shift Table (Roll 6 dice and compare the number of successes with the current Company Standing – perform as many
+of the listed rightward shifts as possible, followed by as many leftward shifts as possible)
+Company Standing
+Successes £4 £6 £8 £10 £12 £14 £16
+0 LEFT LEFTLEFT
+1 RIGHT LEFT LEFTLEFT LEFTLEFT
+2 RIGHTRIGHT RIGHT LEFT LEFTLEFT LEFTLEFT LEFTLEFT
+3 RIGHTRIGHT RIGHTRIGHT RIGHT LEFT LEFTLEFT LEFTLEFT LEFTLEFT LEFTLEFT
+4 RIGHTRIGHT RIGHTRIGHT LEFT RIGHTRIGHT LEFTLEFT RIGHT LEFTLEFT LEFTLEFT LEFTLEFT LEFTLEFT
+5 RIGHTRIGHT LEFT RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHT LEFTLEFT LEFTLEFT LEFTLEFT
+6 RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHTRIGHT LEFTLEFT RIGHT LEFTLEFT LEFTLEFT
+
+## Page 19
+
+Crown Policy Selection
+The Crown chooses a policy where they have the greatest advantage / least disadvantage in enterprises compared with you (for
+Tax, where they will pay relatively less than you). Break ties with the AI card (counter)clockwise arrows.
+Policies
+Each player must pay £1 for each of the listed enterprise they own, or they lose that enterprise. If a
+Shipyard with a fitted ship is lost, the ship remains in play, but the Shipyard cannot be reclaimed.*
+If a Window Tax is indicated, each player must also pay £1 for each Window on their family members’
+prizes and enterprises. If the tax cannot be paid, the asset is lost (return the family member to supply). *
+Each player gains £1 for each of the listed enterprise they own.
+Swap the positions of the indicated Power marker and the next higher marker on the Power track. If
+already in the highest position, swap the positions of any other 2 Power markers (The Crown will swap the
+2 lowest Power markers in this case).
+*The Crown will use ‘Royal Privilege’ as needed to pay taxes (see below).
+Royal Privilege
+If the Crown cannot afford to pay a tax, they will use funds from the Company Balance. The Crown will force the Company to take
+emergency loans as required. In this case, if the Crown is Chairman, they will always discard ‘Royal Protection’ if it is available.
+21. Upkeep and Refresh
+1. Upkeep
+Each player must pay the upkeep cost for each family member’s prize or lose that prize (and its VP). The Crown will use Royal
+Privilege as needed to pay their upkeep (see above).
+2. Refresh
+1. Return all Writers to their associated Presidency.
+2. Return any Filled Order tokens to supply.
+3. Return Extra Ships to supply.
+4. Return exhausted Officers/Regiments to active. Active local alliances become exhausted.
+5. Advance the turn marker and begin the next turn.
+22. Game End & Scoring
+The game ends at the end of the last turn of the scenario, or immediately if the Company fails. Proceed to final scoring:
+1. Base Victory Points: Players score VPs for retirement prizes, luxuries and spouses.
+2. Power Award: The player with the most Power scores the higher VP according to the final game turn. Power comes from:
+- Each Share/Workshop/Luxury/Shipyard is worth 0-2 Power according to the Power track.
+- +1 Power for each passed law and trophy.
+- Blackmail cards in your player area may provide Power. (Check the Crown’s Blackmail cards now).
+- The player who is Prime Minister gains +2 Power.
+3. Court & Workshops: If the Company survived, each share is worth the VP value noted in the Court. If the Company
+failed, Shares are worth negative VP and players score 1 VP for each Workshop they own.
+4. Firms: For each firm share, gain/lose VP according to the firm’s value. Lose 1 VP per family member in Debtor’s Prison.
+5. Final Retirement: If the Company survived, make one final Attrition roll and retire any pensioners (do not gain any
+Prestige cards). Regardless of Company success, shareholders in a firm may also perform a final special retirement.
+[Hard/Expert/Legendary: The Crown will spend as much as possible on final retirements.]
+6. Consequences of Failure: If the Company failed, draw a
+Company failure card and resolve it.
+7. Finally, if the Company failed, you (not the Crown) adjust
+your VP according to the table to the right.
+8. The player with the most VP (even if negative) is the winner!
+(Break ties with most Windows, then Prime Minister).
+
+## Page 20
+
+23. Crown Voting Plan
+If the Crown is Prime Minister. They will remove
+a player from office at the first opportunity.
+If the Crown is Prime Minister. A Crown Military
+Affairs will always demote a non-Crown
+Commander if a Crown Officer is in that Army.
+
+## Page 21
+
+Table of Contents
+Setup 1 3. Leasing Extra Ships ..................................................... 9
+Difficulty ............................................................................... 1 4. Placing Ships ................................................................ 9
+Definitions ............................................................................ 1 10. Military Affairs ......................................................10
+Basic Favours ........................................................................ 1 1. Transfers .....................................................................10
+0. Vote to Deregulate ............................................................ 1 2. Assign Officers-in-Training ........................................10
+1. London Season ......................................................... 2 3. Assign Commanders ...................................................10
+1. Attrition ......................................................................... 2 11. Presidencies ...........................................................11
+2. Retirements ................................................................... 2 Firm Initiative .................................................................11
+2.5 Special Retirements .................................................... 2 12. Governors...............................................................11
+3. Prestige Cards ............................................................... 2 Administer .......................................................................11
+2. Family ...................................................................... 2 13. Commanders ..........................................................12
+0. Free Crown Writers ....................................................... 2 1. Local Alliances ...........................................................12
+1. Family Action ............................................................... 2 2. Deploy .........................................................................12
+2. New Company Shares ................................................... 3 14. Trade ......................................................................14
+3. Firms ........................................................................ 3 15. Superintendent of Trade in China ..........................15
+1. Creating a Firm ............................................................. 3 Trade in China .................................................................15
+2. Firm Investments .......................................................... 3 16. Bonuses ..................................................................15
+3. Acquiring Ships ............................................................ 3 17. Firm Revenue .........................................................15
+4. Hostile Takeovers & Mergers ....................................... 3 1. Firm Expenses and Dissolution ...................................15
+5. Firm Strategy ................................................................ 3 2. Firm Dividends ...........................................................15
+6. Firm Dissolution ........................................................... 3 18. Company Revenue .................................................16
+4. Hiring ....................................................................... 4 1. Expenses .....................................................................16
+1. Chairman Election ........................................................ 4 2. Check Expectations .....................................................16
+2. Remaining Vacancies .................................................... 4 3. Pay Dividends .............................................................16
+When You Are Hiring ....................................................... 4 4. Company Standing ......................................................16
+When the Crown is Hiring ................................................ 4 19. Events in India .......................................................16
+5. Company Operations ............................................... 4 1. Storms .........................................................................16
+Success Checks ................................................................. 4 2. Events ..........................................................................16
+6. Chairman ................................................................. 5 Crisis/Rebellion/Invasion Resolution ..............................17
+1. Seek Debt ...................................................................... 5 20. Parliament Meets ...................................................18
+2. Allocate Company Balance ........................................... 5 Extra Crown Votes .........................................................18
+3. Set Climate .................................................................... 5 Climate Shift Table .........................................................18
+7. Director of Trade ..................................................... 6 Crown Policy Selection ...................................................19
+1. Special Envoy ............................................................... 6 Policies ............................................................................19
+2. Transfers ....................................................................... 7 Royal Privilege ................................................................19
+8. Governor General .................................................... 8 21. Upkeep and Refresh ...............................................19
+Creation ............................................................................. 8 1. Upkeep ........................................................................19
+1. Regional Income ........................................................... 8 2. Refresh ........................................................................19
+2. Govern .......................................................................... 8 22. Game End & Scoring .............................................19
+9. Manager of Shipping ............................................... 9 23. Crown Voting Plan ................................................20
+1. Fitting Ships .................................................................. 9
+2. Buying Company Ships ................................................ 9

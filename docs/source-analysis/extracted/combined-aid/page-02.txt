@@ -1,0 +1,64 @@
+1. London Season (Skip on first turn)                                  2. Family
+1. Attrition                                                           0. Free Crown Writers
+Roll a die for each officeholder, adding +1 per fatigue.               If there are 4 or more vacant offices, the Crown will first enlist
+(The Chairman adds an additional +1 to their roll.)                    a Writer for free. Then, if there is a Presidential vacancy with
+                                                                       no Crown Writer, the Crown will enlist a 2nd Writer for free.
+     1-2: No effect.
+     3-4: Add a fatigue to the card.                                  1. Family Action
+     5-6: Move the officeholder to the Pensioners box and             All players choose a Family Action, starting with the (former)
+      their office card to the Vacant Offices box.                     Chairman. If you choose the same action as the previous turn,
+                                                                       you can do the action twice. The most recently passed law may
+2. Retirements
+                                                                       allow an additional action for you and the Crown.
+Before conducting retirements, you may:
+                                                                                      Enlist Writer: Place a family member in any
+                                                                                      Writers box. If there are 4+ vacant offices, you
+                                                                                      can place an additional Writer once this turn.
+Starting with the (former) Chairman, retire family members in                         Enlist Officer: Place a family member in the
+the Pensioners box. For each pensioner: move them to a Prize,                         Officers-in-Training box.
+pay the indicated cost (some Prestige cards give a retirement
+discount), and gain any VP reward.                                                    Buy Luxury: Pay £4 to buy a Luxury card.
+                                                                                      Gain 2 VP.
+The Crown retires pensioners one at a time. Each time, they
+choose the most expensive Prize they can afford using half                            Buy Shipyard: Pay £2 to buy a Shipyard card.
+(round up) of their current Treasury. They will only use the £2                       Place the matching Ship token on it.
+space if they have no other retirements this turn.
+                                                                                      Buy Workshop: Pay £5 to buy a Workshop
+When the Crown has completed all retirements, you may:
+                                                                                      card. Place it on the non-invested side.
+
+                                                                                      Seek Share: Place a family member on any
+                                                                                      open spot on the Stock track and pay the cost.
+2.5 Special Retirements
+Each player with at least 1 firm share may retire 1 family             The Crown will always do 2 actions, choosing the first viable
+member from their supply. The maximum amount which can                 actions on the list below, from left to right. If a law provides a
+be spent on this retirement equals the firm’s last dividend            free action, the Crown will perform it as well (either when
+payout (do not count the value of retirement discounts).               encountered on the list, or after completing 2 other actions).
+If the Crown has a firm share, they will take the single highest
+VP special retirement they can afford.
+
+3. Prestige Cards
+Each player who retired 1 or more pensioners this turn may
+take or discard 1 Prestige card from the London Season
+display. Start with the player who spent the most on
+retirements this turn (break ties by total number of Windows,
+then whoever is Prime Minister). On your turn, you may look
+at face-down Blackmail cards.
+The Crown chooses the Prestige card in the spot shown by the
+AI card. If unavailable, choose the next card going clockwise.
+     The Crown ignores text on Spouse cards, but does
+      receive discounts/VP.
+     Keep Crown Blackmail cards face-down.
+                                                                       Seeking Shares: The Crown takes the cheapest share
+     Enterprises are effective for the Crown.
+                                                                       (rightmost £3 space if available and cheapest).
+     The Crown will not perform an optional card action.
+     The Crown never gives consent if a card requires it.             Enlisting Writers: Place Writers in priority:
+                                                                               Vacant Presidency with no Crown Writer.
+                                                                               Crown Presidency with fewest Crown Writers.
+                                                                               Presidency with fewer Crown Writers.
+                                                                               Presidency priority on AI card.
+                                                                       Out of Family Members? You must take a family member
+Discard remaining Prestige cards and draw 3 new ones                   from a prize (and lose their VP reward).
+(Blackmail face-down). Non-retired pensioners to supply.
+                                                                   2

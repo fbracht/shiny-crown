@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-19",
+  "framework": "React 19 + TypeScript + Vite",
+  "fontStack": "Newsreader display + IBM Plex Sans body + IBM Plex Mono code",
+  "palette": "warm parchment neutrals + oxblood accent",
+  "motion": "motion-cut",
+  "spacing": "4px-derived named scale",
+  "preview": {
+    "macrostructure": "Workbench",
+    "theme": "Almanac",
+    "enrichment": "none (typography only)",
+    "sections": "masthead · start/resume · restore · colophon · session rail · phase workspace · fixed navigation",
+    "motion": "color transitions · pressed translation",
+    "slopTest": "69 / 69 pass"
+  }
+}

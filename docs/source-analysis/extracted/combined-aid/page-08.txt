@@ -1,0 +1,39 @@
+8. Governor General
+Creation
+The Governor General is created by passing a law. When the position is created, immediately retire all regional Governors and
+remove their office cards and overlays from the game. The Director of Trade becomes the new Governor General: Place the
+Governor General overlay over the Director of Trade space, remove the Director of Trade office card from the game and transfer
+any fatigue to the Governor General card.
+
+1. Regional Income
+During the Governor General phase, first add £3 to the Company Balance for each Company-controlled region.
+
+2. Govern
+The Governor General may attempt to Govern any number of times, but must stop after a success.
+    1.   Make a check: Spend any amount of money from the Governor General treasury and roll one die per £1 spent.
+    2.   For each 6 rolled, add 1 unrest in each Company-controlled region.
+    3.   If successful: The player gains £1 for each Company-controlled region, and must perform one of the following actions in
+         each Company-controlled region:
+                Shipbuilding: Place a Company ship in any sea zone (including China).
+                Commission Regiment: Place a new Regiment in any Army.
+                Tax: Add £2 to the Company Balance or to any treasury except the Governor General’s. Then, add 1 unrest in
+                    a Company-controlled region (place the unrest in a different region for each Tax action this turn).
+    4.   If unsuccessful: Place 1 unrest in each Company-controlled region.
+
+If You Are Governor General
+
+
+
+
+If the Crown is Governor General
+The Crown will attempt to Govern as long as they can roll the number of dice given by this table:
+
+
+
+
+If successful, the Crown will:
+
+
+
+
+                                                                8

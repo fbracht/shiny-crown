@@ -1,0 +1,51 @@
+    Concepts and Key Terms
+    Component Limits and Infinite Tracks
+    Most components in John Company are limited by the pieces included. If a supply
+    of pieces is empty, complete as much of the action as possible. However, players may
+    use proxies if they run out of cash, trophy/passed law tokens, dice, and regiments.
+    The Company Balance, Victory Point, and Vote tracks have no limit.
+
+    Your Play Area and Hidden Information
+    Players maintain a play area that contains everything they own. All information
+    (including the contents of discard piles) is public except facedown blackmail cards.
+
+    Cash Flow
+    In John Company, cash always has a location, and its location determines how it
+    can be spent, traded, or paid. You can spend cash in your family treasury on various
+    family actions, retirements, upkeep, taxes, and negotiations. Cash within a Company
+    office can only be spent by that office.
+
+
+    £
+    Some Company positions will reward players with extra income during their actions.
+    In the rules, these payments are highlighted by boxes like this one.
+
+    The Presidencies
+    The British East India Company divided India into three administrative zones called
+    Presidencies which are each named after their home region. In John Company, these
+    Presidencies are special offices that maintain their own Army, cadre of writers, fleet of
+    ships, and—later in the game—subordinate offices. These resources are stored in their
+    marked boxes or in the zone of the Indian Ocean near their office box on the map.
+
+    The Map of India and How to Read It
+    Though much of the action of John Company occurs outside of India, players will
+    frequently refer to and use the map of India. If you are learning the game for the first
+    time, you may wish to skim this section and return to it as needed.
+    The map is divided into eight regions, each roughly corresponding to a different
+    political and commercial trade center. Each region has a number of qualities:
+         Ƙ Every region has strength, usually represented by its tower. The number
+           of levels in the tower dictates the strength of the region (the dome does not
+           count as a tower level). This number is used to determine a region’s attack and
+           defense value.
+         Ƙ Within each region are a number of connected circles called orders. Each
+           order contains a number that indicates the value of that order and is
+           connected to other orders with a dotted line. Orders represent economic
+           opportunities for the players.
+               M Home Ports. Orders with a heavy black outline are called home ports.
+                 Players use these orders to access other orders deeper in India.
+               M Closed Orders. If an order is closed, cover it with a closed order
+                 token. This represents trade disruptions or anti-Company sentiment.
+         Ƙ Every region has a political alignment: either sovereign or dominated.
+           Sovereign regions (those with a large flag or a dome without any flag) will
+           attempt to invade their neighbors. Dominated regions (those with a small
+6          flag or no dome) will attempt to rebel to regain their sovereignty.

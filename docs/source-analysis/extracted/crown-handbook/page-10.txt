@@ -1,0 +1,62 @@
+     Presidency Operations
+     If the Crown is President
+     Crown Presidents make Governors act first in order of formation, then Commander, then attempt Trade.
+
+
+
+              -1             Make a single change in the order of Presidency operations.
+
+
+     Governors
+     If you are Governor
+
+            +1
+                             Add money from a Tax Administer action to a Crown Presidency.
+                             This can only be taken once per turn per Presidency.
+
+
+
+            +1
+                             Move a Company ship into the sea zone associated with a Crown
+                             Presidency.
+
+
+
+            +1
+                             Commission Regiment into an Army associated with a Crown Presidency.
+                             This can only be taken once per turn per Presidency.
+
+     If the Crown is Governor
+     Administer
+     Crown will repeat the Administer action as many times as possible, decreasing the dice pool after each roll,
+     as long as they can roll at least the required number of dice given by this table:
+
+
+
+                  3                                     2                                     1
+
+
+              -1             Increase or decrease the required number of die by 1     .
+
+
+
+              -3             Take no Administer actions.
+
+     If the Administer action is successful the Crown will:
+
+
+
+               Tax (adding funds to Crown
+                                                   Build Company
+              Presidency first, then remainder                             Commission Regiment.
+                                                        Ship.
+                   to Company Balance).
+
+
+
+              -2             Choose a different result for a successful Administer action.
+
+
+
+
+10

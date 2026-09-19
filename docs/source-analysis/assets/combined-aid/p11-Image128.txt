@@ -1,0 +1,2 @@
+Add money from a Tax Administer action to a Crown Presidency.
++ 1 ‘This can only be taken once per turn per Presidency.

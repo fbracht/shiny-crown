@@ -1,0 +1,65 @@
+   Transfer Priority List
+   Skip any that cannot be performed, and stop once 2 transfers have been performed or the bottom of the
+   list has been reached.
+
+
+1. A Crown writer     1. A ship from       1. A ship from            1. A ship            1. A Crown writer from
+   from Presidency       Presidency           Presidency with           from player          player Presidency to
+   with shortest         with shortest        fewest Crown writers      Presidency           Crown Presidency.
+   trade route           trade route          to Presidency with        to Crown          2. A ship from
+   to Presidency         to Presidency        most Crown writers.       Presidency.          Presidency with
+   with longest.         with longest.     2. A Crown writer         2. A Crown              fewest Crown
+2. A ship from        2. A Crown              from Presidency           writer from          writers to
+   Presidency            writer from          with fewest ships to      Presidency           Presidency with
+   with shortest         Presidency with      Presidency with most.     with fewest          most Crown writers.
+   trade route           fewest ships to   3. A ship from               ships to          3. A ship from
+   to Presidency         Presidency with      Presidency with           Presidency           Presidency with
+   with longest.         most ships.          fewest Crown              with most.           fewest Crown
+3. A player writer    3. A player writer      writers to China.      3. A Crown              writers to
+   from Presidency       from Presidency   4. A ship from               writer from          Presidency with
+   with longest          with longest         Presidency with most      player               most Crown writers.
+   trade route           trade route          player writers to         Presidency        4. A player writer from
+   to Presidency         to Presidency        Presidency with the       to Crown             player Presidency to
+   with shortest.        with shortest.       fewest player writers.    Presidency.          Crown Presidency.
+
+   If you are Governor General
+
+          +1              Add money to a Crown office’s treasury.
+
+
+
+          +1              Place a regiment into an Army associated with a Crown Presidency.
+
+
+
+          +1              Place a Company ship into a sea zone associated with a Crown Presidency.
+
+
+   If the Crown is Governor General
+   Govern
+   The Crown will perform the Govern action as long as they roll the required number of dice given by this
+   table:
+
+
+
+
+                5                                       3                                   2
+
+
+           -1             Increase or decrease the required number of dice by 1       .
+
+   If the Govern action is successful the Crown will:
+
+
+
+              Tax (adding funds evenly
+                                                Build Company
+           among Crown Presidencies, then                               Commission Regiment.
+                                                     Ship.
+           remainder to Company Balance).
+
+
+
+           -2             Choose a different result for a successful Govern action.
+
+                                                                                                                    7

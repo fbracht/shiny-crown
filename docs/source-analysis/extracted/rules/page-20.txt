@@ -1,0 +1,55 @@
+     Presidency Operations
+     Each President generates revenue for the Company with the Trade action and
+     decides the order in which they, their Commander, and their Governor(s) act.
+     Commanders and Governors are not required to take any actions but they must
+     be given the opportunity to act. Each position must finish all of its actions
+     before the next one may begin (players may flip their family members facedown
+     after to track which have acted). The Trade action can be taken anytime during a
+     Presidency’s operations so long as it does not interrupt another position.
+          M Vacant President. If a President is vacant, the Chairman will decide
+            the order of the Commander and Governor(s). A Chairman acting in
+            this way cannot approve local alliance purchases or take the Trade
+            action.
+
+           Trade
+           You may fill open orders in India using the Trade action, starting from
+           your Presidency’s home port and continuing through any open orders
+           you fill. The Trade action may be taken before or after the Commander
+           or each Governor. The procedure for trading is as follows:
+
+               1. Declare the regions in which you wish to trade. You must include
+                  your home region and cannot include regions that you could not
+                  trade in because you do not have enough ships or because you
+                  could not fill an order because a connecting order is closed.
+
+               2. Make a check. Each £1 you spend gives you one die. Subtract one
+                  for each region outside of your home region that you declared in
+                  step 1 from your total dice.
+           Reminder: as with any check, if it is unsuccessful, you may attempt it again
+           during your Presidency Operations so long as you have sufficient resources for
+           another check and the check did not end in catastrophic failure.
+
+           If successful, place one writer on an open, empty order space for each
+           ship in this Presidency’s sea zone. You must place as many writers as
+           possible, but can only place them in the declared regions. The first writer
+           must be placed on the Presidency’s home port (marked with a thick black
+           line). After that order is filled, additional writers must be adjacent to a
+           writer you already placed. For each order filled, increase the Company
+           Balance by the amount listed on the order.
+
+                M Out of Writers? If all writers have been placed and ships remain
+                  to fill additional orders, place filled order tokens (on the reverse
+                  of the closed order token) on the orders to show they have been
+                  filled.
+                M Home Region Privileges. A President may not fill an order in
+                  another President’s home region (even if that President is vacant).
+                M One Trade. Each President may only successfully trade at most
+                  once per game turn.
+
+
+     £     Then, you take £1 from the bank for each order you filled.
+
+
+
+20   £     Finally, each player takes £1 from the bank for each of their writers you
+           placed on an order.

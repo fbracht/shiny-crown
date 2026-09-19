@@ -1,0 +1,45 @@
+     Favors and Promise Cubes
+     In most phases, promise cubes can be exchanged to/from the Crown in a closed
+     economy via a favor. There are two kinds of favors: favors that require you to
+     pay promise cubes to the Crown (indicated with a red box) and favors that
+     force the Crown to give you promise cubes (indicated with a blue box). Most
+     favors are listed in the Crown Handbook. Favors have two critical restrictions:
+          M Favors are only available during the resolution of the indicated phase
+            or step.
+          M You may perform favors as many times as you wish, but you may never
+            perform a favor you cannot fully pay, though you can perform a favor
+            that will gain you less promise cubes than are available from the Crown.
+     Some additional favors are listed on the Crown’s family board. Unlike favors in
+     the Crown Handbook, these favors can be taken at any time during the timing
+     window described on the Crown’s family board.
+     Here are some examples of favors:
+
+
+      +1                Fit a Crown ship.
+
+
+
+
+       -1               Fit a specific ship.
+
+     In the first example, you may gain one promise cube for each ship owned by the Crown
+     that you fit. In the second, you may pay one promise cube to the Crown in order to get the
+     Manager of Shipping (if under Crown control) to fit one of your ships.
+     Some favors have darker boxes with a bold outline. These favors are mandatory
+     and must be performed if the conditions are met.
+
+     Clarifications for the Crown
+     The word “most” refers to having comparatively more or equal of something,
+     with a minimum of 1. The word “fewest” refers to having comparatively less or
+     equal of something, and includes zero.
+     If the Crown faces more than one option, the soloist (or the player holding the
+     Button) may make a free choice between them when the rules do not otherwise
+     make a distinction.
+     The “longest” and “shortest” trade route refers to the maximum
+     number of orders a President could fill in one go, irrespective
+     of number of ships.
+
+
+
+
+46

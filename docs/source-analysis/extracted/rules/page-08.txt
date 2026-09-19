@@ -1,0 +1,50 @@
+    Negotiation
+    John Company is a negotiation game. Players can transfer a wide range of assets to one another.
+    This includes: enterprises, facedown blackmail cards, cash in your family’s treasury, shares, and
+    promise cards. You cannot transfer officeholders, writers, officers, pieces on prizes, spouses,
+    passed laws, played blackmail cards, Prime Minister dial, or trophies.
+
+          Promise Cards
+          Each player has a set of five promise cards they may give other players as part of a
+          negotiation. You may “call in” a promise card and force the player who guaranteed the
+          promise to fulfill the promise if they can. Critically, you cannot “call in” a promise card
+          once the game is over and players are resolving Final Scoring. If multiple players call
+          in a promise at the same time, the player who guaranteed them chooses which to fulfill
+          if they cannot fulfill all of them. All promise cards contain details of their use on their
+          back sides.
+
+    When transferring resources there is one golden rule: something
+    transferred cannot activate twice. For instance, during the
+    Bonuses phase, Cati collects £1 for her workshop’s profits. If she sells
+    her workshop at this time to another player, it will not generate £1
+    again this round.
+    Negotiations involving immediate transfers are binding. All
+    other negotiations are non-binding.
+    Further transferring details are described here:
+         Ƙ Enterprises and Blackmail Cards. You may
+           trade any enterprise card. You may allow others
+           to peek at your facedown blackmail cards
+           and trade them, but they cannot be
+           traded faceup. Remember to adjust
+           the victory point total if transferring
+           luxuries.
+         Ƙ Family Cash. You may freely
+           transfer money from your family’s
+           treasury to the treasuries of other
+           families.
+         Ƙ Shares. When
+           exchanging these
+           pieces, the player
+           gaining the piece should
+           return the previous owner’s
+           piece to their supply and place
+           a family member from their
+           supply in its place. You may
+           not transfer the Chairman.
+         Ƙ Promise Cards. You may
+           trade promise cards with
+           any player, including
+           returning them to their
+           guarantor or giving
+           them to a third party.
+8

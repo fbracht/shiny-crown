@@ -1,0 +1,56 @@
+     Revenue
+     If the Crown is Chairman
+     The Crown will try to pay 1 dividend minimum, then more if able to leave £X in Company Balance as
+     indicated:
+
+
+
+                   £0                  £2                   £4                   £6                   £8
+
+                                         The Crown pays out 1 less dividend.
+
+                          -2                                                  -1
+                                        The Crown pays out 1 more dividend.
+
+                          -1                                                  -2
+     Royal Protection
+     If there are emergency loans, the Crown always will discard Royal Protection if available.
+
+     Firm Expenses and Dividends
+     Emergency Investments
+     During the Revenue phase, if a firm is seeking emergency investment, the Crown will not invest.
+
+                             The Crown invests in your firm with Company shares (unless they are
+
+              -4
+                             weak), and then workshops, regardless of majority of Company shares.
+                             Note: players cannot use this bribe if doing so results in the Crown having more
+                             firm shares than manager.
+
+     Firm Dividends
+                             If you pay the Crown firm share dividends equal to or more than any
+
+             +X              (all) other player(s) in the firm (i.e. do not include cash paid for the firm
+                             manager dividend). X = the number of Crown firm shares (max 3).
+
+
+     Events in India
+     If the Crown is a Commander and must defend a Crisis, you choose which pieces will be exhausted to meet
+     the Crisis. [2P ONLY] The player holding the Player Button chooses.
+
+
+
+
+     Parliament Meets
+     The Crown will always vote first. The Crown will vote for or against according to the Crown’s Voting Plan
+     (detailed on the last page). The Crown will use all available votes from their Enterprises to influence their
+     vote. Unlike players, the Crown will receive additional votes according to the size of their treasury based
+     on this chart:
+
+         £0 - £3               £4 - £6                £7 - £10                £11 - £14                    £15+
+          +0 votes              +1 votes                +2 votes                 +3 votes                  +4 votes
+
+
+
+
+14

@@ -1,0 +1,74 @@
+     Prestige Cards
+     Beginning with the player who spent the most total cash on retirements this turn,
+     each player who retired at least one pensioner this turn must take or discard one
+     card from the London Season Display. Any ties are broken in favor of most total
+     window icons (including from retirements this turn!) and then in Prime Minister order
+     (clockwise, starting with the Prime Minister).
+     When choosing their card, the acting player is welcome to peek at any blackmail
+     card in the London Season Display.
+     If there are no cards remaining in the display, all remaining players are skipped.
+     Then, discard any remaining cards and refill the London Season Display to three
+     cards. Place blackmail cards facedown. Place regular prestige cards faceup. Note:
+     this is done even if there were no cards taken this turn!
+     Lastly, return any family members in the Pensioners box to their supplies.
+
+             Prestige and Blackmail Cards in Detail
+             The different types of prestige and blackmail cards are described below:
+
+                   Ƙ Spouses usually increase your family’s victory points, but most
+                     come with a restriction you must follow for the rest of the game.
+                     Spouses cannot be transferred. If a restriction requires you to
+                     discard or trade enterprises/shares, players must negotiate any
+                     trades immediately after they take the spouse. Regarding Violet
+                     Effingham, any fitted ships connected to returned shipyards
+                     will still remain in play, but their attached shipyards may not be
+                     purchased during the Family Action phase if the ship is in play.
+                        Most spouses also have a retirement discount that lowers the cost
+                        of a retirement by the amount shown. These discounts can be
+                        stacked, but may only be used by you alone. Each discount may
+                        be used once per London Season and once per Final Scoring. Note:
+                        these discounts will lower the amount you spend in retirement, which can
+                        influence the order in which prestige cards are taken.
+                   Ƙ Enterprises on prestige cards offer special powers which a player
+                     may use. These enterprises may be worth power during Final
+                     Scoring like other enterprises of their type and are likewise affected
+                     by policies during the Parliament Meets phase. These enterprises
+                     can be transferred.
+                   Ƙ Blackmails offer one-time effects. After they are used they are placed
+                     in your player area faceup and cannot be transferred. At the end
+                     of the game, all blackmail cards in a player’s area (faceup or down)
+                     count for power during Final Scoring.
+
+                                  LOND ON DISPLAY IN ACTION
+     Next, players perform the Prestige Cards step. This step goes in order of the player who spent the
+     most money during the Retirement step. Blue spent £8 and Yellow spent £4, and so Blue will go first.
+
+     First, Blue peeks at the blackmail card, but decides
+     to take Lord Highgate. No replacement is drawn.
+                                                                         SPOUSE                                      SPOUSE
+                                                                 You cannot transfer this card.              You cannot transfer this card.
+
+
+                                                                                              3                                           2
+
+     Yellow peeks at the blackmail card                                                      -£2                                         -£2
+
+
+     and decides to pick it.
+                                                                  Lord Highgate                               Lady Glencora
+     Finally, the remaining card is discarded and three
+                                                                                                        Remove your opportunity marker
+                                                                                                        from the game. It is never placed
+                                                               You may only retire to the                when you take an action. Note:
+                                                                or  victory point prizes.                you may still gain extra actions
+
+
+     new cards are placed in the London Season Display.
+                                                                                                            from laws and an extra writer
+                                                                                                             when there are + vacancies.
+
+
+
+
+12
+                                                                                                   19                                          18

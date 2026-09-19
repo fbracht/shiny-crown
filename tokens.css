@@ -1,0 +1,61 @@
+/* Hallmark · macrostructure: Workbench · tone: austere · anchor hue: oxblood · genre: editorial · theme: Almanac · enrichment: none · nav: N3 · footer: Ft4 · contrast: pass (46–50) · slop: pass (51–55) · honest: pass (56) · chrome: pass (57) · tokens: pass (58) · responsive: pass (59) · icons: pass (60) · mobile: pass (36, 59, 61–69) */
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+:root {
+  --color-paper: oklch(95% 0.012 92);
+  --color-paper-2: oklch(91% 0.016 92);
+  --color-paper-3: oklch(86% 0.018 92);
+  --color-ink: oklch(24% 0.025 84);
+  --color-ink-2: oklch(34% 0.025 84);
+  --color-muted: oklch(43% 0.022 84);
+  --color-rule: oklch(72% 0.018 92);
+  --color-rule-strong: oklch(54% 0.025 84);
+  --color-accent: oklch(38% 0.105 35);
+  --color-accent-strong: oklch(31% 0.1 35);
+  --color-accent-soft: oklch(88% 0.04 35);
+  --color-accent-ink: oklch(96% 0.01 92);
+  --color-focus: oklch(42% 0.15 250);
+  --color-success: oklch(40% 0.09 150);
+  --color-error: oklch(42% 0.15 25);
+  --color-backdrop: oklch(18% 0.02 84 / 0.64);
+
+  --font-display: "Newsreader", "Iowan Old Style", "Baskerville", serif;
+  --font-body: "IBM Plex Sans", "Avenir Next", sans-serif;
+  --font-label: "IBM Plex Sans", "Avenir Next", sans-serif;
+  --font-code: "IBM Plex Mono", "SFMono-Regular", monospace;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-display: clamp(2.45rem, 8vw, 4.75rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-instant: 100ms;
+  --dur-short: 170ms;
+  --dur-medium: 280ms;
+
+  --rule-thin: 1px;
+  --rule-heavy: 2px;
+  --radius-sm: 0.2rem;
+  --radius-md: 0.45rem;
+  --radius-lg: 0.8rem;
+
+  --layer-base: 0;
+  --layer-sticky: 20;
+  --layer-dialog: 40;
+  --layer-toast: 50;
+}

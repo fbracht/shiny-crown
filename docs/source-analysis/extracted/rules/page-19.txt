@@ -1,0 +1,52 @@
+Manager of Shipping
+The Manager of Shipping fits, buys, and leases ships on behalf of the Company.
+You must spend funds in your treasury until it has at most £2 remaining. Funds
+can be spent to:
+     Ƙ Lease Extra Ships. Pay £2 to the bank to place an extra ship from the
+        general supply in a sea zone. Extra ships are ships on short-term leases
+        that will be returned to the supply during the Refresh step.
+    Ƙ Fit Ships on Shipyards. Pay £3 to the bank to take a ship from a shipyard
+      and place it in any of the three sea zones. Note: this does not require the
+      shipyard owner’s consent.
+    Ƙ Buy Company Ships. If there are no ships on shipyards, pay £5 to the
+      bank and place a Company ship from the general supply in a sea zone.
+
+Military Affairs
+Military Affairs moves officers and regiments
+between Armies, assigns new officers, and          ASSIGNING COMMANDERS
+assigns Commanders.                             Military Affairs (Blue)
+                                                has finished transfers
+First, you may make up to two Army transfers.   and assigning officers
+In each, move one officer or regiment from      and will now appoint
+one Army to any other Army. Moved pieces        Commanders.
+always remain in the top half of the Army       The Army of Bombay is
+box.                                            skipped, as no player has
+                                                more pieces here than the
+Then, you must assign each piece in the
+                                                current Commander.
+Officers-in-Training box to any of the three
+                                                The Army of Madras
+Armies. New officers are placed in the top
+                                                has no Commander, so
+half of their Army box.                         Military Affairs chooses
+Finally, for each Army, if there is a player    between Blue and
+                                                Yellow and picks Blue.
+with more total pieces than the current
+Commander player or if the Commander slot       The Commander of the
+is vacant, assign a new Commander. Choose       Army of Bengal no longer
+                                                has the most pieces, so a
+a player from among those having the
+                                                new Commander will be
+greatest number of total pieces in that Army.   appointed. Military Affairs
+Move one of their officers to the Commander     opts to appoint their
+slot, putting any previous Commander there      own officer, and Pink’s
+back into the top half of the Army box as an    Commander reverts to an
+                                                officer. Because this isn’t
+officer.
+                                                hiring, Blue disregards
+                                                the Nepotism rule.
+
+
+
+
+                                                                                    19

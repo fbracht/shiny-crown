@@ -1,0 +1,10 @@
+2@ (-4@) | Give (or take) an unfitted shipyard.
++39(-5@) | Give (or take) a fitted shipyard.
++4@ (-6@) | aan ae an uninvested
++19 (-3@) | Give (or take) an invested workshop.
++5@(-7@) | Give (or take) a luxury.
++4@ | Give an enterprise from a prestige card.
+a 21@ | Give £3.
+
+[EASY MODE ONLY]. Remove a promise card
+xX@ | from the game. X = Turn/2, rounded up

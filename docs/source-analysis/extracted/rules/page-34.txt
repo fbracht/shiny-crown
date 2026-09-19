@@ -1,0 +1,100 @@
+             VIII. Parliament Meets
+             The player with the Prime Minister dial must select a law and bring it up for a
+             vote. They do this by drawing and revealing, one at a time, up to three cards
+             from the law deck and selecting one. The remainder are discarded. Players are
+             welcome to discuss each law before the next is drawn. However, if a dilemma
+             (indicated at the top of the card) is drawn, the Prime Minister must stop
+             drawing and select that law.
+             After selecting the law, the Prime Minister must select a policy by rotating the
+             dial’s arm either clockwise or counter-clockwise. The Prime Minister must stop
+             at the first space that matches the icon printed on the bottom of the law card.
+             Each space on the Policy track has two elements, a policy consequence and a
+             target. If the law passes, the selected policy consequence will affect the target
+             (either an enterprise type, Company share or a prize as indicated by the space’s
+             color and icon).
+             There are three policy consequences:
+                               Ƙ Tax. Each player must pay £1 to the bank for each target they own. For
+                                 each they cannot pay for, the target should be returned to its supply
+ TA X                            (this includes the Chairman!). Any fitted ships connected to returned
+                                 shipyards remain in play, but their attached shipyards may not be
+                                 taken during the Family Action phase if the ship is in play.
+                                             M Window Tax. Some tax policy spaces have a window icon. If
+                                               a law passes and a policy space with this icon is selected, all
+                                               players must pay cash equal to the number of window icons
+                                               associated with each of their family members on a prize and
+                                               each of their enterprises. If they cannot, the enterprise or
+                                                                                                                                                                                                                  Window Tax
+                                               family member on the prize is returned to its supply.                                                                                                                 Icon
+                               Ƙ Bonus. Each player takes £1 from the bank for each target they own.
+B ONUS
+                               Ƙ Power. Swap the position of the Power marker matching the target
+                                 with the next higher Power marker. If the target’s Power marker is
+POWER                            already in the highest position, swap the position of any two other
+                                 Power markers.
+             Next, the Prime Minister reads the text of the law aloud and marks its starting
+             support (printed on bottom right of law) using the Votes marker on its track. The
+             Prime Minister should allow some time for debate before proceeding to voting.
+
+                                                                                SELECTING A LAW AND P OLICY
+     The Prime Minister first                                                      Next, the Prime Minister picks a policy. Because the
+     reveals Calico Acts which has                                                 icon shows a social enterprise, they must choose
+                                                                                                                                           TA X & P
+     very little support among the                                                 the first matching space either clockwise          WE
+                                                                                                                                         R          OW
+                                                                                                                                                       ER
+                                                                                                                                                                     W I N D O W TA X
+
+
+                                                                                                                                   PO                     B
+     players. The Prime Minister                                                   or counterclockwise from the                         X                                                                O
+                                                                                                                                                                                                              N
+                                                                                                                                    TA
+     decides to try their luck and                                                 current policy marker.                                                                                                     U
+                                                                                                                                                                                                                  S
+                                                                                                                                                                                                                   PO
+                                                                                                                                  R
+     flips a second law. This is a                                                                                              POWE
+                                                                                   If they go clockwise, they arrive                                                                                                  WER
+                                                                                                                                                   1710                                           1758
+
+     dilemma and must be picked.                                                                                                                                2
+                                                                                   at a power policy. If they go                                                                                                      POWE
+                                                                                                                                 TA X
+           Law before Parliament             Dilemma before Parliament
+                                                                                   counterclockwise, they will tax                                                                                                    R
+        Calico Acts                             Masses
+                                                                                   social enterprises and windows.
+                                                                                                                                                                                                                  W
+                                                                                                                                          &X                                                                  IN
+                                                                                                                                                                                                                  TA
+                                                Demand                                                                                X TA
+                                                                                                                                                                                                              D
+
+                                                                                                                                    A D OW
+                                                                                                                                                                                                              O
+                       Extra Action                                                                                                                                       1813                            W   X
+                      After taking any        Franchise!
+                                                                                                                                            N
+                                                                                                                                               I
+                                                                                                                                                   W
+                                                                                                                                                                                                      &TA X
+                    family action(s), you                                                                                                 T
+                    may buy a workshop.
+            When passed, players gain
+            £2 for each manufacturing
+                                             If passed: Rotten Boroughs are
+                                                                                   They decide to go with the tax. If the                              S
+                                                                                                                                                           NU
+                                                                                                                                                                BO                      S   NU
+                                                                                                                                                                                                 BO
+                                             now only worth one vote each.                                                                                              TA X
+                                                                                   law passes, all players will have to pay £1
+               enterprise they own.          Votes now cost £2 instead of £1.
+        At the start of the Revenue phase,
+           lower the Company Balance           If failed: Nothing happens.
+           by £1 for every £7. Skip this
+           penalty after deregulation.
+                                                                                   for each social enterprise and each window icon
+                                  +1                                  +1           they own. Then, they will follow the instructions on the law card.
+34
+                                        31                                   54

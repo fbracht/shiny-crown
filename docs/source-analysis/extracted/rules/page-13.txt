@@ -1,0 +1,52 @@
+II. Family
+This phase has two steps. First, all players will take their family action. Then, new Company
+shares may be created.
+
+Family Action
+Starting with the player with the Chairman title and proceeding clockwise, each player
+selects one family action from those listed in this section and places their opportunity
+marker on the action they choose. (Note: at the start of the game, this marker is not on any action.)
+
+Out of Family Pieces? If you need to place a family piece but have none, you must choose
+to take one from any prize. If taken from a prize, lower your victory point marker by the
+printed value of that prize. (Note: this rule also applies to creating Firm shares in Deregulation.)
+
+If a player’s opportunity marker was already on the action they chose at the start of this
+phase, they may take that action twice instead. Example: your opportunity marker is on the
+purchase shipyard action. This turn you could take that action twice. If you take a different action,
+you will only take it once.
+     M Extra Actions. Some laws enable players to take an additional action after they
+       have taken their main action. Only the most recently-passed extra action can be
+       used. This action does not benefit from a player’s opportunity marker, nor does
+       a player move their opportunity marker to the space corresponding to the extra
+       action.
+     M No Action. Rarely, players may be unable to take a family action. In these cases,
+       no action is taken and their opportunity token should be placed in their supply
+       of pieces. In practice this only happens if a player has no family pieces, prizes, or money.
+
+      Enlist Writer
+      Place one family member in one of the three regional Writers boxes. If there are four
+      or more vacant offices, you may place an additional writer once this turn. This might
+      allow you to place two or three writers in a turn depending on the location of your opportunity
+      marker.
+
+      Enlist Officer
+      Place one family member in the Officers-in-Training box.
+
+      Purchase Luxury
+      Pay £4 to the bank and take one luxury. Each luxury gives you 2 victory points
+      as long as they are in your possession. Adjust your victory point marker to reflect
+      your purchase. Each luxury has a window tax icon, which may need to be paid
+      for during the Parliament Meets phase. Each luxury counts as a social enterprise.          Window Tax
+                                                                                                    Icon
+      Purchase Shipyard
+      Pay £2 to the bank and take one shipyard. Place the matching ship token on the
+      shipyard in the space indicated. Shipyards provide a £1 bonus each turn if their
+      ship has been fitted and provide a single vote in the Parliament Meets phase. Each
+      shipyard counts as a shipping enterprise.
+
+      Purchase Workshop
+      Pay £5 to the bank and take one workshop. A workshop provides a £1 bonus each
+      turn and two votes in the Parliament Meets phase. If the Company fails, it is worth
+      1 victory point during Final Scoring. Each workshop counts as a manufacturing
+      enterprise.                                                                                       13

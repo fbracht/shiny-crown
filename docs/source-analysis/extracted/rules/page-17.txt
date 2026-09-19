@@ -1,0 +1,47 @@
+ IV. Company Operation
+ Starting with the Chairman, each Company office acts in order, left to right,
+ following the red ribbon on the game board. The Chairman is responsible for
+ making sure players realize whose turn it is to act and that this phase proceeds
+ in a timely fashion. Use of a gavel or bell is encouraged.
+      M Vacant Offices. Sometimes offices will remain vacant if there were no
+        eligible candidates to hire or if the hiring office was vacant. In this
+        case, the office is skipped.
+      M No Dead Actions. A player cannot take an action that would have no
+        effect or chance of success e.g. trading without having a ship to fill an order
+        or deploying without a dice to trigger potential officer losses.
+
+ Success Checks
+ Doing business in India is risky. Most actions that concern India require the
+ acting player to make a check to see if their actions are successful. Each check
+ requires a roll of the dice. The number of dice you roll is dependent on the
+ resources you have and want to spend as determined by the action. Any money
+ spent comes from the office’s treasury and is paid to the bank.
+ When making a check, first, decide on the amount of resources you want to
+ spend or exhaust, and gather the appropriate number of dice equal to the
+ amount shown on the office card.
+ Then, remove dice equal to the penalty. Finally, roll the dice. Use the lowest
+ rolled value to determine one of three results.
+      Ƙ 1 or 2 is a success.
+      Ƙ 3 or 4 is a failure. The check may be attempted again if there are
+        sufficient resources.
+      Ƙ 5 or 6 is a catastrophic failure. The office will take no further actions.
+        The acting officeholder is immediately returned to its player’s supply,
+        and that office card is flipped and placed in the Vacant Offices box. Any
+        fatigue that was on the office card should be returned to the supply.
+ Note: some offices will use the result of a check in other ways, as detailed in their rules.
+
+
+
+                      Chance of Success
+                     1d6         2d6        3d6        4d6         5d6        6d6         7d6
+
+  Success            33%        56%         70%        80%        87%         91%        94%
+
+
+   Failure           33%        33%         26%        19%        13%          9%         6%
+
+Catastrophic
+                     33%        11%          4%         1%        <1%         <1%        <1%
+  Failure
+
+                                                                                                17

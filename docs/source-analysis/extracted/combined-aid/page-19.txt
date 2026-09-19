@@ -1,0 +1,63 @@
+Crown Policy Selection
+The Crown chooses a policy where they have the greatest advantage / least disadvantage in enterprises compared with you (for
+Tax, where they will pay relatively less than you). Break ties with the AI card (counter)clockwise arrows.
+
+
+
+
+Policies
+                      Each player must pay £1 for each of the listed enterprise they own, or they lose that enterprise. If a
+                      Shipyard with a fitted ship is lost, the ship remains in play, but the Shipyard cannot be reclaimed.*
+                      If a Window Tax is indicated, each player must also pay £1 for each Window on their family members’
+                      prizes and enterprises. If the tax cannot be paid, the asset is lost (return the family member to supply). *
+
+                      Each player gains £1 for each of the listed enterprise they own.
+
+                     Swap the positions of the indicated Power marker and the next higher marker on the Power track. If
+                     already in the highest position, swap the positions of any other 2 Power markers (The Crown will swap the
+                     2 lowest Power markers in this case).
+*The Crown will use ‘Royal Privilege’ as needed to pay taxes (see below).
+
+Royal Privilege
+If the Crown cannot afford to pay a tax, they will use funds from the Company Balance. The Crown will force the Company to take
+emergency loans as required. In this case, if the Crown is Chairman, they will always discard ‘Royal Protection’ if it is available.
+
+21. Upkeep and Refresh
+1. Upkeep
+Each player must pay the upkeep cost for each family member’s prize or lose that prize (and its VP). The Crown will use Royal
+Privilege as needed to pay their upkeep (see above).
+
+2. Refresh
+         1.   Return all Writers to their associated Presidency.
+
+
+
+
+         2.   Return any Filled Order tokens to supply.
+         3.   Return Extra Ships to supply.
+         4.   Return exhausted Officers/Regiments to active. Active local alliances become exhausted.
+         5.   Advance the turn marker and begin the next turn.
+
+22. Game End & Scoring
+The game ends at the end of the last turn of the scenario, or immediately if the Company fails. Proceed to final scoring:
+    1.   Base Victory Points: Players score VPs for retirement prizes, luxuries and spouses.
+    2.   Power Award: The player with the most Power scores the higher VP according to the final game turn. Power comes from:
+                Each Share/Workshop/Luxury/Shipyard is worth 0-2 Power according to the Power track.
+                +1 Power for each passed law and trophy.
+                Blackmail cards in your player area may provide Power. (Check the Crown’s Blackmail cards now).
+                The player who is Prime Minister gains +2 Power.
+    3.   Court & Workshops: If the Company survived, each share is worth the VP value noted in the Court. If the Company
+         failed, Shares are worth negative VP and players score 1 VP for each Workshop they own.
+    4.   Firms: For each firm share, gain/lose VP according to the firm’s value. Lose 1 VP per family member in Debtor’s Prison.
+    5.   Final Retirement: If the Company survived, make one final Attrition roll and retire any pensioners (do not gain any
+         Prestige cards). Regardless of Company success, shareholders in a firm may also perform a final special retirement.
+         [Hard/Expert/Legendary: The Crown will spend as much as possible on final retirements.]
+    6.   Consequences of Failure: If the Company failed, draw a
+         Company failure card and resolve it.
+    7.   Finally, if the Company failed, you (not the Crown) adjust
+         your VP according to the table to the right.
+    8.   The player with the most VP (even if negative) is the winner!
+         (Break ties with most Windows, then Prime Minister).
+
+
+                                                                   19

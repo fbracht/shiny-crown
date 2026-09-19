@@ -1,0 +1,48 @@
+V. Bonuses
+During this phase, players collect bonuses. Every player should take £1 for each
+shipyard with a fitted ship and each workshop they own.
+
+
+VI. Revenue
+During the Revenue phase, the Company will pay expenses, check expectations,
+and then pay dividends.
+During this phase, the Company’s Standing will often be adjusted. If the
+Standing marker is moved to the leftmost position of the Standing track, the
+Company has failed. Go to the Final Scoring immediately (page 9).
+
+Expenses
+First, lower the Company Balance marker by £1 for each debt as indicated by
+the Company Debt track, each regiment and officer in an Army (do not include
+Commanders), and each ship in the three sea zones.
+     M Emergency Loans. If the Company cannot pay its expenses, emergency
+       loans must be taken to cover those expenses. For each emergency loan
+       taken, move the Company Debt marker one space to the right and
+       add £5 to the Company Balance track. If the Company Debt marker
+       is already on the rightmost space, you still take out emergency loans
+       but do not advance the Company Debt marker further. Do this until
+       all expenses have been met. Emergency loan advancements of the
+       Company Debt marker do not incur expenses during this game turn.
+       Finally, set the Company Balance to zero.
+     M Public Embarrassment. Lower the Company’s Standing one space to
+       the left if one or two emergency loans were taken this turn. Lower it
+       two spaces if three or more emergency loans were taken this turn.
+
+Check Expectations
+Next, lower the Company’s Standing one space to the left if the Company
+Balance is less than the Expectations value listed beneath the Company’s
+Standing.
+
+Pay Dividends
+Finally, the Chairman may pay out dividends.
+The cost of each dividend is equal to the number of Company shares. When
+a dividend is paid, lower the Balance by an amount equal to the number of
+Company shares. Each player takes £1 for each of their Company shares.
+Multiple dividends may be paid. Remember: the Chairman counts as a Company
+share for dividends.
+     M Public Enthusiasm. Advance Standing one space to the right if more
+       total cash was paid in dividends than Expectations.
+
+
+
+
+                                                                                   27

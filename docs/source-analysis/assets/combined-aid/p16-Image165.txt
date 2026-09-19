@@ -1,0 +1,6 @@
+® | @® | @ | ® |
+£0 £2 £4 £6 £8
+‘The Crown pays out 1 less dividend.
+-2@ | 1@
+‘The Crown pays out 1 more dividend.
+1@ -2@

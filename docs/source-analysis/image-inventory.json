@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "aid.p01.Image28.placement01",
+    "asset_id": "aid.p01.Image28",
+    "page": 1,
+    "path": "docs/source-analysis/assets/combined-aid/p01-Image28.png",
+    "bbox_pt": [
+      311.8,
+      189.99,
+      559.3,
+      401.79
+    ],
+    "native_pixels": [
+      624,
+      534
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p01-Image28.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p01.Image29.placement02",
+    "asset_id": "aid.p01.Image29",
+    "page": 1,
+    "path": "docs/source-analysis/assets/combined-aid/p01-Image29.png",
+    "bbox_pt": [
+      311.8,
+      590.55,
+      559.3,
+      647.2
+    ],
+    "native_pixels": [
+      389,
+      89
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p01-Image29.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p01.Image30.placement03",
+    "asset_id": "aid.p01.Image30",
+    "page": 1,
+    "path": "docs/source-analysis/assets/combined-aid/p01-Image30.png",
+    "bbox_pt": [
+      419.9,
+      93.802,
+      435.6,
+      107.59
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p01-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image38.placement01",
+    "asset_id": "aid.p02.Image38",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image38.png",
+    "bbox_pt": [
+      48.675,
+      186.35,
+      270.595,
+      213.25
+    ],
+    "native_pixels": [
+      388,
+      47
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image38.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image39.placement02",
+    "asset_id": "aid.p02.Image39",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image39.png",
+    "bbox_pt": [
+      52.275,
+      351.4,
+      267.045,
+      378.3
+    ],
+    "native_pixels": [
+      383,
+      48
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image39.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image40.placement03",
+    "asset_id": "aid.p02.Image40",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image40.png",
+    "bbox_pt": [
+      47.15,
+      693.285,
+      272.2,
+      758.435
+    ],
+    "native_pixels": [
+      387,
+      112
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image40.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image41.placement04",
+    "asset_id": "aid.p02.Image41",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image41.png",
+    "bbox_pt": [
+      317.95,
+      180.35,
+      358.329,
+      208.65
+    ],
+    "native_pixels": [
+      117,
+      82
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image41.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image42.placement05",
+    "asset_id": "aid.p02.Image42",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image42.png",
+    "bbox_pt": [
+      317.2,
+      220.85,
+      359.052,
+      249.15
+    ],
+    "native_pixels": [
+      128,
+      87
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image42.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image43.placement06",
+    "asset_id": "aid.p02.Image43",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image43.png",
+    "bbox_pt": [
+      323.02,
+      255.35,
+      353.368,
+      283.65
+    ],
+    "native_pixels": [
+      84,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image43.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image44.placement07",
+    "asset_id": "aid.p02.Image44",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image44.png",
+    "bbox_pt": [
+      325.82,
+      289.85,
+      350.56,
+      318.15
+    ],
+    "native_pixels": [
+      68,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image44.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image45.placement08",
+    "asset_id": "aid.p02.Image45",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image45.png",
+    "bbox_pt": [
+      326.85,
+      324.35,
+      349.524,
+      352.65
+    ],
+    "native_pixels": [
+      62,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image45.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image46.placement09",
+    "asset_id": "aid.p02.Image46",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image46.png",
+    "bbox_pt": [
+      325.45,
+      358.846,
+      350.6,
+      387.14
+    ],
+    "native_pixels": [
+      69,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image46.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image47.placement10",
+    "asset_id": "aid.p02.Image47",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image47.png",
+    "bbox_pt": [
+      338.8,
+      456.23,
+      532.24,
+      635.68
+    ],
+    "native_pixels": [
+      511,
+      474
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image47.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p02.Image30.placement11",
+    "asset_id": "aid.p02.Image30",
+    "page": 2,
+    "path": "docs/source-analysis/assets/combined-aid/p02-Image30.png",
+    "bbox_pt": [
+      430.95,
+      52.51,
+      446.65,
+      66.31
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p02-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image55.placement01",
+    "asset_id": "aid.p03.Image55",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image55.png",
+    "bbox_pt": [
+      36.0,
+      129.7,
+      283.5,
+      264.95
+    ],
+    "native_pixels": [
+      527,
+      288
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image55.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image56.placement02",
+    "asset_id": "aid.p03.Image56",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image56.png",
+    "bbox_pt": [
+      37.875,
+      271.86,
+      281.595,
+      358.96
+    ],
+    "native_pixels": [
+      515,
+      184
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image56.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image57.placement03",
+    "asset_id": "aid.p03.Image57",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image57.png",
+    "bbox_pt": [
+      36.0,
+      365.87,
+      283.49,
+      456.52
+    ],
+    "native_pixels": [
+      527,
+      193
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image57.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image56.placement04",
+    "asset_id": "aid.p03.Image56",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image56.png",
+    "bbox_pt": [
+      37.875,
+      463.43,
+      281.595,
+      550.53
+    ],
+    "native_pixels": [
+      515,
+      184
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image56.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image58.placement05",
+    "asset_id": "aid.p03.Image58",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image58.png",
+    "bbox_pt": [
+      36.0,
+      712.961,
+      283.5,
+      750.111
+    ],
+    "native_pixels": [
+      440,
+      66
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image58.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image59.placement06",
+    "asset_id": "aid.p03.Image59",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image59.png",
+    "bbox_pt": [
+      311.8,
+      279.08,
+      559.3,
+      413.68
+    ],
+    "native_pixels": [
+      513,
+      279
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image59.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image60.placement07",
+    "asset_id": "aid.p03.Image60",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image60.png",
+    "bbox_pt": [
+      311.8,
+      517.2,
+      559.3,
+      589.05
+    ],
+    "native_pixels": [
+      527,
+      153
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image60.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image61.placement08",
+    "asset_id": "aid.p03.Image61",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image61.png",
+    "bbox_pt": [
+      39.55,
+      426.421,
+      64.1,
+      455.79
+    ],
+    "native_pixels": [
+      46,
+      55
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image61.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image62.placement09",
+    "asset_id": "aid.p03.Image62",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image62.png",
+    "bbox_pt": [
+      207.9,
+      428.12,
+      232.084,
+      456.42
+    ],
+    "native_pixels": [
+      47,
+      55
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image62.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image63.placement10",
+    "asset_id": "aid.p03.Image63",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image63.png",
+    "bbox_pt": [
+      185.6,
+      514.53,
+      281.258,
+      549.98
+    ],
+    "native_pixels": [
+      255,
+      41
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image63.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image64.placement11",
+    "asset_id": "aid.p03.Image64",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image64.png",
+    "bbox_pt": [
+      210.15,
+      515.53,
+      260.637,
+      548.28
+    ],
+    "native_pixels": [
+      116,
+      75
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image64.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p03.Image65.placement12",
+    "asset_id": "aid.p03.Image65",
+    "page": 3,
+    "path": "docs/source-analysis/assets/combined-aid/p03-Image65.png",
+    "bbox_pt": [
+      38.05,
+      514.83,
+      91.396,
+      550.38
+    ],
+    "native_pixels": [
+      135,
+      88
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p03-Image65.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image68.placement01",
+    "asset_id": "aid.p04.Image68",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image68.png",
+    "bbox_pt": [
+      36.0,
+      177.87,
+      283.5,
+      238.32
+    ],
+    "native_pixels": [
+      528,
+      129
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image68.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image69.placement02",
+    "asset_id": "aid.p04.Image69",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image69.png",
+    "bbox_pt": [
+      36.0,
+      245.23,
+      283.5,
+      292.28
+    ],
+    "native_pixels": [
+      526,
+      100
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image69.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image70.placement03",
+    "asset_id": "aid.p04.Image70",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image70.png",
+    "bbox_pt": [
+      317.8,
+      43.246,
+      552.7,
+      72.04
+    ],
+    "native_pixels": [
+      520,
+      64
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image70.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image71.placement04",
+    "asset_id": "aid.p04.Image71",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image71.png",
+    "bbox_pt": [
+      318.13,
+      78.95,
+      552.62,
+      108.25
+    ],
+    "native_pixels": [
+      520,
+      65
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image71.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image72.placement05",
+    "asset_id": "aid.p04.Image72",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image72.png",
+    "bbox_pt": [
+      311.8,
+      149.166,
+      549.5,
+      206.06
+    ],
+    "native_pixels": [
+      528,
+      126
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image72.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image73.placement06",
+    "asset_id": "aid.p04.Image73",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image73.png",
+    "bbox_pt": [
+      311.8,
+      213.07,
+      559.3,
+      243.97
+    ],
+    "native_pixels": [
+      529,
+      66
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image73.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image74.placement07",
+    "asset_id": "aid.p04.Image74",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image74.png",
+    "bbox_pt": [
+      95.625,
+      542.225,
+      517.645,
+      769.725
+    ],
+    "native_pixels": [
+      781,
+      421
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image74.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p04.Image30.placement08",
+    "asset_id": "aid.p04.Image30",
+    "page": 4,
+    "path": "docs/source-analysis/assets/combined-aid/p04-Image30.png",
+    "bbox_pt": [
+      551.3,
+      170.46,
+      567.0,
+      184.26
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p04-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image77.placement01",
+    "asset_id": "aid.p05.Image77",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image77.png",
+    "bbox_pt": [
+      112.82,
+      116.74,
+      481.89,
+      145.04
+    ],
+    "native_pixels": [
+      706,
+      54
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image77.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image78.placement02",
+    "asset_id": "aid.p05.Image78",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image78.png",
+    "bbox_pt": [
+      99.225,
+      167.04,
+      495.925,
+      285.59
+    ],
+    "native_pixels": [
+      708,
+      212
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image78.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image79.placement03",
+    "asset_id": "aid.p05.Image79",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image79.png",
+    "bbox_pt": [
+      99.225,
+      307.39,
+      495.855,
+      382.79
+    ],
+    "native_pixels": [
+      709,
+      135
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image79.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image80.placement04",
+    "asset_id": "aid.p05.Image80",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image80.png",
+    "bbox_pt": [
+      98.9,
+      527.38,
+      495.74,
+      716.78
+    ],
+    "native_pixels": [
+      788,
+      376
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image80.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image81.placement05",
+    "asset_id": "aid.p05.Image81",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image81.png",
+    "bbox_pt": [
+      127.15,
+      7.702,
+      172.75,
+      48.2
+    ],
+    "native_pixels": [
+      143,
+      127
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image81.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement06",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      486.95,
+      119.94,
+      512.7,
+      142.59
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement07",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      360.85,
+      403.15,
+      376.55,
+      416.95
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement08",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      326.85,
+      472.63,
+      342.55,
+      486.43
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement09",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      78.9,
+      119.44,
+      104.8,
+      142.19
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement10",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      17.9,
+      472.58,
+      33.6,
+      486.38
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p05.Image30.placement11",
+    "asset_id": "aid.p05.Image30",
+    "page": 5,
+    "path": "docs/source-analysis/assets/combined-aid/p05-Image30.png",
+    "bbox_pt": [
+      17.95,
+      403.05,
+      33.65,
+      416.85
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p05-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image84.placement01",
+    "asset_id": "aid.p06.Image84",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image84.png",
+    "bbox_pt": [
+      85.075,
+      74.06,
+      510.175,
+      108.06
+    ],
+    "native_pixels": [
+      708,
+      57
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image84.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image85.placement02",
+    "asset_id": "aid.p06.Image85",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image85.png",
+    "bbox_pt": [
+      70.9,
+      115.47,
+      524.37,
+      297.62
+    ],
+    "native_pixels": [
+      839,
+      337
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image85.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image86.placement03",
+    "asset_id": "aid.p06.Image86",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image86.png",
+    "bbox_pt": [
+      98.9,
+      471.45,
+      495.74,
+      546.45
+    ],
+    "native_pixels": [
+      1217,
+      230
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image86.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image87.placement04",
+    "asset_id": "aid.p06.Image87",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image87.png",
+    "bbox_pt": [
+      98.9,
+      621.226,
+      495.73,
+      771.776
+    ],
+    "native_pixels": [
+      710,
+      269
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image87.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image88.placement05",
+    "asset_id": "aid.p06.Image88",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image88.png",
+    "bbox_pt": [
+      178.95,
+      332.892,
+      217.15,
+      375.37
+    ],
+    "native_pixels": [
+      117,
+      130
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image88.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image29.placement06",
+    "asset_id": "aid.p06.Image29",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image29.png",
+    "bbox_pt": [
+      329.8,
+      567.004,
+      559.15,
+      619.5
+    ],
+    "native_pixels": [
+      389,
+      89
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image29.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image90.placement07",
+    "asset_id": "aid.p06.Image90",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image90.png",
+    "bbox_pt": [
+      350.45,
+      600.48,
+      365.6,
+      617.08
+    ],
+    "native_pixels": [
+      32,
+      35
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image90.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image91.placement08",
+    "asset_id": "aid.p06.Image91",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image91.png",
+    "bbox_pt": [
+      525.35,
+      601.58,
+      542.25,
+      616.18
+    ],
+    "native_pixels": [
+      37,
+      32
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image91.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image92.placement09",
+    "asset_id": "aid.p06.Image92",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image92.png",
+    "bbox_pt": [
+      480.6,
+      602.83,
+      498.406,
+      616.63
+    ],
+    "native_pixels": [
+      40,
+      31
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image92.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image90.placement10",
+    "asset_id": "aid.p06.Image90",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image90.png",
+    "bbox_pt": [
+      394.5,
+      600.53,
+      409.65,
+      617.13
+    ],
+    "native_pixels": [
+      32,
+      35
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image90.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p06.Image90.placement11",
+    "asset_id": "aid.p06.Image90",
+    "page": 6,
+    "path": "docs/source-analysis/assets/combined-aid/p06-Image90.png",
+    "bbox_pt": [
+      438.45,
+      600.58,
+      453.6,
+      617.18
+    ],
+    "native_pixels": [
+      32,
+      35
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p06-Image90.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p07.Image95.placement01",
+    "asset_id": "aid.p07.Image95",
+    "page": 7,
+    "path": "docs/source-analysis/assets/combined-aid/p07-Image95.png",
+    "bbox_pt": [
+      99.225,
+      99.43,
+      495.885,
+      175.23
+    ],
+    "native_pixels": [
+      1219,
+      233
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p07-Image95.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p07.Image96.placement02",
+    "asset_id": "aid.p07.Image96",
+    "page": 7,
+    "path": "docs/source-analysis/assets/combined-aid/p07-Image96.png",
+    "bbox_pt": [
+      70.9,
+      243.44,
+      524.38,
+      461.34
+    ],
+    "native_pixels": [
+      872,
+      419
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p07-Image96.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p07.Image97.placement03",
+    "asset_id": "aid.p07.Image97",
+    "page": 7,
+    "path": "docs/source-analysis/assets/combined-aid/p07-Image97.png",
+    "bbox_pt": [
+      115.35,
+      468.26,
+      479.91,
+      539.11
+    ],
+    "native_pixels": [
+      710,
+      138
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p07-Image97.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image100.placement01",
+    "asset_id": "aid.p08.Image100",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image100.png",
+    "bbox_pt": [
+      122.9,
+      325.61,
+      472.08,
+      351.96
+    ],
+    "native_pixels": [
+      1062,
+      80
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image100.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image101.placement02",
+    "asset_id": "aid.p08.Image101",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image101.png",
+    "bbox_pt": [
+      122.6,
+      359.52,
+      472.56,
+      386.72
+    ],
+    "native_pixels": [
+      1039,
+      81
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image101.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image102.placement03",
+    "asset_id": "aid.p08.Image102",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image102.png",
+    "bbox_pt": [
+      118.4,
+      393.634,
+      476.5,
+      420.63
+    ],
+    "native_pixels": [
+      1063,
+      80
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image102.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image103.placement04",
+    "asset_id": "aid.p08.Image103",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image103.png",
+    "bbox_pt": [
+      99.225,
+      463.33,
+      495.895,
+      546.03
+    ],
+    "native_pixels": [
+      1060,
+      221
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image103.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image104.placement05",
+    "asset_id": "aid.p08.Image104",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image104.png",
+    "bbox_pt": [
+      98.9,
+      571.35,
+      495.73,
+      672.7
+    ],
+    "native_pixels": [
+      1061,
+      271
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image104.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p08.Image105.placement06",
+    "asset_id": "aid.p08.Image105",
+    "page": 8,
+    "path": "docs/source-analysis/assets/combined-aid/p08-Image105.png",
+    "bbox_pt": [
+      184.65,
+      19.752,
+      222.4,
+      61.73
+    ],
+    "native_pixels": [
+      116,
+      128
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p08-Image105.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image109.placement01",
+    "asset_id": "aid.p09.Image109",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image109.png",
+    "bbox_pt": [
+      115.52,
+      130.43,
+      479.22,
+      158.73
+    ],
+    "native_pixels": [
+      1063,
+      83
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image109.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image110.placement02",
+    "asset_id": "aid.p09.Image110",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image110.png",
+    "bbox_pt": [
+      115.98,
+      165.84,
+      478.77,
+      194.14
+    ],
+    "native_pixels": [
+      1062,
+      83
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image110.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image111.placement03",
+    "asset_id": "aid.p09.Image111",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image111.png",
+    "bbox_pt": [
+      54.0,
+      253.93,
+      405.35,
+      282.23
+    ],
+    "native_pixels": [
+      1055,
+      85
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image111.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image112.placement04",
+    "asset_id": "aid.p09.Image112",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image112.png",
+    "bbox_pt": [
+      54.0,
+      289.34,
+      406.5,
+      317.64
+    ],
+    "native_pixels": [
+      674,
+      54
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image112.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image113.placement05",
+    "asset_id": "aid.p09.Image113",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image113.png",
+    "bbox_pt": [
+      107.9,
+      339.64,
+      504.68,
+      518.24
+    ],
+    "native_pixels": [
+      1062,
+      478
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image113.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image114.placement06",
+    "asset_id": "aid.p09.Image114",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image114.png",
+    "bbox_pt": [
+      125.77,
+      558.45,
+      486.97,
+      586.75
+    ],
+    "native_pixels": [
+      1060,
+      83
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image114.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image115.placement07",
+    "asset_id": "aid.p09.Image115",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image115.png",
+    "bbox_pt": [
+      79.9,
+      627.164,
+      533.32,
+      775.764
+    ],
+    "native_pixels": [
+      1242,
+      407
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image115.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p09.Image116.placement08",
+    "asset_id": "aid.p09.Image116",
+    "page": 9,
+    "path": "docs/source-analysis/assets/combined-aid/p09-Image116.png",
+    "bbox_pt": [
+      220.75,
+      15.947,
+      255.85,
+      47.46
+    ],
+    "native_pixels": [
+      107,
+      96
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p09-Image116.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image119.placement01",
+    "asset_id": "aid.p10.Image119",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image119.png",
+    "bbox_pt": [
+      70.9,
+      148.09,
+      524.17,
+      224.14
+    ],
+    "native_pixels": [
+      1162,
+      195
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image119.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image120.placement02",
+    "asset_id": "aid.p10.Image120",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image120.png",
+    "bbox_pt": [
+      124.8,
+      231.5,
+      470.43,
+      293.85
+    ],
+    "native_pixels": [
+      1253,
+      226
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image120.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image121.placement03",
+    "asset_id": "aid.p10.Image121",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image121.png",
+    "bbox_pt": [
+      70.9,
+      382.9,
+      524.4,
+      592.23
+    ],
+    "native_pixels": [
+      1328,
+      613
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image121.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image122.placement04",
+    "asset_id": "aid.p10.Image122",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image122.png",
+    "bbox_pt": [
+      112.25,
+      599.81,
+      482.48,
+      628.11
+    ],
+    "native_pixels": [
+      1216,
+      93
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image122.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image123.placement05",
+    "asset_id": "aid.p10.Image123",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image123.png",
+    "bbox_pt": [
+      101.1,
+      698.304,
+      494.2,
+      735.15
+    ],
+    "native_pixels": [
+      1216,
+      114
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image123.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p10.Image124.placement06",
+    "asset_id": "aid.p10.Image124",
+    "page": 10,
+    "path": "docs/source-analysis/assets/combined-aid/p10-Image124.png",
+    "bbox_pt": [
+      184.2,
+      35.14,
+      227.792,
+      63.69
+    ],
+    "native_pixels": [
+      142,
+      93
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p10-Image124.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image127.placement01",
+    "asset_id": "aid.p11.Image127",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image127.png",
+    "bbox_pt": [
+      119.57,
+      116.31,
+      475.14,
+      144.61
+    ],
+    "native_pixels": [
+      879,
+      70
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image127.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image128.placement02",
+    "asset_id": "aid.p11.Image128",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image128.png",
+    "bbox_pt": [
+      114.13,
+      390.02,
+      480.87,
+      418.42
+    ],
+    "native_pixels": [
+      879,
+      68
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image128.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image129.placement03",
+    "asset_id": "aid.p11.Image129",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image129.png",
+    "bbox_pt": [
+      114.07,
+      425.43,
+      480.64,
+      453.73
+    ],
+    "native_pixels": [
+      883,
+      68
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image129.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image130.placement04",
+    "asset_id": "aid.p11.Image130",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image130.png",
+    "bbox_pt": [
+      114.13,
+      460.84,
+      480.88,
+      490.24
+    ],
+    "native_pixels": [
+      886,
+      71
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image130.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image131.placement05",
+    "asset_id": "aid.p11.Image131",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image131.png",
+    "bbox_pt": [
+      98.9,
+      533.53,
+      495.73,
+      659.83
+    ],
+    "native_pixels": [
+      883,
+      281
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image131.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image132.placement06",
+    "asset_id": "aid.p11.Image132",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image132.png",
+    "bbox_pt": [
+      99.225,
+      685.154,
+      495.885,
+      787.104
+    ],
+    "native_pixels": [
+      708,
+      182
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image132.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p11.Image133.placement07",
+    "asset_id": "aid.p11.Image133",
+    "page": 11,
+    "path": "docs/source-analysis/assets/combined-aid/p11-Image133.png",
+    "bbox_pt": [
+      150.85,
+      12.955,
+      188.95,
+      48.5
+    ],
+    "native_pixels": [
+      117,
+      110
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p11-Image133.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p12.Image136.placement01",
+    "asset_id": "aid.p12.Image136",
+    "page": 12,
+    "path": "docs/source-analysis/assets/combined-aid/p12-Image136.png",
+    "bbox_pt": [
+      99.225,
+      102.38,
+      495.945,
+      166.63
+    ],
+    "native_pixels": [
+      710,
+      115
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p12-Image136.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p12.Image137.placement02",
+    "asset_id": "aid.p12.Image137",
+    "page": 12,
+    "path": "docs/source-analysis/assets/combined-aid/p12-Image137.png",
+    "bbox_pt": [
+      98.9,
+      209.57,
+      495.71,
+      494.42
+    ],
+    "native_pixels": [
+      808,
+      580
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p12-Image137.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p12.Image138.placement03",
+    "asset_id": "aid.p12.Image138",
+    "page": 12,
+    "path": "docs/source-analysis/assets/combined-aid/p12-Image138.png",
+    "bbox_pt": [
+      158.6,
+      14.1,
+      211.035,
+      48.65
+    ],
+    "native_pixels": [
+      129,
+      85
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p12-Image138.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p13.Image141.placement01",
+    "asset_id": "aid.p13.Image141",
+    "page": 13,
+    "path": "docs/source-analysis/assets/combined-aid/p13-Image141.png",
+    "bbox_pt": [
+      99.225,
+      45.72,
+      495.945,
+      178.77
+    ],
+    "native_pixels": [
+      851,
+      285
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p13-Image141.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p13.Image142.placement02",
+    "asset_id": "aid.p13.Image142",
+    "page": 13,
+    "path": "docs/source-analysis/assets/combined-aid/p13-Image142.png",
+    "bbox_pt": [
+      85.075,
+      240.33,
+      510.155,
+      376.88
+    ],
+    "native_pixels": [
+      1211,
+      389
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p13-Image142.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p13.Image143.placement03",
+    "asset_id": "aid.p13.Image143",
+    "page": 13,
+    "path": "docs/source-analysis/assets/combined-aid/p13-Image143.png",
+    "bbox_pt": [
+      85.075,
+      414.61,
+      510.225,
+      578.19
+    ],
+    "native_pixels": [
+      998,
+      384
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p13-Image143.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p13.Image144.placement04",
+    "asset_id": "aid.p13.Image144",
+    "page": 13,
+    "path": "docs/source-analysis/assets/combined-aid/p13-Image144.png",
+    "bbox_pt": [
+      85.075,
+      603.521,
+      510.225,
+      702.72
+    ],
+    "native_pixels": [
+      1003,
+      234
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p13-Image144.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p14.Image149.placement01",
+    "asset_id": "aid.p14.Image149",
+    "page": 14,
+    "path": "docs/source-analysis/assets/combined-aid/p14-Image149.png",
+    "bbox_pt": [
+      109.65,
+      229.28,
+      485.05,
+      257.58
+    ],
+    "native_pixels": [
+      902,
+      68
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p14-Image149.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p14.Image150.placement02",
+    "asset_id": "aid.p14.Image150",
+    "page": 14,
+    "path": "docs/source-analysis/assets/combined-aid/p14-Image150.png",
+    "bbox_pt": [
+      70.9,
+      325.72,
+      524.31,
+      376.32
+    ],
+    "native_pixels": [
+      887,
+      99
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p14-Image150.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p14.Image151.placement03",
+    "asset_id": "aid.p14.Image151",
+    "page": 14,
+    "path": "docs/source-analysis/assets/combined-aid/p14-Image151.png",
+    "bbox_pt": [
+      115.4,
+      383.63,
+      479.27,
+      411.93
+    ],
+    "native_pixels": [
+      887,
+      69
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p14-Image151.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p14.Image152.placement04",
+    "asset_id": "aid.p14.Image152",
+    "page": 14,
+    "path": "docs/source-analysis/assets/combined-aid/p14-Image152.png",
+    "bbox_pt": [
+      121.4,
+      499.09,
+      473.17,
+      527.39
+    ],
+    "native_pixels": [
+      883,
+      71
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p14-Image152.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p15.Image155.placement01",
+    "asset_id": "aid.p15.Image155",
+    "page": 15,
+    "path": "docs/source-analysis/assets/combined-aid/p15-Image155.png",
+    "bbox_pt": [
+      98.9,
+      150.04,
+      495.7,
+      232.54
+    ],
+    "native_pixels": [
+      885,
+      184
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p15-Image155.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p15.Image156.placement02",
+    "asset_id": "aid.p15.Image156",
+    "page": 15,
+    "path": "docs/source-analysis/assets/combined-aid/p15-Image156.png",
+    "bbox_pt": [
+      99.225,
+      516.5,
+      495.715,
+      564.65
+    ],
+    "native_pixels": [
+      708,
+      86
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p15-Image156.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p15.Image157.placement03",
+    "asset_id": "aid.p15.Image157",
+    "page": 15,
+    "path": "docs/source-analysis/assets/combined-aid/p15-Image157.png",
+    "bbox_pt": [
+      99.225,
+      648.95,
+      495.775,
+      685.4
+    ],
+    "native_pixels": [
+      707,
+      65
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p15-Image157.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p16.Image165.placement01",
+    "asset_id": "aid.p16.Image165",
+    "page": 16,
+    "path": "docs/source-analysis/assets/combined-aid/p16-Image165.png",
+    "bbox_pt": [
+      98.9,
+      256.73,
+      495.69,
+      402.58
+    ],
+    "native_pixels": [
+      623,
+      229
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p16-Image165.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p16.Image30.placement02",
+    "asset_id": "aid.p16.Image30",
+    "page": 16,
+    "path": "docs/source-analysis/assets/combined-aid/p16-Image30.png",
+    "bbox_pt": [
+      151.2,
+      141.24,
+      166.9,
+      155.04
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p16-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p16.Image30.placement03",
+    "asset_id": "aid.p16.Image30",
+    "page": 16,
+    "path": "docs/source-analysis/assets/combined-aid/p16-Image30.png",
+    "bbox_pt": [
+      148.2,
+      409.94,
+      163.9,
+      423.74
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p16-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p17.Image168.placement01",
+    "asset_id": "aid.p17.Image168",
+    "page": 17,
+    "path": "docs/source-analysis/assets/combined-aid/p17-Image168.png",
+    "bbox_pt": [
+      22.75,
+      82.952,
+      573.7,
+      763.152
+    ],
+    "native_pixels": [
+      1353,
+      1670
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p17-Image168.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p18.Image176.placement01",
+    "asset_id": "aid.p18.Image176",
+    "page": 18,
+    "path": "docs/source-analysis/assets/combined-aid/p18-Image176.png",
+    "bbox_pt": [
+      146.05,
+      291.43,
+      503.12,
+      350.93
+    ],
+    "native_pixels": [
+      708,
+      118
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p18-Image176.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p18.Image177.placement02",
+    "asset_id": "aid.p18.Image177",
+    "page": 18,
+    "path": "docs/source-analysis/assets/combined-aid/p18-Image177.png",
+    "bbox_pt": [
+      62.15,
+      559.8,
+      532.64,
+      599.45
+    ],
+    "native_pixels": [
+      985,
+      83
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p18-Image177.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p18.Image178.placement03",
+    "asset_id": "aid.p18.Image178",
+    "page": 18,
+    "path": "docs/source-analysis/assets/combined-aid/p18-Image178.png",
+    "bbox_pt": [
+      187.7,
+      20.498,
+      217.25,
+      49.29
+    ],
+    "native_pixels": [
+      90,
+      88
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p18-Image178.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p18.Image30.placement04",
+    "asset_id": "aid.p18.Image30",
+    "page": 18,
+    "path": "docs/source-analysis/assets/combined-aid/p18-Image30.png",
+    "bbox_pt": [
+      390.2,
+      105.7,
+      405.9,
+      119.5
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p18-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p18.Image30.placement05",
+    "asset_id": "aid.p18.Image30",
+    "page": 18,
+    "path": "docs/source-analysis/assets/combined-aid/p18-Image30.png",
+    "bbox_pt": [
+      390.75,
+      252.93,
+      406.45,
+      266.73
+    ],
+    "native_pixels": [
+      48,
+      42
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p18-Image30.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image181.placement01",
+    "asset_id": "aid.p19.Image181",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image181.png",
+    "bbox_pt": [
+      114.75,
+      74.06,
+      479.96,
+      102.36
+    ],
+    "native_pixels": [
+      710,
+      55
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image181.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image182.placement02",
+    "asset_id": "aid.p19.Image182",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image182.png",
+    "bbox_pt": [
+      41.4,
+      124.36,
+      113.552,
+      152.66
+    ],
+    "native_pixels": [
+      200,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image182.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image183.placement03",
+    "asset_id": "aid.p19.Image183",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image183.png",
+    "bbox_pt": [
+      65.525,
+      152.86,
+      88.816,
+      181.16
+    ],
+    "native_pixels": [
+      64,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image183.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image184.placement04",
+    "asset_id": "aid.p19.Image184",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image184.png",
+    "bbox_pt": [
+      42.725,
+      181.36,
+      112.212,
+      209.66
+    ],
+    "native_pixels": [
+      193,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image184.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image185.placement05",
+    "asset_id": "aid.p19.Image185",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image185.png",
+    "bbox_pt": [
+      42.8,
+      212.86,
+      112.173,
+      241.16
+    ],
+    "native_pixels": [
+      192,
+      78
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image185.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image186.placement06",
+    "asset_id": "aid.p19.Image186",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image186.png",
+    "bbox_pt": [
+      99.225,
+      410.84,
+      495.625,
+      443.64
+    ],
+    "native_pixels": [
+      701,
+      58
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image186.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image187.placement07",
+    "asset_id": "aid.p19.Image187",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image187.png",
+    "bbox_pt": [
+      43.15,
+      571.48,
+      92.596,
+      620.28
+    ],
+    "native_pixels": [
+      153,
+      151
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image187.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image189.placement08",
+    "asset_id": "aid.p19.Image189",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image189.png",
+    "bbox_pt": [
+      215.35,
+      500.08,
+      248.5,
+      531.98
+    ],
+    "native_pixels": [
+      102,
+      98
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image189.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p19.Image191.placement09",
+    "asset_id": "aid.p19.Image191",
+    "page": 19,
+    "path": "docs/source-analysis/assets/combined-aid/p19-Image191.png",
+    "bbox_pt": [
+      327.45,
+      695.92,
+      561.55,
+      770.77
+    ],
+    "native_pixels": [
+      497,
+      159
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p19-Image191.txt",
+    "classification": "requires-visual-classification"
+  },
+  {
+    "id": "aid.p20.Image194.placement01",
+    "asset_id": "aid.p20.Image194",
+    "page": 20,
+    "path": "docs/source-analysis/assets/combined-aid/p20-Image194.png",
+    "bbox_pt": [
+      36.0,
+      49.705,
+      559.29,
+      780.805
+    ],
+    "native_pixels": [
+      1601,
+      2232
+    ],
+    "ocr": "docs/source-analysis/assets/combined-aid/p20-Image194.txt",
+    "classification": "requires-visual-classification"
+  }
+]

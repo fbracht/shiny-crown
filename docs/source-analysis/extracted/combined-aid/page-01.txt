@@ -1,0 +1,63 @@
+                           John Company Solo Rules Full Player Aid v3
+This aid is intended to help you to walk step-by-step through a solo game. This document is a combination of the rules in the Crown
+Handbook and Rules book. The 2-player rules are not included. In this document, ‘You’ refers to the solo player, while third-person
+pronouns (e.g., the Chairman) refer to both you and the Crown. The Crown is also considered a ‘player’ for game rules. Crown-
+related rules are written in italic. Important rules which are easily forgotten are denoted with:  . Version 3 includes new rules
+changes proposed by Ricky Royal (https://boardgamegeek.com/thread/2936700/article/41627121#41627121).
+
+Setup                                                                 Basic Favours
+1.   Setup the Crown board. Use a glass opportunity marker to         Basic Favours can be done any time between the start of the
+     track the Crown’s Climate                                        Firms phase and the end of the Revenues phase. These are also
+2.   The Crown uses two sets of family members (36 total).            described on the Crown board.
+3.   Take 6 red promise cubes for yourself and give the other
+     6 cubes to the Crown.
+4.   Setup any scenario as normal (remember that Company
+     Balance always starts at £5). For the setup cards, shuffle
+     the 12 basic cards (no ‘extra’ cards) and draw the top 3
+     cards. Choose 1 to keep and give the other 2 to the Crown.
+     Repeat this 3 times. Alternately, deal yourself 4 random
+     setup cards and deal the Crown 8.
+5.   Shuffle the AI cards and reveal the top card to set the
+     Crown’s initial Climate.
+
+Difficulty
+      Easy: Start with 5 promise cards, which can be traded
+       for promise cubes.
+      Normal: Do not use promise cards.
+      Hard: As Normal, but the Crown also starts with 10
+       promise cubes.
+      Expert: As Hard, but deal 3 ‘Extra’ cards to Crown.
+      Legendary: Do not use promise cards, the Crown                 You are now ready to start the game!
+       starts with all 12 promise cubes and 6 ‘extra’ setup
+       cards. If the company fails, select ‘Court of Directors
+       Blameless’; the Crown benefits from this, you do not.          0. Vote to Deregulate
+Definitions                                                           At the start of any turn in which the Company Standing and/or
+                                                                      Company Debt are on a lined space, the Prime Minister may
+      Associated: Any region controlled by a Presidency.             initiate a vote to Deregulate. If either marker is on the star
+      Climate: Refers to how the Crown views the                     space, the Prime Minister must initiate the vote. The Prime
+       company and whether or not they will support it.               Minister may vote against this law.
+       Climate is tracked on the Crown board.
+      Climate Set: Draw an AI card and refer to the chart            The Crown never voluntarily initiates a vote to Deregulate,
+       to determine the Crown’s Climate.                              and will always vote last and against it. They will spend up to
+      Climate Shift: Roll 6 dice. Based on the number of             the amount below (once) if it moves the Votes marker to a
+       successes relative to company standing, shift the              failing position.
+       Crown’s Climate to the left and/or right.
+      Favours: Give promise cubes to the Crown to force
+       certain choices, or take promise cubes from the
+       Crown under certain conditions.
+      Fewest: The Crown has as much or fewer of
+       something than you, including 0.
+                                                                      Pass: Lower Company Debt by 1 for every 2 Debt. Reset
+      Home: Region with Presidency’s home port (Bengal/
+                                                                      Company Standing to the ‘S’ space. The Prime Minister gains
+       Bombay/Madras).
+                                                                      a passed law token. You may now create a firm.
+      Most: The Crown has as much or more of something
+       than you, with a minimum of 1.                                 Fail: Increase the VP value of Company shares by 1 (up to
+      Shortest/Longest Trade Route: Refers to the                    +/-3 VP). There are no further consequences for failure: The
+       maximum number of orders a President could fill                PM’s role does not change, and the law is not discarded, it may
+       with a success, regardless of number of ships.                 be initiated again.
+      Ties: If the Crown faces several options and there is
+       no guideline in the rules, you may make the choice.
+
+                                                                  1

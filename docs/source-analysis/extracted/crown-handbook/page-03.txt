@@ -1,0 +1,83 @@
+Firms Phase
+The Crown never creates a private firm. They always
+give consent for dissolution and merging of firms.
+                 If you form a private firm, you must                        Give a share to the Crown.
+
+  -3             perform this favor (using as many    as
+
+
+Acquiring Ships
+                 you have if you have less than 3 ).
+                                                               +2               -3                     -4
+                                                              Chairman Election
+  -2             Consent to fit a Crown ship.                 If the Crown has majority of shares (or an equality and is
+                                                              former Chairman), they will elect themselves as the new
+                                                              Chairman.
+
+  -2
+                 Consent to buyback a Crown-owned
+                                                                               If the Crown has majority (or an
+                 ship from the Company.
+                                                                               equality and is former Chairman),
+Investing in a Firm
+Only once all players have finished investing, the Crown
+                                                                -3             a player may bribe the Crown to
+                                                                               elect them as Chairman. Under
+                                                                               Deregulation this becomes -12 .
+may seek to invest in a firm if the Crown has the majority
+of Company shares. They will invest using Company                              [2P ONLY] If the Crown does not have
+shares (unless they are weak), and then workshops. The
+                                                              -X
+                                                                               a majority, any player can persuade the
+Crown will never invest if it gives them the majority of                       Crown to support their election.
+shares in that firm.                                                           X = number of supporting Crown shares.
+
+                                                                               A player with majority (or an equality
+
+                                                               +3
+                                                                               and is former Chairman) votes to
+                                                                               elect the Crown as Chairman. Under
+                            Will seek one investment
+    Will not invest.                                                           Deregulation this becomes +6 .
+                                    in a firm.
+     Will invest in        [SOLO ONLY] Deny the               When You Are Hiring
+   your firm for one         Crown’s investment.
+
+                                                                -2
+     investment.               X = value of firm.
+                                                                               Consent for Nepotism.
+
+      -2                          -X
+                                                               +1
+                                                                               Hire a Crown family member over any
+[2P ONLY] The Crown will initiate each investment                              non-Crown family member.
+according to the Player Button, switching after each.
+
+                 [2P ONLY] The Crown will give                When the Crown is Hiring
+
+-X
+                 consent for a hostile takeover from a        The Crown always hires their own family if able.
+                 player holding the Player Button.
+                 X = number of firm shares the Crown holds.                    [SOLO ONLY] You must give
+                                                                               consent for nepotism to the Crown
+
+Hiring                                                         +2              when required if they have 2 or
+                                                                               more promises. Otherwise, consent is
+                                                                               optional.
+Once the New Company Shares step is complete (and not
+before), you may:                                                            [2P ONLY] When both players are
+                 Give £1 from your family treasury to          +1            candidates, each player may perform this
+
+ +1
+                                                                             favor if they give consent unanimously.
+                 the Crown if the Crown has a majority
+                 of Company shares.                           Director of Trade/Governor General Selection: The
+                                                              Crown hires the first eligible officeholder, clockwise or
+                                                              counterclockwise as indicated by the AI card, along the
+                                                              Company Operation ribbon starting at Chairman.
+                                                              Candidate Priority: The Crown will consider candidates
+              Take a share from the Crown.                    with priority to writers, officers, and then Governors. Use
+                                                              AI card to break ties between candidates.
+
+ -6               -4                     -3                     -3             Make a hiring decision for the Crown.
+                                                                                                                            3

@@ -1,0 +1,53 @@
+     Finishing Setup with Two Players
+     Set up as a 3-player game with the Crown set up as one family. Shuffle the 12
+     setup cards, each player draws 3 cards, selects 2 to keep, and gives the remaining
+     card to the Crown. Repeat this 2 times. Each player and the Crown will have 4
+     setup cards.
+
+           The Player Button
+           Designate one component or object as the Player Button (this could be
+           an unused Crown firm cube or any unused game component). Give the Player
+           Button to the player sitting to the right (counter-clockwise) or left
+           (clockwise) of the Crown, according to the direction pointed at by the
+           finger on the current AI card.
+
+           Each time the Crown must decide between the two players, they will select
+           the player holding the Player Button. Likewise, if there is disagreement
+           over which of the two players gets to act in a certain situation (e.g. if both
+           wish to perform the same favor with the Crown at the same time), the decision
+           goes to the player holding the Player Button. In both cases, that player
+           must then immediately pass the Player Button to the other player.
+
+           A player holding the Player Button may transfer it to the other player as
+           part of a negotiation.
+
+
+     Difficulty
+     You can adjust the difficulty of the Crown as follows:
+          Ƙ Easy. 5 promise cards are available to each player, which can be traded
+            for promise cubes (see Crown family board).
+          Ƙ Normal. Promise cards are not available for trading for promise cubes.
+          Ƙ Hard. As Normal, but also give 4 more promise cubes to the Crown (2
+            from each player in 2P).
+          Ƙ Expert. As Hard, but also give the Crown 3 extra setup cards.
+
+     Before you Begin Play
+     Shuffle the AI cards and place the deck facedown; draw and reveal the topmost
+     card, placing it faceup to the right of the facedown deck. Set the climate marker
+     (use an unused opportunity marker) on the Crown family board, according to
+     the icon on the revealed AI card.
+
+     Gameplay
+     The Crown Handbook will be used to determine the behavior and interactions
+     of the Crown during each game. The Crown’s behavior for any current phase
+     is dictated by the Crown Handbook and often affected by the current climate.
+     However, players are encouraged to not look beyond the phase they are
+     currently in within the Handbook. The Crown’s climate is determined by the
+     current AI card and tie breaks are often determined by using the current AI card
+     and AI card deck.
+     Throughout the game, players can modify the actions of the Crown by spending
+     promise cubes. Players can gain promise cubes by acting in ways that are
+     beneficial to the Crown. When playing with two players, promise cubes may be
+     used in negotiations and traded between players at anytime.
+
+44

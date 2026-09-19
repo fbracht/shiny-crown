@@ -1,0 +1,46 @@
+                                                              3
+           BENGAL                     1
+                                                     2nd
+                                                                  1
+                                      2
+                                                        Company Expectations
+
+
+          BOMBAY                                           £4
+
+                                                           £6
+                                                                               4
+                                                           £8+
+          MADRAS                      6
+                                                                               5
+AI Deck
+You will often need to refer to the current faceup AI card and the AI deck when
+breaking ties.
+When the Crown must choose between the Presidencies, select the Presidency
+indicated on the back of the topmost card of the facedown AI deck pointed to
+by the black arrow (1). If this Presidency is not suitable, or the Crown must
+select a second Presidency, select the one indicated by the white arrow (6). If
+the second Presidency is not suitable, then the Crown will select the remaining
+third Presidency. For example, first select the Bengal Presidency, then Madras, then
+Bombay.
+When the Crown must select a direction, use the direction pointed at by the
+finger (2). For example, the selected direction is clockwise.
+When the Crown must select one of three cards in a splay, select the card in
+the position of the shaded card at the top of the AI card (3). If that card is
+not available, select the next card to the right, wrapping around to the left if
+needed. For example, the Crown would choose the leftmost card in the London Season
+Display.
+When the Crown changes climate during the Chairman’s actions, use the chart
+to determine their new climate (4). For example, if Company Standing is in the first
+or second place, the Crown’s climate will change to the peacock. A player cannot affect
+the game state in any way prior to determining the Crown’s new climate after a
+new AI card is flipped.
+When the Crown must decide between regions, use the region priority given at
+the bottom of the AI card (5). The Crown selects the leftmost region in the list
+and proceeds to the right. For example, the Crown would first choose Madras, then
+Mysore, then Bombay, then Punjab, then Delhi, then Maratha, then Hyderabad, and
+lastly Bengal.
+
+
+
+                                                                                          45

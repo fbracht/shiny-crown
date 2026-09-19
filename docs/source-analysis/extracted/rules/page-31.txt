@@ -1,0 +1,106 @@
+                                Events Described
+                                All of the events in India are described in the following sections.
+
+     TURMOIL
+                                           Turmoil
+                                           Close the northernmost open order in the region pictured on the top of
+  Close northernmost open order.
+ If all are closed, perform Cascade
+                                           the draw stack. Any writer on the order is returned to that player’s supply.
+                                           If all orders in this region are already closed, perform a Cascade.
+(close orders in connected regions).
+
+
+
+
+    WINDFALL
+                                           Windfall
+                                           Players take £1 from the bank for each writer they have on an order in the
+     Gain for writers here and
+                                £1
+                                           region pictured on the top of the draw stack and all adjacent regions i.e.
+                                           regions that share a border with that region.
+       in adjacent regions.
+
+
+
+
+                                           Shuffle
+      SHUFFLE
+            Top of Stack
+                                           First, perform the Elephant’s March. Then, shuffle this tile in with the
+                                           remainder of the draw stack. Finally, shuffle the discards and place them
+            Invade or Rebel?
+
+
+
+ Shuffle this tile in with the deck.
+  en shuffle the discards and
+        place them on top.
+                                           on top of the draw stack, facedown. In the rare instance the draw stack is
+                                           empty, perform the Elephant’s March last.
+
+
+       LEADER
+                                           Leader
+                                           If the region pictured on the top of the draw stack is sovereign, add a
+                                +4
+ Strengthen if           Rebellion if
+                                           tower level to it. Otherwise, treat this event as a Rebellion in the pictured
+                                           region with a strength modifier equal to the number on the explosion
+  sovereign.             dominated.
+
+
+
+
+                                           symbol (see Crisis rules).
+
+                                                              M Elephant Redirect. If the Elephant was fully within a Company-
+                                                                controlled region that successfully rebelled, perform an
+                                                                Elephant’s March. (Otherwise this event does not move the Elephant.)
+
+                                           Peace
+         PEACE
+                                           Open any orders that are connected through the border the Elephant
+   If the Elephant is fully in a
+                                           stands on. Then add one tower level to each region touching the Elephant
+Company-controlled region, clear
+unrest and open all orders instead.
+
+             Top of Stack
+             Invade or Rebel?
+                                           that is not controlled by the Company. If the Elephant was wholly within
+                                           a region (indicating a potential Rebellion), open all orders in that region
+                                           and remove any unrest in this region. Then, perform the Elephant’s
+                                           March.
+
+                                                                                 PEACE EXAMPLE
+
+
+                                                 PEACE
+
+
+
+                                           If the Elephant is fully in a
+                                        Company-controlled region, clear
+                                        unrest and open all orders instead.
+
+                                                    Top of Stack
+                                                    Invade or Rebel?
+
+
+
+
+                   The newly-drawn event tile is Peace. This event
+                   occurs in the location of the Elephant which is on
+                   the border of Mysore and Madras. The order in
+                   Madras is now opened and Mysore will have its tower
+                   increased from 2 to 3 levels. Note: the other order in
+                   Madras remains closed and it does not remove the unrest
+                   cube as the Elephant was not fully within Madras.
+
+                   Lastly, the Elephant Marches to Mysore and will point to
+                   Hyderabad across the border marked with the triangle.
+
+
+                                                                                                                                       31

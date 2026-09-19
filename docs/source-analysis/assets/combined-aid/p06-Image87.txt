@@ -1,0 +1,4 @@
+Force the Crown to spend more or less money (any amount, including zero, and optionally
+skip additional Special Envoy actions).
+- 1 7) Target a specific order.
+. 3 @ Open trade with China.

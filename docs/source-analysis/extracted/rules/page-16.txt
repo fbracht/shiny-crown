@@ -1,0 +1,95 @@
+     The rest of hiring is mostly a straightforward affair. Players learning the game should feel
+     free to read this hiring example and then skip the remainder of this section.
+
+
+                                                                                   GENERAL HIRING
+        The Chairman (Pink) must hire the Director of Trade and can choose any other
+        officeholder except a Governor to fill the job. Here are the current candidates:
+                                     PRES I DEN T OF                                                                          PRESIDEN T OF
+                                                                                  M I L I TA R Y                                                                         M ANAGER OF
+                                      B O M B AY                                                                               MA DRA S
+                                                                                   A F FA I R S                                                                          SH IPPING
+
+
+
+
+                  Decide the order of operations.                        May transfer two pieces:          Decide the order of operations.
+                     May take Trade actions:                                                                  May take Trade actions:                           Fit ships until your office
+                   Dice Pool                Success                                                         Dice Pool                Success                    has £2 or less remaining:
+                                       Fill orders and increase                                                1               Fill orders and increase
+                     £1                                                                                       £
+                                                                                                                               the Company Balance.
+                                       the Company Balance.
+                                       You gain £1 per order.        Then, assign Officers-in-Training:           For each
+                                                                                                                                You gain £1 per order.
+                         For each
+                             other     Players gain £1 for each                                                       other    Players gain £1 for each
+                            region                                                                                   region                                    £2         £3             £5
+                                                        .                                                         declared.                      .
+                         declared.
+                 Aer a success you may not Trade again this turn.                                        Aer a success you may not Trade again this turn.                          Fit only if all
+                                                                                                                                                         62   Place fitted ships     player ships
+                                                                61    Lastly, appoint Commanders. 60                                                                                  are fitted.
+                                                                                                                                                              in any sea zone.                         59
+
+
+
+
+        Pink would like to promote Military Affairs to the office, but can only
+                                                                                                                                                                                     My co
+        do so if they can secure the consent of both Yellow and Blue thanks to                                                                                                                     nsent
+                                                                                                                                                                                                                for ne
+                                                                                                                                                                                                                          potis
+                                                                                                                                                                                                                                   m.
+                                                                                                                                                                                    Hasting
+                                                                                                                                                                                               GU AR
+                                                                                                                                                                                                        AN TE
+
+
+
+        the Nepotism rule. Yellow and Blue decide to withhold consent.
+                                                                                                                                                                                                                ED BY
+
+                                                                                                                                                                                           s Famil                      TH E
+
+
+
+                                                                                                                                                                                                                               y
+
+        Yellow offers £1 to Pink for the promotion. Blue matches the offer and then includes
+        the promise card “Consent to Nepotism.” This would allow Pink to ignore Blue when
+        checking for Nepotism later. Pink agrees and promotes the Manager of Shipping.
+
+        First, Blue moves their officeholder family member to the Director of Trade spot and
+        takes the Director of Trade’s office card. The fatigue on the Shipping office is moved over
+        to the new office card. Then, place the Shipping office card in the Vacant Offices stack.
+
+
+
+
+     Director of Trade
+     The Chairman hires from any current officeholder except the Chairman or a
+     Governor. If all offices are vacant, any writer can be chosen. Note: Commanders
+     are not officeholders.
+
+     Manager of Shipping
+     The Chairman hires any writer for this position.
+
+     Military Affairs
+     The Chairman hires any Commander in a Presidential Army for this position. If
+     there are none, they may hire any officer, or, if none, any piece in the Officers-
+     in-Training box.
+
+     Presidents
+     The Director of Trade hires any writer or Governor associated with that region’s
+     Presidency for this position.
+
+     Governors
+     The President associated with the Governorship hires from any writer or officer
+     in the region. The family member holding this position should be placed on top
+     of the corresponding Governor overlay. Note: a Commander is not an officer and
+     cannot be promoted to a Governor.
+     If there is a Governor General, these positions no longer exist (page 26).
+
+     Superintendent of Trade in China
+16   The Chairman hires any writer for this position.

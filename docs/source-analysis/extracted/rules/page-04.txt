@@ -1,0 +1,62 @@
+Closed/Filled Orders
+There are 17 pieces used to mark closed orders in India and those filled by the
+Company or firms.                                                                                 Filled
+Power Tokens
+There are 4 power tokens that track the power status of the 3 different enterprise
+types and of Company shares. These are placed on the Power track and will shift
+in position depending mostly on the passage of certain policies.
+
+Office Overlays
+There are 8 different Governor overlays, which are added to the map if a region
+becomes Company-controlled. The family member serving as Governor is placed on top
+of the overlay. In addition, there is one Superintendent of Trade in China overlay used to
+hold both the family member in that position and any ships assigned to Trade in China.
+There is also one Governor General overlay which is placed on the ribbon if that office
+is in play.
+
+Other Pieces, Markers and Dice
+There are 6 dividers, used to show writer affiliation. There is a Chairman marker and an Opposition
+Leader marker which are given to the player(s) with that office or title. There’s a Company share victory
+point token used in some scenarios. There are also 18 trophy/passed law pieces. Finally, there are 10
+standard dice, and 1 storm die.
+
+
+Setup                                                 TR
+                                                        OP
+                                                            HY                             -2    2
+
+    1. Place the game board and component
+       trays in the center of the table.                   Ƙ The 1710 Scenario should be played first.
+                                                           Ƙ The 1758 Scenario is recommended for those
+    2. Shuffle the India event tiles and place
+                                                             who have played the 1710 scenario a couple
+       them next to the board.
+                                                             times. Here, the Company begins with its
+    3. Place the local alliance tiles in the Army            monopoly, but this can be broken, opening
+       boxes where they are listed.                          the gates of India to private firms.
+                                                           Ƙ The 1813 Scenario is the most advanced
+    4. Place a marker on the “5” space of the
+                                                             scenario. In it, the Company starts without
+       Company Balance track located on the
+                                                             its monopoly, and players may start private
+       bottom edge of the board.
+                                                             trading firms. This scenario is best with 5 or
+    5. Place the four power tokens on their                  6 players.
+       indicated spaces on the Power track.                Ƙ The Long 1710 Scenario is intended for
+    6. Every player should take a set of player              players who have the time to play through
+       pieces including their family board.                  the full history of the Company. This scenario
+       Place each family’s victory point marker              begins identically to the 1710 scenario, but
+       on the “0” space of the Victory Point                 it gives players the tools of Deregulation.
+       track (top left of the board).                        This scenario may go up to 8 turns and often
+                                                             takes twice as long as the other scenarios.
+    7. Place the tower levels, domes, and flags
+                                                    After choosing a scenario, take the matching scenario
+       near the right side of the board.
+                                                    setup card. Follow any instructions on the front of the
+    8. Place the laws, office, prestige,            card, taking components as needed and using pawns
+       blackmail, and setup cards nearby.           to mark the listed position on various tracks. Then,
+                                                    set up the regions of India as shown on the card.
+    9. Place each loot token in the matching        Place a black pawn on the space with the matching
+       region (£ side face up).                     date on the Turn track, and the arm on the Prime
+                                                    Minister dial to point to the matching date.
+4 10. Next, choose a scenario.

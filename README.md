@@ -6,9 +6,9 @@ The application will guide players through setup and the recurring round sequenc
 
 ## Status
 
-Pre-development planning and source analysis.
+Sessions 1 and 2 are complete. The repository now contains the implementation-ready source map and a working application foundation: the complete typed session model, verified conditional flow, setup-to-round navigation, browser persistence, portable backup/restore, safe Back snapshots, localization-ready content, and a mobile-first interface. Later sessions will replace foundation copy with complete phase-specific English content and bespoke interactions.
 
-## Planned stack
+## Stack
 
 - React
 - TypeScript
@@ -16,11 +16,29 @@ Pre-development planning and source analysis.
 - Static deployment to GitHub Pages
 - Browser-local persistence with `localStorage`
 
+## Development
+
+```sh
+npm install
+npm run dev
+```
+
+Quality gates:
+
+```sh
+npm run typecheck
+npm run lint
+npm test
+npm run build
+```
+
 ## Documentation
 
 - [Development specification](docs/spec-shiny-crown-development.md)
-
-The specification is provisional and will be revised after the Crown guidance PDF, reference application, and relevant rulebooks have been fully analyzed.
+- [Session 1 source-analysis map](docs/source-analysis/README.md)
+- [Authoritative phase inventory](docs/source-analysis/phase-inventory.md)
+- [State-model audit](docs/source-analysis/state-model-audit.md)
+- [Two-player pass](docs/source-analysis/two-player-pass.md)
 
 ## Scope
 

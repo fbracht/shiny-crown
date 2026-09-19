@@ -1,0 +1,51 @@
+Acquiring Ships as a Firm
+A firm manager may spend cash from the firm’s London treasury to the
+bank to fit ships on shipyards which are placed on the firm’s charter.
+Each costs £3. Unlike the Company, a firm manager may only fit ships
+with the consent of shipyard owner.
+
+     M Player-owned Company Ship Buyback. A firm manager may
+       buy any player-owned ship in the Company with its owner’s
+       consent by spending cash from the firm’s London treasury.
+       An unfatigued ship costs £3 and a fatigued ship costs £2. Any
+       money spent should be added to the Shipping office’s treasury.
+Note: unlike the Company, firms may not acquire Company ships or extra ships.
+
+Hostile Takeovers
+If you do not manage a firm and have the consent of players who
+collectively hold a majority of a firm’s shares, you may initiate a hostile
+takeover. Flip your board to its firm charter side. Place your two firm
+cubes on the tracks in the matching spaces as the firm you are taking
+over. Move any ships, treasury funds, and shares to your board. The
+previous owner then returns their cubes to their supply and returns their
+firm charter to the family side.
+
+Mergers
+Firm managers may consolidate any number of firms into a single firm
+through a negotiated merger.
+
+In a merger, the highest value firm among those merging will be the
+primary firm (if there is a tie, the players will pick from among those
+tied). This firm will remain after the merger is completed. The other firms
+in the merger are called secondary firms.
+
+As part of a merger, players may negotiate for the transfer of firm shares
+to other players. If the primary firm would have more than ten shares
+after merger, any excess shares must be returned to their owner’s supply
+with their owner’s consent.
+
+In order for a negotiated merger to take place, all involved firms must
+have the full consent of every shareholder. All merger negotiations are
+considered a single immediate transfer (and therefore binding).
+
+After a merger is agreed to, all secondary firms
+transfer and consolidate their treasuries,
+shareholders, and ships into a single firm.
+Then, the secondary
+firms flip to their
+family side.
+
+
+
+
+                                                                                39

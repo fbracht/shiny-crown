@@ -1,0 +1,52 @@
+     The Firms Phase
+     After the Family phase is complete and before the Hiring phase, players will
+     now perform the Firms phase. The Firms phase has two steps: Firm Investments
+     and Firm Strategy.
+
+     Firm Investments
+     The first step of the Firms phase has no set order and players can take the
+     following actions at any time during it. The Firms phase ends when no player
+     wishes to take further actions. Any timing conflicts related to a firm are resolved
+     by the firm’s manager. Any timing conflicts between firms are resolved by the
+     Prime Minister.
+     Two of the actions described in this section use Company shares. These rules are
+     restricted by the two caveats described below:
+          M Weak Company Shares. If the Company Standing and/or Debt
+            marker is on a lined space, you may not use Company shares to form
+            a firm or invest.
+          M Immature Company Shares. You may not invest with a Company
+            share that was created this turn. You may not avoid this rule by trading
+            your share to another player. (Players may find it helpful to flip over any
+            newly-created Company shares until the end of the turn to show that they
+            cannot be invested.)
+
+           Forming a Firm
+           A player who does not currently manage a firm may form one by returning
+           one of their Company shares to its supply or flipping one workshop to its
+           invested side. Flip your family board over to its firm charter side. Place
+           one family member from your supply on the firm’s Shares box to represent
+           the firm’s first share. Place one of your cubes on the leftmost space of the
+           Value track (the other will be used to record the total dividends paid).
+           Add £5 from the bank to this firm’s London treasury. Your family is now
+           considered a firm and you are the firm manager.
+
+           Court and Workshop Investment
+           With the consent of the firm’s manager, players may invest in a firm. For
+           each investment, add £5 from the bank to this firm’s London treasury and
+           place a family member on the firm’s Shares box. A family member in a
+           firm’s Shares box is called a firm share. Reminder: like Company shares, firm
+           shares can be traded by players.
+
+           To invest, a player must first either return one of their Company shares to
+           its supply or flip one of their workshops to its invested side.
+
+                M Invested Workshops. An invested workshop is not scored if the
+                  Company fails and no longer generates a bonus.
+                M Firm Share Limit. Firms may only have 10 shares. A firm with
+                  10 shares may still be invested in, but will not create any further
+                  shares.
+
+
+
+
+38

@@ -1,0 +1,34 @@
+10. Military Affairs
+1. Transfers
+Each turn, Military Affairs makes up to 2 transfers. For each transfer, move 1 Officer or regiment from one Army to another.
+
+If the Crown is Military Affairs
+The Crown will attempt 2 transfers according to the priorities below. The Crown will transfer Regiments > Crown Officers > your
+Officers. Skip any transfer that cannot be completed, or which undoes a previous transfer. Use the AI card’s arrows to break ties.
+
+
+
+
+2. Assign Officers-in-Training
+Assign each Officer-in-Training to any Army.
+
+If the Crown is Military Affairs
+The Crown will assign your Officers > Crown Officers. For each assignment, start from the top of the priority list below and break
+ties by the following priorities (if still tied, use the AI card’s black arrow, then white arrow).
+
+
+
+
+3. Assign Commanders
+In each Army where a player has more total pieces than the Commander player, or where there is no Commander, assign a new
+Commander from among the players with the most total pieces in that Army. A replaced Commander is demoted to an Officer.
+
+If You Are Military Affairs
+
+
+
+If the Crown is Military Affairs
+The Crown will assign their own Officer as Commander if they are eligible.
+
+
+                                                               10

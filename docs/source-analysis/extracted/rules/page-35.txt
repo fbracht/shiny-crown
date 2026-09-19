@@ -1,0 +1,46 @@
+Voting
+Starting with the Prime Minister, players take turns voting. After a player has
+voted, the next player in clockwise order votes. After all players have had a
+chance to vote, the Prime Minister can decide to initiate an additional round
+of voting or to stop and resolve the vote. If no votes were cast in the round, the
+vote must be resolved.
+A player’s votes come from several sources. Each £1 they spend from their family
+treasury is worth 1 vote. In addition, any card in their play area is worth votes
+equal to the number of vote icons on the card. When casting these votes, rotate
+the card to indicate it has been used. It will be rotated back after the vote is resolved.
+                                                                                             Vote Icon
+As players vote, adjust the Votes marker one space for each vote cast. Players
+may advance or lower the marker. There is no limit to the number of votes that
+can be cast. If the Votes marker would advance beyond the end of either side of
+the track, place cash from the bank near its position to track additional votes. If
+it would be moved in the opposite direction, subtract any cash before moving
+it in that direction.
+
+       The Opposition
+       Any player who votes against the law is part of the opposition. Once a
+       player votes against a law, they may not vote in favor of it later during
+       that vote. All members of the opposition should count how many votes
+       they have cast against this law using any method (for instance, they could
+       group all of their cards used to vote plus any money spent).
+
+       A player who previously voted for the law may change their mind and
+       join the opposition with later votes.
+
+            M The Opposition Leader. The player who has cast the most votes
+              against the law is the Opposition Leader and should take the
+              Opposition Leader marker. If there is a tie, the previous holder
+              will continue to hold it.
+            M Coalitions in Opposition. Players may cast votes on behalf of
+              another player with that player’s consent. This player must have
+              voted against the law or commit to doing so. These votes should
+              be added to their total when determining the Opposition Leader.
+            M The Prime Minister’s Honor. The Prime Minister cannot vote
+              against the current law or consent to their enterprises being
+              used to vote for that purpose. However, their enterprises may be
+              used to vote against a law if their “Vote with my enterprises...”
+              promise is used.
+
+
+
+
+                                                                                                   35

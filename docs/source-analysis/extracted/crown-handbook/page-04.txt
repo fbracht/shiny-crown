@@ -1,0 +1,31 @@
+    Chairman
+    If You Are Chairman
+
+            -1             You must always perform this favor if able.
+
+
+    Seek Debt
+
+
+                               Consent from Crown shares for the first additional
+                                 advancement above 3 Debt Marker advances.
+
+               -1                 -2                 -3                  -4               -6
+                     Consent from a Crown share for any additional Debt Marker advances.
+
+                                                     -1
+    Allocate Company Balance
+
+
+            Allocate £3 to a                                                          Allocate £5 to a
+                                          Allocate £4 to a Crown office.
+             Crown office.                                                             Crown office.
+
+                                                    +1
+    Set Climate
+    After you have finished acting, flip a new AI card and set the climate on the Crown family board.
+
+
+
+
+4

@@ -1,0 +1,76 @@
+Military Affairs
+If you are Military Affairs
+                          Assign the Crown as Commander of an Army when able. This always
+
+        +1                applies, even if you have no choice but to assign the Crown as
+                          Commander.
+
+If the Crown is Military Affairs
+Transfers
+The Crown will attempt to perform two officer transfers. Otherwise, the Crown will transfer according to
+the Transfer Priority below, skipping any transfer that cannot be completed and any transfer that undoes a
+previous transfer from this turn.
+
+Transfer Priority
+The Crown will transfer regiments, then Crown officers, then player officers using the following priority.
+
+
+                                           Army of Presidency with
+                                                                             Army where a player is Commander
+      Player Presidency’s Army to a        fewest ships to Army of
+                                                                             to an Army where the Crown is
+      Crown Presidency’s Army.             Presidency with most
+                                                                             Commander.
+                                           ships.
+
+Note: If there is more than one viable Army to transfer from/to, use AI card’s arrows to break ties.
+
+
+
+          -1
+                          Transfer 1 officer or regiment from a Presidency to another Presidency
+                          (counts as one of the Crown’s two transfers).
+
+
+
+          -1
+                          Prevent any transfer from happening this round (counts as one of the
+                          Crown’s two transfers).
+
+Assign Officers
+The Crown will assign player officers first and then Crown officers, one at a time and independently of
+each other, according to the following priority (starting at the top for each assignment and breaking ties
+by applying each step that can be applied to reduce the candidates to a single one). If a tie remains after
+applying each step in the list, break the tie with the black arrow, then the white arrow.
+
+
+
+    1. A Crown Presidency, then                                         1. A Presidency that creates a
+    2. The Presidency with the most ships, then                            new Crown majority, then
+    3. A Presidency where Crown is Governor, then                       2. A Presidency that creates a Crown
+                                                                           equality with a player holding
+    4. A Presidency that creates a new
+                                                                           a majority of pieces, then
+       Crown majority of pieces, then
+                                                                        3. A Presidency where Crown has a
+    5. A Presidency that creates a Crown equality with
+                                                                           majority of pieces and does not
+       a player holding a majority of pieces, then
+                                                                           lose a Crown majority, then
+    6. A Presidency where Crown has a majority of
+                                                                        4. A Presidency where Crown
+       pieces and does not lose a Crown majority, then
+                                                                           is Governor, then
+    7. A Presidency where the Crown is Commander.
+                                                                        5. A Presidency where Crown
+                                                                           is Commander, then
+                                                                        6. A Crown Presidency, then
+                                                                        7. The Presidency with the most ships.
+
+
+
+          -1              Assign 1 officer to a Presidency of your choice.
+
+After all Officers-in-Training have been assigned, the Crown will assign Commanders. If there is more
+than one eligible officer to become a Commander, Crown will chose their own officer.
+                                                                                                                 9

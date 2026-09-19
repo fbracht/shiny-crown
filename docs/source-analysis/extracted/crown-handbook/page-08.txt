@@ -1,0 +1,67 @@
+     Manager of Shipping
+     If You Are Manager of Shipping
+
+            +1               Fit a Crown ship.
+
+
+
+
+            +1               Place a ship in a Crown Presidency or Crown Superintendent of China.
+
+
+     If the Crown is Manager of Shipping
+     Fitting Ships
+     The Crown will fit as many of their ships as possible, then player ships (use Player Button to break ties.)
+
+
+
+              -1             Fit a specific ship.
+
+     Buying Company Ships
+
+
+             Will not buy        Will buy 1         Will buy as        Will buy 1          Will not buy
+             Company             Company ship,      many Company       Company ship,       Company
+             ships.              if able.           ships as able.     if able.            ships.
+                                                    Buys as many
+             Buys a              Does not buy a                        Does not buy a      Buys a
+                                                    Company ships
+             Company ship.       Company ship.                         Company ship.       Company ship.
+                                                    as you wish.
+
+                 -1                 -2                 -3                  -1                 -2
+                                       The Crown buys another Company ship.
+
+                            -1                            —                           -2
+     Leasing Extra Ships
+     The Crown will spend all money left in Shipping on extra ships.
+
+
+
+              -1             The Crown must leave £2 unspent.
+
+     Placing Ships
+     The Crown will place all ships they have fitted, bought, and/or leased this turn...
+
+
+    ...in the
+                        ...in the Presidency’s ...in a Crown                                 ...in China, if
+    Presidency’s sea                                                   ...in the
+                        sea zone with longest Presidency’s sea                               possible; otherwise,
+    zone with the                                                      Presidency’s sea
+                        open trade route,      zone. If none,                                in the Presidency’s
+    longest open                                                       zone with the
+                        with priority going to Presidency with the                           sea zone with
+    trade route, with                                                  highest number of
+                        Presidency with more highest number of                               highest number of
+    priority going to a                                                Crown writers.
+                        Crown writers.         writers.                                      Crown writers.
+    Crown Presidency.
+                                     In this chart, the highest number may be zero.
+
+
+              -1             The Crown fits one ship into sea zone (or China) of your choice.
+
+
+
+8

@@ -1,0 +1,38 @@
+13. Commanders
+1. Local Alliances
+A Commander can request money from their President to purchase local alliances. Move purchased alliances to the available forces.
+
+If You Are the Commander
+
+
+
+
+If the Crown is the Commander
+Crown Presidents always give consent to Crown Commanders to purchase local alliances.
+
+
+
+
+2. Deploy
+The Commander may deploy as many times as they wish and can afford, as long as there is a chance of success.
+        1.   Select a target: either a region controlled by the Commander’s Presidency (as long as there is at least one closed order
+             and/or unrest) or any adjacent region not controlled by another Presidency.
+        2.   Make a check: Exhaust any number of Regiments, Officers and local alliances. Each exhausted unit lets you roll 1
+             die (or dice equal to their strength for an alliance). Roll 1 less die for each tower level in the target region (plus
+             associated regions if it is part of an empire).
+        3.   Death check: Roll a die for each committed Officer. On a roll of 6 they are returned to their supply (they get no Loot).
+        4.   If successful:
+                    a) Gain Loot: £4 per Tower Level + £ for any Loot token (minimum £ = surviving Officers + 1). Divide the
+                         loot evenly between all surviving participants: Commander > Officers (own first) > Regiments > Alliances.
+                    b) Player gains 1 trophy per Tower Level in target region.
+                    c) Open all orders and remove any unrest in the target region.
+                    d) If the region was not Company-controlled: Remove Tower + Dome, move the loot token to the Presidency’s
+                         box, add the region’s Governor overlay, and place the region’s Governor card in the Vacant Offices box.
+                    e) If the Elephant was facing out of the target region, place it in the centre of the region.
+        5.   If a catastrophic failure: The Commander’s player loses half (round up) of their trophies and returns their
+             Commander to their supply.
+
+
+
+
+                                                                12
