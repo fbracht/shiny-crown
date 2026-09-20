@@ -49,7 +49,10 @@ export const eventRules = [
 
 export const votingPlan = [
   ["Army Spending", "For in Bear or Peacock."],
-  ["Board of Control", "For when Crown is Prime Minister; remove a human from office at the first opportunity."],
+  [
+    "Board of Control",
+    "For when Crown is Prime Minister; remove a human from office at the first opportunity.",
+  ],
   ["Calico Acts", "For when Crown has the most Workshops."],
   ["Company Aids Government", "For in Bear or Peacock."],
   ["Debt Restructure", "For in Bull or Stag."],
@@ -58,9 +61,15 @@ export const votingPlan = [
   ["Inclosure Acts", "For when Crown has the most prizes."],
   ["Industry Subsidy", "For in Lion, Bear, or Peacock."],
   ["Masses Demand Franchise!", "For unless Crown has the most Rotten Boroughs."],
-  ["Military Oversight", "For when Crown is Prime Minister; Crown Military Affairs demotes a human Commander when a Crown Officer is present."],
+  [
+    "Military Oversight",
+    "For when Crown is Prime Minister; Crown Military Affairs demotes a human Commander when a Crown Officer is present.",
+  ],
   ["Old Ideas Made New!", "When Crown is Prime Minister, choose the law randomly."],
-  ["Public Demands Impeachment!", "For when Crown is Prime Minister; select the first human office left-to-right, random if all offices are Crown."],
+  [
+    "Public Demands Impeachment!",
+    "For when Crown is Prime Minister; select the first human office left-to-right, random if all offices are Crown.",
+  ],
   ["Relief Demanded for Indian Famine!", "For unless Crown has the most of the named policy."],
   ["Royal Protection", "For when Crown has the most Luxuries."],
   ["Sepoy Recruitment", "For in Lion, Bear, or Peacock."],
@@ -74,4 +83,3 @@ export const soloFailureAdjustment: Record<Scenario, Partial<Record<number, numb
   "1813": { 5: -4, 6: -3, 7: -2, 8: -1 },
   "long-1710": {},
 };
-

@@ -23,7 +23,11 @@ function atPhase(session: GameSessionV1, phaseId: PhaseId): GameSessionV1 {
   };
 }
 
-function renderPhase(session: GameSessionV1, phase: React.ReactNode, storage = new MemoryStorage()) {
+function renderPhase(
+  session: GameSessionV1,
+  phase: React.ReactNode,
+  storage = new MemoryStorage(),
+) {
   return render(
     <SessionProvider initialSession={session} storage={storage}>
       {phase}
@@ -146,4 +150,3 @@ describe("global reference library", () => {
     expect(saved.progress.phaseId).toBe("round.events-india");
   });
 });
-

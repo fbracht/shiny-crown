@@ -3,11 +3,17 @@ export const glossaryEntries = [
   ["Climate", "How the Crown views the Company and whether it will support it."],
   ["Climate Set", "Draw an AI card and use its animal icon to set Crown climate."],
   ["Climate Shift", "Roll 6 dice and compare successes with Company Standing to shift climate."],
-  ["Favors", "Give promise cubes to force Crown choices, or receive cubes for Crown-beneficial choices."],
+  [
+    "Favors",
+    "Give promise cubes to force Crown choices, or receive cubes for Crown-beneficial choices.",
+  ],
   ["Fewest", "Crown has as much or less than the human, including zero."],
   ["Home", "A region containing the Bombay, Madras, or Bengal Presidency home port."],
   ["Most", "Crown has as much or more than the human, with at least one."],
-  ["Shortest / Longest Trade Route", "The maximum orders a President could fill with a successful Trade, regardless of ships."],
+  [
+    "Shortest / Longest Trade Route",
+    "The maximum orders a President could fill with a successful Trade, regardless of ships.",
+  ],
   ["Ties", "When no source priority resolves equal Crown choices, the human chooses."],
 ] as const;
 
@@ -40,4 +46,3 @@ export const crisisBranches = [
     text: "Resolve invasion. Attack and defense use every tower in their respective empires; defender wins ties. Success expands the attacker and may defeat a capital. Failure removes one attacking tower. A successful invasion proceeds to Imperial Ambitions; otherwise reposition the Elephant.",
   },
 ] as const;
-

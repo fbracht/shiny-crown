@@ -6,7 +6,7 @@ The application will guide players through setup and the recurring round sequenc
 
 ## Status
 
-Sessions 1–3.1 are complete. The repository contains the implementation-ready source map, typed and persistent application foundation, and four source-faithful architecture slices: Bonuses, Chairman, Hiring, and Bombay Presidency. Session 3.1 reset those slices around compact source text, named two-player identities, segmented office holders, and a collapsible global climate control. Later sessions will extend that corrected bespoke-phase pattern across the remaining English content.
+Sessions 1–5 are complete. The repository contains the full source-mapped English solo and two-player procedure, persistent and portable session state, complete phase-specific interfaces, automated full-round verification, and a GitHub Pages beta deployment. The remaining pre-release work is real-table testing against the [Session 5 checklist](docs/session-5-beta-verification.md).
 
 ## Stack
 

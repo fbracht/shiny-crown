@@ -61,10 +61,9 @@ describe("application foundation", () => {
     await user.click(screen.getByRole("button", { name: /New solo game/u }));
     await user.click(screen.getByRole("button", { name: /Crown climate: Bull/u }));
     await user.click(screen.getByRole("button", { name: "Bear" }));
-    expect(screen.getByRole("button", { name: /Crown climate: Bear/u })).toHaveAttribute(
-      "aria-expanded",
-      "false",
-    );
+    const climateTrigger = screen.getByRole("button", { name: /Crown climate: Bear/u });
+    expect(climateTrigger).toHaveAttribute("aria-expanded", "false");
+    expect(climateTrigger).toHaveFocus();
     await user.click(screen.getByRole("button", { name: "Next" }));
     expect(window.scrollTo).toHaveBeenCalled();
   });

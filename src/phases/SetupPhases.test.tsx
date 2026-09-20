@@ -121,9 +121,9 @@ describe("source-faithful setup phases", () => {
   it("finishes common setup in steps 11–13 before the role ledger", () => {
     renderPhase(createInitialSession("solo"), <SetupFinishPhase />);
 
-    const section = screen.getByRole("heading", { name: "Finish the common setup" }).closest(
-      "section",
-    );
+    const section = screen
+      .getByRole("heading", { name: "Finish the common setup" })
+      .closest("section");
     expect(section).not.toBeNull();
     const steps = within(section as HTMLElement).getAllByRole("listitem");
     expect(steps).toHaveLength(3);
@@ -152,14 +152,13 @@ describe("source-faithful setup phases", () => {
     await user.click(screen.getByRole("button", { name: "Bruno" }));
 
     expect(screen.getByText(/Later AI cards do not reset/u)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Bruno" })).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
+    expect(screen.getByRole("button", { name: "Bruno" })).toHaveAttribute("aria-pressed", "true");
     await waitFor(() => {
       const saved = storage.getItem(SESSION_STORAGE_KEY);
       expect(saved).not.toBeNull();
-      expect((JSON.parse(saved as string) as GameSessionV1).twoPlayer?.buttonHolder).toBe("human-2");
+      expect((JSON.parse(saved as string) as GameSessionV1).twoPlayer?.buttonHolder).toBe(
+        "human-2",
+      );
     });
   });
 });

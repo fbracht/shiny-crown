@@ -7,4 +7,3 @@ export const deregulationMaximumSpend: Record<ClimateId, number> = {
   bear: 3,
   peacock: 2,
 };
-

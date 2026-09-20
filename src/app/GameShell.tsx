@@ -8,10 +8,7 @@ import { phaseRegistry } from "../flow/phaseRegistry";
 import { ClimateSelector } from "../components/ClimateSelector";
 import { RoleEditor } from "../components/RoleEditor";
 import { ReferenceProvider } from "../components/ReferenceContext";
-import {
-  ReferenceLibrary,
-  type ReferenceId,
-} from "../components/ReferenceLibrary";
+import { ReferenceLibrary, type ReferenceId } from "../components/ReferenceLibrary";
 
 type GameShellProps = {
   onHome: () => void;

@@ -6,13 +6,7 @@ import { SourceNote } from "./SourceNote";
 import { basicFavors, crisisBranches, glossaryEntries } from "../content/en/references";
 import { votingPlan } from "../content/en/soloLate";
 
-export type ReferenceId =
-  | "glossary"
-  | "favors"
-  | "success"
-  | "crisis"
-  | "voting"
-  | "button";
+export type ReferenceId = "glossary" | "favors" | "success" | "crisis" | "voting" | "button";
 
 const referenceLabels: Record<ReferenceId, string> = {
   glossary: "Glossary",
@@ -81,7 +75,9 @@ export function ReferenceLibrary({ initial = "glossary" }: { initial?: Reference
       {selected === "favors" ? (
         <section aria-labelledby="reference-favors">
           <h3 id="reference-favors">Basic Favors</h3>
-          <p className={favorsActive ? "reference-availability is-active" : "reference-availability"}>
+          <p
+            className={favorsActive ? "reference-availability is-active" : "reference-availability"}
+          >
             {favorsActive
               ? "Available now: from the Firms boundary through the end of Company Revenue."
               : "Readable now; unavailable outside the Firms-through-Company-Revenue window."}
@@ -124,11 +120,21 @@ export function ReferenceLibrary({ initial = "glossary" }: { initial?: Reference
       {selected === "success" ? (
         <section aria-labelledby="reference-success">
           <h3 id="reference-success">Success Checks</h3>
-          <p>Gather dice from the acting office's resources, apply every penalty, then use the lowest die.</p>
+          <p>
+            Gather dice from the acting office's resources, apply every penalty, then use the lowest
+            die.
+          </p>
           <ol>
-            <li><strong>1–2:</strong> success.</li>
-            <li><strong>3–4:</strong> failure; try again if sufficient resources remain.</li>
-            <li><strong>5–6:</strong> catastrophic failure; stop acting, return the officeholder to supply, clear fatigue, and place the office card in Vacant Offices.</li>
+            <li>
+              <strong>1–2:</strong> success.
+            </li>
+            <li>
+              <strong>3–4:</strong> failure; try again if sufficient resources remain.
+            </li>
+            <li>
+              <strong>5–6:</strong> catastrophic failure; stop acting, return the officeholder to
+              supply, clear fatigue, and place the office card in Vacant Offices.
+            </li>
           </ol>
           <SourceNote
             sources={[
@@ -169,7 +175,10 @@ export function ReferenceLibrary({ initial = "glossary" }: { initial?: Reference
               <li>Remove the Commander and half their trophies, rounded up.</li>
               <li>Make death checks for Officers.</li>
               <li>Eliminate the Governor position unless Governor General is in play.</li>
-              <li>Remove unrest and half-built Company ships; place a level-one tower and invasion flag where applicable.</li>
+              <li>
+                Remove unrest and half-built Company ships; place a level-one tower and invasion
+                flag where applicable.
+              </li>
               <li>Return the control marker facedown.</li>
               <li>Close orders, Cascading if already closed.</li>
               <li>Lower Company Standing by regions lost this turn.</li>
@@ -200,13 +209,23 @@ export function ReferenceLibrary({ initial = "glossary" }: { initial?: Reference
       {selected === "voting" ? (
         <section aria-labelledby="reference-voting">
           <h3 id="reference-voting">Crown Voting Plan</h3>
-          <p>Unless a row says otherwise, Crown votes against when its listed For condition is false.</p>
+          <p>
+            Unless a row says otherwise, Crown votes against when its listed For condition is false.
+          </p>
           <div className="reference-table-wrap">
             <table>
-              <thead><tr><th>Law</th><th>For / special instruction</th></tr></thead>
+              <thead>
+                <tr>
+                  <th>Law</th>
+                  <th>For / special instruction</th>
+                </tr>
+              </thead>
               <tbody>
                 {votingPlan.map(([law, rule]) => (
-                  <tr key={law}><th>{law}</th><td>{rule}</td></tr>
+                  <tr key={law}>
+                    <th>{law}</th>
+                    <td>{rule}</td>
+                  </tr>
                 ))}
               </tbody>
             </table>
@@ -233,7 +252,9 @@ export function ReferenceLibrary({ initial = "glossary" }: { initial?: Reference
             When Crown must choose between the two humans, or both humans dispute who acts, the
             holder decides and immediately passes the Button. Negotiated transfer is always allowed.
           </p>
-          <p>Current holder: <strong>{session.playerNames[session.twoPlayer.buttonHolder]}</strong></p>
+          <p>
+            Current holder: <strong>{session.playerNames[session.twoPlayer.buttonHolder]}</strong>
+          </p>
           <button
             onClick={() => dispatch({ type: "resolve-button-choice", pass: true })}
             type="button"

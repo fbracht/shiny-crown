@@ -17,8 +17,7 @@ export const scenarioSetupNotes: Record<Scenario, string> = {
   "1710": "The 1710 scenario is the recommended first game with the Crown.",
   "1758": "The Company begins with its monopoly; Deregulation may later enable private firms.",
   "1813": "The Company begins without its monopoly, so the session starts deregulated.",
-  "long-1710":
-    "Long 1710 begins like 1710, includes Deregulation, and may last up to eight turns.",
+  "long-1710": "Long 1710 begins like 1710, includes Deregulation, and may last up to eight turns.",
 };
 
 type CrownSetup = {

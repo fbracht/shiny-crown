@@ -1,4 +1,4 @@
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { CLIMATES, type ClimateId } from "../app/session/types";
 
 const labels: Record<ClimateId, string> = {
@@ -26,13 +26,22 @@ type ClimateSelectorProps = {
 export function ClimateSelector({ value, onChange, compact = false }: ClimateSelectorProps) {
   const [open, setOpen] = useState(false);
   const choicesId = useId();
+  const triggerRef = useRef<HTMLButtonElement>(null);
+
+  const closeCompactSelector = () => {
+    setOpen(false);
+    triggerRef.current?.focus();
+  };
 
   if (compact) {
     return (
       <div
         className="climate climate--compact"
         onKeyDown={(event) => {
-          if (event.key === "Escape") setOpen(false);
+          if (event.key === "Escape" && open) {
+            event.preventDefault();
+            closeCompactSelector();
+          }
         }}
       >
         <button
@@ -41,6 +50,7 @@ export function ClimateSelector({ value, onChange, compact = false }: ClimateSel
           aria-label={`Crown climate: ${labels[value]}. Change climate`}
           className="climate__current"
           onClick={() => setOpen((current) => !current)}
+          ref={triggerRef}
           title={`Crown climate: ${labels[value]}`}
           type="button"
         >
@@ -61,7 +71,7 @@ export function ClimateSelector({ value, onChange, compact = false }: ClimateSel
                 key={climate}
                 onClick={() => {
                   onChange(climate);
-                  setOpen(false);
+                  closeCompactSelector();
                 }}
                 title={labels[climate]}
                 type="button"
