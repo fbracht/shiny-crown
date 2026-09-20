@@ -34,7 +34,7 @@ export function loadPersistedSession(storage: StorageLike): LoadResult {
     }
     const migrated =
       typeof parsed === "object" && parsed !== null && "schemaVersion" in parsed
-        ? parsed.schemaVersion !== 1
+        ? parsed.schemaVersion !== 2
         : true;
     if (migrated) persistSession(storage, result.value);
     return { status: "loaded", session: result.value, migrated };

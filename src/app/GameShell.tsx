@@ -1,12 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { roleRefs } from "./session/roles";
+import { playerLabel } from "./session/playerLabels";
 import { useSession } from "./session/SessionContext";
 import { boundaryHasChanges } from "./session/reducer";
 import { exportBackup, importBackup } from "./session/serialization";
-import { phaseCopy } from "../content/en/phases";
 import { phaseRegistry } from "../flow/phaseRegistry";
 import { ClimateSelector } from "../components/ClimateSelector";
 import { RoleEditor } from "../components/RoleEditor";
+import { ReferenceProvider } from "../components/ReferenceContext";
+import {
+  ReferenceLibrary,
+  type ReferenceId,
+} from "../components/ReferenceLibrary";
 
 type GameShellProps = {
   onHome: () => void;
@@ -33,10 +38,11 @@ function UtilityDialog({
   title: string;
   children: React.ReactNode;
 }) {
+  const titleId = `utility-dialog-${title.toLowerCase().replaceAll(" ", "-")}`;
   return (
-    <dialog className="utility-dialog" ref={dialogRef}>
+    <dialog aria-labelledby={titleId} className="utility-dialog" ref={dialogRef}>
       <header>
-        <h2>{title}</h2>
+        <h2 id={titleId}>{title}</h2>
         <button
           aria-label={`Close ${title}`}
           onClick={() => closeDialog(dialogRef.current)}
@@ -53,10 +59,10 @@ function UtilityDialog({
 function RoleSheet({ dialogRef }: { dialogRef: React.RefObject<HTMLDialogElement | null> }) {
   const { session, dispatch } = useSession();
   return (
-    <UtilityDialog dialogRef={dialogRef} title="Role ledger">
+    <UtilityDialog dialogRef={dialogRef} title="Game state">
       <p className="dialog-intro">
-        Correct availability and occupants here. Structural actions still belong beside the rule
-        that causes them.
+        Correct structural availability and office holders here. Not-in-play offices stay out of
+        phase procedures.
       </p>
       <div className="role-ledger__grid">
         {roleRefs().map((role) => (
@@ -74,7 +80,7 @@ function RoleSheet({ dialogRef }: { dialogRef: React.RefObject<HTMLDialogElement
                 onClick={() => dispatch({ type: "transfer-button", holder })}
                 type="button"
               >
-                {holder === "human-1" ? "Human 1" : "Human 2"}
+                {playerLabel(session.mode, session.playerNames, holder)}
               </button>
             ))}
           </div>
@@ -255,9 +261,15 @@ export function GameShell({ onHome }: GameShellProps) {
   const { session, dispatch } = useSession();
   const roleDialog = useRef<HTMLDialogElement>(null);
   const backupDialog = useRef<HTMLDialogElement>(null);
+  const referenceDialog = useRef<HTMLDialogElement>(null);
   const endDialog = useRef<HTMLDialogElement>(null);
+  const [referenceInitial, setReferenceInitial] = useState<ReferenceId>("glossary");
   const Phase = phaseRegistry[session.progress.phaseId];
-  const title = phaseCopy[session.progress.phaseId].title;
+
+  const openReference = (reference: ReferenceId = "glossary") => {
+    setReferenceInitial(reference);
+    showDialog(referenceDialog.current);
+  };
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
@@ -289,10 +301,13 @@ export function GameShell({ onHome }: GameShellProps) {
         />
         <nav aria-label="Session tools" className="app-header__tools">
           <button onClick={() => showDialog(roleDialog.current)} type="button">
-            Roles
+            State
           </button>
           <button onClick={() => showDialog(backupDialog.current)} type="button">
             Backup
+          </button>
+          <button onClick={() => openReference()} type="button">
+            References
           </button>
           <button onClick={() => showDialog(endDialog.current)} type="button">
             End game
@@ -301,15 +316,17 @@ export function GameShell({ onHome }: GameShellProps) {
       </header>
 
       <main className="app-main" id="main-content" tabIndex={-1}>
-        <p className="phase-position" aria-label={`Current phase: ${title}`}>
-          Turn {session.turn} · {title}
-        </p>
-        <Phase />
+        <ReferenceProvider value={openReference}>
+          <Phase />
+        </ReferenceProvider>
       </main>
 
       <NavigationControls />
       <RoleSheet dialogRef={roleDialog} />
       <BackupSheet dialogRef={backupDialog} />
+      <UtilityDialog dialogRef={referenceDialog} title="References">
+        <ReferenceLibrary initial={referenceInitial} key={referenceInitial} />
+      </UtilityDialog>
       <UtilityDialog dialogRef={endDialog} title="End the game">
         <p className="dialog-intro">
           Choose the physical reason that sends this session to scoring.

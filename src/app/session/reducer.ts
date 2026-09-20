@@ -32,6 +32,7 @@ import type {
 
 export type SessionAction =
   | { type: "set-mode"; mode: GameMode }
+  | { type: "set-player-name"; player: HumanId; name: string }
   | { type: "set-difficulty"; difficulty: Difficulty }
   | { type: "set-scenario"; scenario: Scenario }
   | { type: "set-climate"; climate: ClimateId }
@@ -220,6 +221,11 @@ export function sessionReducer(session: GameSessionV1, action: SessionAction): G
   switch (action.type) {
     case "set-mode":
       return changeMode(session, action.mode);
+    case "set-player-name":
+      return {
+        ...session,
+        playerNames: { ...session.playerNames, [action.player]: action.name },
+      };
     case "set-difficulty":
       if (session.mode === "two-player" && action.difficulty === "legendary") {
         throw new Error("Legendary two-player setup is not sourced.");

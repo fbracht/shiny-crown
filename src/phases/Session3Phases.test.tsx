@@ -13,7 +13,7 @@ import { SESSION_STORAGE_KEY } from "../app/session/persistence";
 import type { GameSessionV1, PhaseId } from "../app/session/types";
 import { GameShell } from "../app/GameShell";
 import { MemoryStorage } from "../test/MemoryStorage";
-import { BombayPresidencyPhase } from "./BombayPresidencyPhase";
+import { PresidencyPhase } from "./BombayPresidencyPhase";
 import { BonusesPhase, ChairmanPhase, HiringPhase } from "./PhaseViews";
 
 function atPhase(session: GameSessionV1, phaseId: PhaseId): GameSessionV1 {
@@ -28,6 +28,16 @@ describe("Session 3 representative slices", () => {
     const storage = new MemoryStorage();
     const user = userEvent.setup();
     let session = createInitialSession("two-player");
+    session = sessionReducer(session, {
+      type: "set-player-name",
+      player: "human-1",
+      name: "Alice",
+    });
+    session = sessionReducer(session, {
+      type: "set-player-name",
+      player: "human-2",
+      name: "Bruno",
+    });
     session = sessionReducer(session, {
       type: "set-role",
       role: "chairman",
@@ -51,7 +61,11 @@ describe("Session 3 representative slices", () => {
     await user.keyboard("{Enter}");
     expect(screen.getByText("Do not advance the Debt marker by default.")).toBeInTheDocument();
 
-    await user.selectOptions(screen.getByLabelText("Chairman"), "occupied:human-1");
+    await user.click(
+      within(screen.getByRole("group", { name: "Chairman holder" })).getByRole("button", {
+        name: "Alice",
+      }),
+    );
     expect(screen.getByText("Opening favor")).toBeInTheDocument();
     expect(screen.getByText("Set climate after finishing")).toBeInTheDocument();
     expect(
@@ -157,7 +171,7 @@ describe("Session 3 representative slices", () => {
     });
   });
 
-  it("persists Bombay local order/completion and updates every Crown action from global climate", async () => {
+  it("persists Bombay local order and updates every Crown action from global climate", async () => {
     const storage = new MemoryStorage();
     const user = userEvent.setup();
     let session = createInitialSession("two-player");
@@ -198,32 +212,34 @@ describe("Session 3 representative slices", () => {
 
     const governorCard = screen
       .getByRole("heading", { level: 3, name: "Governor of Bombay" })
-      .closest("article");
+      .closest("section");
     expect(governorCard).not.toBeNull();
     await user.click(
-      within(governorCard as HTMLElement).getByRole("button", { name: "Move later" }),
+      within(governorCard as HTMLElement).getByRole("button", {
+        name: "Move Governor of Bombay later",
+      }),
     );
 
     const commanderCard = screen
       .getByRole("heading", { level: 3, name: "Commander of Bombay" })
-      .closest("article");
-    await user.click(within(commanderCard as HTMLElement).getByRole("checkbox"));
-    expect(screen.getByText("1 / 3 complete")).toBeInTheDocument();
+      .closest("section");
+    expect(within(commanderCard as HTMLElement).queryByRole("checkbox")).not.toBeInTheDocument();
 
+    await user.click(screen.getByRole("button", { name: /Crown climate: Bull/u }));
     await user.click(screen.getByRole("button", { name: "Peacock" }));
     expect(
-      screen.getByRole("heading", { level: 3, name: "Governor of Bombay" }).closest("article"),
+      screen.getByRole("heading", { level: 3, name: "Governor of Bombay" }).closest("section"),
     ).toHaveTextContent(/at least 1 die/u);
     expect(
-      screen.getByRole("heading", { level: 3, name: "Commander of Bombay" }).closest("article"),
+      screen.getByRole("heading", { level: 3, name: "Commander of Bombay" }).closest("section"),
     ).toHaveTextContent(/exactly 2 dice against a non-Company region/u);
     expect(
-      screen.getByRole("heading", { level: 3, name: "Trade" }).closest("article"),
+      screen.getByRole("heading", { level: 3, name: "Trade" }).closest("section"),
     ).toHaveTextContent(/at least 6 dice/u);
     await waitFor(() => {
       const persisted = JSON.parse(storage.getItem(SESSION_STORAGE_KEY) ?? "{}");
       expect(persisted.climate).toBe("peacock");
-      expect(persisted.progress.phaseState.completed).toEqual(["commander"]);
+      expect(persisted.progress.phaseState.completed).toEqual([]);
     });
   });
 
@@ -245,23 +261,23 @@ describe("Session 3 representative slices", () => {
 
     render(
       <SessionProvider initialSession={session} storage={new MemoryStorage()}>
-        <BombayPresidencyPhase />
+        <PresidencyPhase presidency="bombay" />
       </SessionProvider>,
     );
     expect(screen.getByText(/The Presidency is vacant/u)).toBeInTheDocument();
     expect(screen.queryByRole("heading", { level: 3, name: "Trade" })).not.toBeInTheDocument();
   });
 
-  it("adapts the concise Bonuses procedure to the number of human families", () => {
+  it("keeps Bonuses to the source procedure without mode-specific connective copy", () => {
     const session = atPhase(createInitialSession("two-player"), "round.bonuses");
     render(
       <SessionProvider initialSession={session} storage={new MemoryStorage()}>
         <BonusesPhase />
       </SessionProvider>,
     );
-    expect(screen.getByText(/Human 1, Human 2, and the Crown/u)).toBeInTheDocument();
     expect(
-      screen.getByText(/Gain £1 for each owned Shipyard with a fitted ship/u),
+      screen.getByText(/Players gain £1 for each Shipyard with a fitted ship/u),
     ).toBeInTheDocument();
+    expect(screen.queryByText(/Human 1|Human 2/u)).not.toBeInTheDocument();
   });
 });

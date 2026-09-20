@@ -4,6 +4,7 @@ export type SourceRef = {
   document: "aid-v3.2" | "rules" | "crown-handbook" | "office-cards";
   pages: number[];
   section: string;
+  assetIds?: string[];
   mode: "shared" | "solo" | "two-player";
   use: "primary" | "clarification" | "replacement";
   note?: string;

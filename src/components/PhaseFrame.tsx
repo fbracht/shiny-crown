@@ -12,9 +12,7 @@ export function PhaseFrame({ copy, status, children }: PhaseFrameProps) {
     <article className="phase">
       <header className="phase__header">
         <div>
-          <p className="phase__context">Current procedure</p>
           <h1>{copy.title}</h1>
-          <p className="phase__summary">{copy.summary}</p>
         </div>
         {status ? <div className="phase__status">{status}</div> : null}
       </header>

@@ -4,6 +4,7 @@ import { useSession } from "../app/session/SessionContext";
 import {
   isPresidencyPhaseState,
   type PresidencyActionId,
+  type PresidencyId,
   type RoleRef,
 } from "../app/session/types";
 import { PhaseFrame } from "../components/PhaseFrame";
@@ -17,16 +18,20 @@ import {
   tradeDice,
 } from "../content/en/session3";
 
-function actionLabel(action: PresidencyActionId) {
-  if (action === "trade") return "Trade";
-  if (action === "commander") return "Commander of Bombay";
-  const region = action.slice("governor:".length);
-  return "Governor of " + region[0].toUpperCase() + region.slice(1);
+function titleCase(value: string) {
+  return value[0].toUpperCase() + value.slice(1);
 }
 
-function actionRole(action: PresidencyActionId): RoleRef {
-  if (action === "trade") return "president:bombay";
-  if (action === "commander") return "commander:bombay";
+function actionLabel(action: PresidencyActionId, presidency: PresidencyId) {
+  if (action === "trade") return "Trade";
+  if (action === "commander") return `Commander of ${titleCase(presidency)}`;
+  const region = action.slice("governor:".length);
+  return "Governor of " + titleCase(region);
+}
+
+function actionRole(action: PresidencyActionId, presidency: PresidencyId): RoleRef {
+  if (action === "trade") return `president:${presidency}`;
+  if (action === "commander") return `commander:${presidency}`;
   return action;
 }
 
@@ -64,21 +69,24 @@ function GovernorProcedure({ role }: { role: RoleRef }) {
         occurs.
       </p>
       <p>
-        On success, gain £1—£2 if the preceding roll failed—then build a Company ship, commission a
-        Regiment, or Tax. On failure, add 1 unrest. Each Tax after the first this turn also adds 1
-        unrest.
+        On success, the Governor gains £1 (£2 if the previous roll failed), then chooses: build a
+        Company ship, commission a Regiment, or Tax. Building moves a ship from the region to its
+        Presidency sea zone, or places one under construction in the region. Commissioning adds a
+        Regiment to the Presidency Army. Tax adds £2 to Company Balance or the Presidency treasury;
+        each Tax after the first adds 1 unrest.
       </p>
       <p>
-        Receive 1 promise when the relevant Crown-Presidency predicate is met for Tax, completing a
-        Company ship, or commissioning a Regiment.
+        Receive 1 promise for adding Tax money to a Crown Presidency, moving a Company ship to a
+        Crown Presidency sea zone, or commissioning a Regiment into an Army associated with a Crown
+        President.
       </p>
     </div>
   );
 }
 
-function CommanderProcedure() {
+function CommanderProcedure({ presidency }: { presidency: PresidencyId }) {
   const { session } = useSession();
-  const commander = session.roles.commanders.bombay;
+  const commander = session.roles.commanders[presidency];
   if (commander.status !== "occupied") return null;
   const rule = commanderClimateRules[session.climate];
 
@@ -156,9 +164,9 @@ function CommanderProcedure() {
   );
 }
 
-function TradeProcedure() {
+function TradeProcedure({ presidency }: { presidency: PresidencyId }) {
   const { session } = useSession();
-  const president = session.roles.presidents.bombay;
+  const president = session.roles.presidents[presidency];
   if (president.status !== "occupied") return null;
 
   return (
@@ -210,67 +218,66 @@ function TradeProcedure() {
 
 function ActionCard({
   action,
-  done,
   index,
   orderLength,
-  onComplete,
   onMove,
+  presidency,
 }: {
   action: PresidencyActionId;
-  done: boolean;
   index: number;
   orderLength: number;
-  onComplete: (complete: boolean) => void;
   onMove: (direction: -1 | 1) => void;
+  presidency: PresidencyId;
 }) {
   return (
-    <article className="presidency-card" data-complete={done || undefined}>
+    <section className="presidency-action">
       <header>
         <div>
-          <span className="status-label">Local action {index + 1}</span>
-          <h3>{actionLabel(action)}</h3>
+          <span className="status-label">{index + 1}</span>
+          <h3>{actionLabel(action, presidency)}</h3>
         </div>
-        <label className="completion-control">
-          <input
-            checked={done}
-            onChange={(event) => onComplete(event.target.checked)}
-            type="checkbox"
-          />
-          <span>{done ? "Complete" : "Mark complete"}</span>
-        </label>
+        <div className="action-order__controls">
+          <button
+            aria-label={`Move ${actionLabel(action, presidency)} earlier`}
+            disabled={index === 0}
+            onClick={() => onMove(-1)}
+            type="button"
+          >
+            ↑
+          </button>
+          <button
+            aria-label={`Move ${actionLabel(action, presidency)} later`}
+            disabled={index === orderLength - 1}
+            onClick={() => onMove(1)}
+            type="button"
+          >
+            ↓
+          </button>
+        </div>
       </header>
-      <RoleEditor role={actionRole(action)} />
+      <RoleEditor holderOnly role={actionRole(action, presidency)} />
       {action.startsWith("governor:") ? (
-        <GovernorProcedure role={actionRole(action)} />
+        <GovernorProcedure role={actionRole(action, presidency)} />
       ) : action === "commander" ? (
-        <CommanderProcedure />
+        <CommanderProcedure presidency={presidency} />
       ) : (
-        <TradeProcedure />
+        <TradeProcedure presidency={presidency} />
       )}
-      <div className="action-order__controls action-order__controls--wide">
-        <button disabled={index === 0} onClick={() => onMove(-1)} type="button">
-          Move earlier
-        </button>
-        <button disabled={index === orderLength - 1} onClick={() => onMove(1)} type="button">
-          Move later
-        </button>
-      </div>
-    </article>
+    </section>
   );
 }
 
-export function BombayPresidencyPhase() {
+export function PresidencyPhase({ presidency }: { presidency: PresidencyId }) {
   const { session, dispatch } = useSession();
   const local = session.progress.phaseState;
   if (!isPresidencyPhaseState(local)) return null;
-  const president = session.roles.presidents.bombay;
-  const sourceDefault = defaultPresidencyOrder("bombay", session.roles);
+  const president = session.roles.presidents[presidency];
+  const sourceDefault = defaultPresidencyOrder(presidency, session.roles);
   const order = [
     ...local.order.filter((action) => sourceDefault.includes(action)),
     ...sourceDefault.filter((action) => !local.order.includes(action)),
   ];
   const crownPresident = president.status === "occupied" && president.occupant === "crown";
-  const completeCount = order.filter((action) => local.completed.includes(action)).length;
 
   const move = (index: number, direction: -1 | 1) => {
     const destination = index + direction;
@@ -282,24 +289,10 @@ export function BombayPresidencyPhase() {
 
   return (
     <PhaseFrame
-      copy={phaseCopy["round.presidency.bombay"]}
-      status={
-        <span className="status-label">
-          {completeCount} / {order.length} complete
-        </span>
-      }
+      copy={phaseCopy[`round.presidency.${presidency}`]}
+      status={<span className="status-label">{titleCase(presidency)}</span>}
     >
-      <section className="workbench-panel">
-        <h2>Acting President</h2>
-        <RoleEditor role="president:bombay" />
-        <p className="state-reading" aria-live="polite">
-          {president.status === "occupied" && president.occupant === "crown"
-            ? "Showing Crown order and climate guidance."
-            : president.status === "occupied"
-              ? "Showing the human President procedure."
-              : "The Chairman orders occupied Governors and the Commander; Trade is unavailable."}
-        </p>
-      </section>
+      <RoleEditor holderOnly role={`president:${presidency}`} />
 
       <RuleSection title="Set the local order">
         {crownPresident ? (
@@ -318,28 +311,29 @@ export function BombayPresidencyPhase() {
           </p>
         )}
         <p className="field-note">
-          Before these actions, resolve physical firm Initiative for every firm trading in Bombay.
-          Each action must finish before the next begins.
+          Before resolving Presidential actions, check Initiative for each firm trading in{" "}
+          {titleCase(presidency)}. Complete each action before proceeding to the next.
         </p>
       </RuleSection>
 
       {order.length === 0 ? (
         <p className="empty-note">
-          No occupied Governor, Commander, or President action is currently eligible in Bombay.
+          No occupied Governor, Commander, or President action is currently eligible in{" "}
+          {titleCase(presidency)}.
         </p>
       ) : (
-        <section className="presidency-actions" aria-label="Bombay local actions">
+        <section
+          className="presidency-actions"
+          aria-label={`${titleCase(presidency)} local actions`}
+        >
           {order.map((action, index) => (
             <ActionCard
               action={action}
-              done={local.completed.includes(action)}
               index={index}
               key={action}
-              onComplete={(complete) =>
-                dispatch({ type: "complete-presidency-action", actionId: action, complete })
-              }
               onMove={(direction) => move(index, direction)}
               orderLength={order.length}
+              presidency={presidency}
             />
           ))}
         </section>

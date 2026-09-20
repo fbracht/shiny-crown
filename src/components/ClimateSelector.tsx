@@ -1,3 +1,4 @@
+import { useId, useState } from "react";
 import { CLIMATES, type ClimateId } from "../app/session/types";
 
 const labels: Record<ClimateId, string> = {
@@ -8,6 +9,14 @@ const labels: Record<ClimateId, string> = {
   peacock: "Peacock",
 };
 
+const icons: Record<ClimateId, string> = {
+  bull: "🐂",
+  stag: "🦌",
+  lion: "🦁",
+  bear: "🐻",
+  peacock: "🦚",
+};
+
 type ClimateSelectorProps = {
   value: ClimateId;
   onChange: (climate: ClimateId) => void;
@@ -15,8 +24,59 @@ type ClimateSelectorProps = {
 };
 
 export function ClimateSelector({ value, onChange, compact = false }: ClimateSelectorProps) {
+  const [open, setOpen] = useState(false);
+  const choicesId = useId();
+
+  if (compact) {
+    return (
+      <div
+        className="climate climate--compact"
+        onKeyDown={(event) => {
+          if (event.key === "Escape") setOpen(false);
+        }}
+      >
+        <button
+          aria-controls={choicesId}
+          aria-expanded={open}
+          aria-label={`Crown climate: ${labels[value]}. Change climate`}
+          className="climate__current"
+          onClick={() => setOpen((current) => !current)}
+          title={`Crown climate: ${labels[value]}`}
+          type="button"
+        >
+          <span aria-hidden="true">{icons[value]}</span>
+        </button>
+        {open ? (
+          <div
+            aria-label="Choose Crown climate"
+            className="climate__bar"
+            id={choicesId}
+            role="group"
+          >
+            {CLIMATES.map((climate) => (
+              <button
+                aria-label={labels[climate]}
+                aria-pressed={value === climate}
+                className="climate__bar-choice"
+                key={climate}
+                onClick={() => {
+                  onChange(climate);
+                  setOpen(false);
+                }}
+                title={labels[climate]}
+                type="button"
+              >
+                <span aria-hidden="true">{icons[climate]}</span>
+              </button>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    );
+  }
+
   return (
-    <fieldset className={compact ? "climate climate--compact" : "climate"}>
+    <fieldset className="climate">
       <legend>Crown climate</legend>
       <div className="climate__choices">
         {CLIMATES.map((climate) => (
@@ -29,7 +89,7 @@ export function ClimateSelector({ value, onChange, compact = false }: ClimateSel
             type="button"
           >
             <span className="climate__mark" aria-hidden="true">
-              {labels[climate].slice(0, 1)}
+              {icons[climate]}
             </span>
             <span>{labels[climate]}</span>
           </button>

@@ -90,6 +90,10 @@ export function createInitialSession(mode: GameMode, scenario: Scenario = "1710"
   return {
     schemaVersion: SCHEMA_VERSION,
     mode,
+    playerNames: {
+      "human-1": "Player 1",
+      "human-2": "Player 2",
+    },
     difficulty: "normal",
     scenario,
     turn: 1,

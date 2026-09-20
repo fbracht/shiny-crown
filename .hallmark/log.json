@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-09-19",
+    "macrostructure": "Long Document",
+    "theme": "Almanac",
+    "enrichment": "none",
+    "brief": "Session 3.1 compact source-first interaction reset"
+  },
+  {
+    "date": "2026-09-19",
     "macrostructure": "Workbench",
     "theme": "Almanac",
     "enrichment": "none",

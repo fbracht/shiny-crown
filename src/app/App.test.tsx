@@ -35,21 +35,36 @@ describe("application foundation", () => {
 
   it("starts a distinct two-player session and keeps Legendary unavailable", async () => {
     const user = userEvent.setup();
-    render(<App storage={new MemoryStorage()} />);
+    const storage = new MemoryStorage();
+    render(<App storage={storage} />);
     await user.click(screen.getByRole("button", { name: /New two-player game/u }));
     expect(screen.getByRole("button", { name: "Two players" })).toHaveAttribute(
       "aria-pressed",
       "true",
     );
     expect(screen.getByRole("button", { name: "Legendary" })).toBeDisabled();
+    await user.clear(screen.getByLabelText("Player 1 name"));
+    await user.type(screen.getByLabelText("Player 1 name"), "Alice");
+    await user.clear(screen.getByLabelText("Player 2 name"));
+    await user.type(screen.getByLabelText("Player 2 name"), "Bruno");
+    await waitFor(() => {
+      expect(JSON.parse(storage.getItem(SESSION_STORAGE_KEY) ?? "{}").playerNames).toEqual({
+        "human-1": "Alice",
+        "human-2": "Bruno",
+      });
+    });
   });
 
   it("updates climate globally and scrolls new phases to the top", async () => {
     const user = userEvent.setup();
     render(<App storage={new MemoryStorage()} />);
     await user.click(screen.getByRole("button", { name: /New solo game/u }));
+    await user.click(screen.getByRole("button", { name: /Crown climate: Bull/u }));
     await user.click(screen.getByRole("button", { name: "Bear" }));
-    expect(screen.getByRole("button", { name: "Bear" })).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: /Crown climate: Bear/u })).toHaveAttribute(
+      "aria-expanded",
+      "false",
+    );
     await user.click(screen.getByRole("button", { name: "Next" }));
     expect(window.scrollTo).toHaveBeenCalled();
   });

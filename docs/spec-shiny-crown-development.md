@@ -753,12 +753,13 @@ Closing the browser, refreshing the page, or reopening the application should al
 
 ## 23. Game-session state model
 
-The source audit established the minimum persistent model. Exact TypeScript organization may evolve, but schema v1 must represent these facts and invariants:
+The source audit established the minimum persistent model. Exact TypeScript organization may evolve. Schema v2 adds persisted human display names while retaining the established facts and invariants:
 
 ```ts
-interface GameSessionV1 {
-  schemaVersion: 1;
+interface GameSessionV2 {
+  schemaVersion: 2;
   mode: "solo" | "two-player";
+  playerNames: Record<"human-1" | "human-2", string>;
   scenario: "1710" | "1758" | "1813" | "long-1710";
   difficulty: "easy" | "normal" | "hard" | "expert" | "legendary";
   turn: number;
@@ -794,6 +795,8 @@ Required invariants include:
 The normative shape, mutations, and exclusions are in [`state-model-audit.md`](source-analysis/state-model-audit.md). The app deliberately does not persist money, cubes, shares, units, routes, dice, cards, firms, or physical-board predicates.
 
 The state model should be versioned from the beginning to support migrations as the application evolves.
+
+Schema v1 saves migrate both player names to neutral defaults. Two-player setup lets users replace those defaults; every displayed human identity uses the saved name. Solo displays `human-1` as `You` and never exposes `human-2`.
 
 ---
 
@@ -956,6 +959,8 @@ The shell needs access to:
 Phase-specific role ownership should generally belong near the top of the phase content rather than permanently consuming global chrome, because not every phase revolves around the same role.
 
 The chrome should feel integrated with the visual design rather than like a generic application toolbar.
+
+The climate control is a single compact current-climate icon at rest. Activating it expands a horizontal Bull → Stag → Lion → Bear → Peacock selector; choosing a climate updates the one global value and collapses the selector. The control must be fully keyboard and screen-reader accessible.
 
 ---
 
@@ -1448,6 +1453,8 @@ This milestone should validate the architecture.
 
 Refactor only after real patterns become apparent.
 
+The Session 3.1 corrective pass established the presentation contract for later phases: source text first, one compact phase title, continuous sections instead of oversized cards, global structural editing behind the State surface, inline segmented holder controls only where branch context benefits, no completion controls unless they replace meaningful tabletop memory, and phone-width verification at 320, 375, 414, and 768 CSS pixels.
+
 ### Milestone 5 — Full English content
 
 Convert every phase from the supplied PDF into the application.
@@ -1468,6 +1475,7 @@ Focus on:
 - spacing;
 - mobile ergonomics;
 - state-control speed;
+- source-text fidelity and per-sentence provenance;
 - error handling;
 - accessibility;
 - visual cohesion;
@@ -1559,15 +1567,16 @@ Shiny Crown v1 is successful when a player can:
 6. always see the current Crown climate;
 7. update climate quickly wherever the rules require it;
 8. distinguish absent, vacant, and occupied roles and track the correct human/Crown occupant;
-9. see the correct procedure for the current role occupant;
-10. see only the Crown instructions relevant to the current climate;
-11. receive the correct shared, solo, or two-player replacement procedure;
-12. complete the fixed Presidency sequence while preserving each Presidency's local action order;
-13. go backward safely after an accidental advance;
-14. close and reopen the application without losing progress;
-15. copy a backup code and later restore the same session from it;
-16. access global reference material without losing their place;
-17. comfortably read and operate the interface throughout a real tabletop session.
+9. use saved player names throughout two-player play and `You` in solo;
+10. see the correct procedure for the current role occupant;
+11. see only the Crown instructions relevant to the current climate;
+12. receive the correct shared, solo, or two-player replacement procedure;
+13. complete the fixed Presidency sequence while preserving each Presidency's local action order;
+14. go backward safely after an accidental advance;
+15. close and reopen the application without losing progress;
+16. copy a backup code and later restore the same session from it;
+17. access global reference material without losing their place;
+18. comfortably read and operate the interface throughout a real tabletop session.
 
 Most importantly, using Shiny Crown should feel materially easier than repeatedly consulting the Crown PDF or the existing reference application.
 

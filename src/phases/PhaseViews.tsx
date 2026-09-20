@@ -8,14 +8,12 @@ import {
   ROLE_LABELS,
 } from "../app/session/roles";
 import { useSession } from "../app/session/SessionContext";
+import { playerLabel } from "../app/session/playerLabels";
 import {
   DIFFICULTIES,
   SCENARIOS,
-  isPresidencyPhaseState,
   type ActorId,
   type GovernorAssignment,
-  type PhaseId,
-  type PresidencyActionId,
   type PresidencyId,
   type RoleRef,
 } from "../app/session/types";
@@ -23,7 +21,16 @@ import { ClimateSelector } from "../components/ClimateSelector";
 import { PhaseFrame } from "../components/PhaseFrame";
 import { Favor, ModeNote, RuleSection } from "../components/ProcedurePrimitives";
 import { RoleEditor } from "../components/RoleEditor";
-import { applicableCopy, phaseCopy } from "../content/en/phases";
+import { phaseCopy } from "../content/en/phases";
+import { deregulationMaximumSpend } from "../content/en/earlyRound";
+import {
+  crownSetupFor,
+  finishSetupSteps,
+  scenarioSetupNotes,
+  setupTableSteps,
+  soloSetupCards,
+  twoPlayerSetupCards,
+} from "../content/en/setup";
 import {
   chairmanClimateRules,
   climateLabels,
@@ -37,59 +44,6 @@ const scenarioLabels = {
   "1813": "1813",
   "long-1710": "Long 1710",
 } as const;
-
-const roleByPhase: Partial<Record<PhaseId, RoleRef>> = {
-  "round.chairman": "chairman",
-  "round.shipping": "managerOfShipping",
-  "round.military-affairs": "militaryAffairs",
-  "round.china": "superintendentChina",
-};
-
-function ProcedureList({ phaseId }: { phaseId: PhaseId }) {
-  const { session } = useSession();
-  return (
-    <ol className="procedure-list">
-      {applicableCopy(phaseId, session.mode).map((paragraph) => (
-        <li key={paragraph}>{paragraph}</li>
-      ))}
-    </ol>
-  );
-}
-
-function ActingRole({ role }: { role: RoleRef }) {
-  const { session } = useSession();
-  const assignment = getRole(session.roles, role);
-  const actor = assignment.status === "occupied" ? assignment.occupant : assignment.status;
-  return (
-    <section className="workbench-panel">
-      <h2>Acting role</h2>
-      <RoleEditor role={role} />
-      <p className="state-reading" aria-live="polite">
-        {assignment.status === "occupied" && actor === "crown"
-          ? `Showing Crown guidance for the ${session.climate} climate.`
-          : assignment.status === "occupied"
-            ? "Showing the human procedure. Crown climate remains available for contextual changes."
-            : "This phase is normally skipped while the role is not occupied."}
-      </p>
-    </section>
-  );
-}
-
-const actorLabels: Record<ActorId, string> = {
-  "human-1": "Human 1",
-  "human-2": "Human 2",
-  crown: "Crown",
-};
-
-export function GenericPhase({ phaseId }: { phaseId: PhaseId }) {
-  const role = roleByPhase[phaseId];
-  return (
-    <PhaseFrame copy={phaseCopy[phaseId]}>
-      <ProcedureList phaseId={phaseId} />
-      {role ? <ActingRole role={role} /> : null}
-    </PhaseFrame>
-  );
-}
 
 export function ConfigurePhase() {
   const { session, dispatch } = useSession();
@@ -118,6 +72,26 @@ export function ConfigurePhase() {
             </button>
           </div>
         </fieldset>
+
+        {session.mode === "two-player" ? (
+          <fieldset className="player-name-fields">
+            <legend>Players</legend>
+            <div>
+              {(["human-1", "human-2"] as const).map((player, index) => (
+                <label key={player}>
+                  <span>Player {index + 1} name</span>
+                  <input
+                    autoComplete="off"
+                    onChange={(event) =>
+                      dispatch({ type: "set-player-name", player, name: event.target.value })
+                    }
+                    value={session.playerNames[player]}
+                  />
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        ) : null}
 
         <fieldset className="segmented-field segmented-field--wrap">
           <legend>Scenario</legend>
@@ -159,7 +133,109 @@ export function ConfigurePhase() {
           </p>
         </fieldset>
       </div>
-      <ProcedureList phaseId="setup.configure" />
+      <aside className="setup-source-note">
+        <strong>Selected setup</strong>
+        <p>
+          {session.mode === "solo" ? "Solo" : "Two players"} · {scenarioLabels[session.scenario]} ·{" "}
+          {session.difficulty[0].toUpperCase() + session.difficulty.slice(1)}
+        </p>
+        <p>{scenarioSetupNotes[session.scenario]}</p>
+        <p>The matching physical scenario card remains authoritative for its setup values.</p>
+      </aside>
+    </PhaseFrame>
+  );
+}
+
+export function SetupTablePhase() {
+  const { session } = useSession();
+  return (
+    <PhaseFrame
+      copy={phaseCopy["setup.table"]}
+      status={<span className="status-label">Setup 2 of 6</span>}
+    >
+      <ol className="procedure-list procedure-list--setup">
+        {setupTableSteps.map((step) => (
+          <li key={step}>{step}</li>
+        ))}
+      </ol>
+      <aside className="setup-source-note">
+        <strong>{scenarioLabels[session.scenario]}</strong>
+        <p>{scenarioSetupNotes[session.scenario]}</p>
+        <p>
+          The supplied rules do not contain the scenario-card values. Keep the matching physical
+          card beside the board and use it for every scenario-specific position.
+        </p>
+      </aside>
+    </PhaseFrame>
+  );
+}
+
+export function SetupCrownPhase() {
+  const { session } = useSession();
+  const setup = crownSetupFor(session.mode, session.difficulty);
+  const humans = setup.humanCubes.map((cubes, index) => ({
+    label:
+      session.mode === "solo"
+        ? "You"
+        : playerLabel(session.mode, session.playerNames, index === 0 ? "human-1" : "human-2"),
+    cubes,
+  }));
+
+  return (
+    <PhaseFrame
+      copy={phaseCopy["setup.crown"]}
+      status={<span className="status-label">Setup 3 of 6</span>}
+    >
+      <div className="phase-procedure">
+        <RuleSection number="01" title="Crown board and family">
+          <ol>
+            <li>Set up the Crown family board.</li>
+            <li>Use an unused opportunity marker to track the Crown climate.</li>
+            <li>
+              Give the Crown two sets of family members: 36 pieces total. It uses every piece of one
+              colour before placing pieces of the other colour.
+            </li>
+          </ol>
+        </RuleSection>
+
+        <RuleSection number="02" title="Closed pool of 12 promise cubes">
+          <div className="setup-allocation" aria-label="Initial promise cube distribution">
+            {humans.map((human) => (
+              <div key={human.label}>
+                <span>{human.label}</span>
+                <strong>{human.cubes}</strong>
+              </div>
+            ))}
+            <div>
+              <span>Crown</span>
+              <strong>{setup.crownCubes}</strong>
+            </div>
+          </div>
+          <p>
+            Keep these 12 cubes as a closed pool. Cubes move between the human families and the
+            Crown when favors are resolved; do not add cubes from the general supply.
+          </p>
+        </RuleSection>
+
+        <RuleSection number="03" title="Difficulty adjustments">
+          {setup.promiseCardsPerHuman > 0 ? (
+            <p>
+              Give each human <strong>{setup.promiseCardsPerHuman} promise cards</strong>. These may
+              be traded for Crown promise cubes as shown on the Crown board.
+            </p>
+          ) : (
+            <p>Do not use promise cards for trading with the Crown.</p>
+          )}
+          {setup.extraSetupCards > 0 ? (
+            <p>
+              Give the Crown <strong>{setup.extraSetupCards} extra setup cards</strong> in addition
+              to the basic setup-card distribution resolved on the next screen.
+            </p>
+          ) : (
+            <p>Do not give the Crown extra setup cards.</p>
+          )}
+        </RuleSection>
+      </div>
     </PhaseFrame>
   );
 }
@@ -168,7 +244,8 @@ export function SetupCardsPhase() {
   const { session, dispatch } = useSession();
   const local = session.progress.phaseState;
   const dealRound = local.phaseId === "setup.cards" ? local.dealRound : 0;
-  const rounds = session.mode === "solo" ? 4 : 2;
+  const procedure = session.mode === "solo" ? soloSetupCards : twoPlayerSetupCards;
+  const rounds = procedure.rounds;
   return (
     <PhaseFrame
       copy={phaseCopy["setup.cards"]}
@@ -178,7 +255,21 @@ export function SetupCardsPhase() {
         </span>
       }
     >
-      <ProcedureList phaseId="setup.cards" />
+      <div className="phase-procedure">
+        <RuleSection number="01" title="Prepare the deck">
+          <p>Shuffle the 12 basic setup cards. Do not add ordinary extra cards or use a draft.</p>
+        </RuleSection>
+        <RuleSection number="02" title="Distribute the cards">
+          <p>{procedure.instruction}</p>
+          <p>
+            Repeat for <strong>{rounds} rounds total</strong>. Resolve everything shown on the
+            physical cards, including office placement, pieces, cash, and enterprises.
+          </p>
+        </RuleSection>
+        <RuleSection number="03" title="Final distribution">
+          <p className="setup-total">{procedure.finalTotal}</p>
+        </RuleSection>
+      </div>
       <section className="counter-panel" aria-label="Setup card round">
         <p className="counter-panel__value">
           {dealRound} / {rounds} complete
@@ -206,8 +297,17 @@ export function SetupCardsPhase() {
 
 export function SetupFinishPhase() {
   return (
-    <PhaseFrame copy={phaseCopy["setup.finish"]}>
-      <ProcedureList phaseId="setup.finish" />
+    <PhaseFrame
+      copy={phaseCopy["setup.finish"]}
+      status={<span className="status-label">Setup 5 of 6</span>}
+    >
+      <RuleSection title="Finish the common setup">
+        <ol>
+          {finishSetupSteps.map((step) => (
+            <li key={step}>{step}</li>
+          ))}
+        </ol>
+      </RuleSection>
       <section className="role-ledger">
         <header>
           <h2>Role ledger</h2>
@@ -229,49 +329,169 @@ export function SetupFinishPhase() {
 export function SetupAiPhase() {
   const { session, dispatch } = useSession();
   return (
-    <PhaseFrame copy={phaseCopy["setup.ai"]}>
-      <ProcedureList phaseId="setup.ai" />
-      <ClimateSelector
-        value={session.climate}
-        onChange={(climate) => dispatch({ type: "set-climate", climate })}
-      />
-      {session.twoPlayer ? (
-        <fieldset className="segmented-field">
-          <legend>Initial Player Button</legend>
-          <div>
-            {(["human-1", "human-2"] as const).map((holder) => (
-              <button
-                aria-pressed={session.twoPlayer?.buttonHolder === holder}
-                key={holder}
-                onClick={() => dispatch({ type: "transfer-button", holder })}
-                type="button"
-              >
-                {holder === "human-1" ? "Human 1" : "Human 2"}
-              </button>
-            ))}
-          </div>
-        </fieldset>
-      ) : null}
+    <PhaseFrame
+      copy={phaseCopy["setup.ai"]}
+      status={<span className="status-label">Setup 6 of 6</span>}
+    >
+      <div className="phase-procedure">
+        <RuleSection number="01" title="Seat the Crown">
+          <p>
+            Place the Crown last in office order relative to the family that was Chairman during
+            setup. If the Crown is Chairman, place it before the next family in office order.
+          </p>
+        </RuleSection>
+        <RuleSection number="02" title="Reveal the first AI card">
+          <p>
+            Shuffle the AI deck and place it facedown. Reveal the top card to the right of the deck,
+            then set the climate marker to the animal shown on that card.
+          </p>
+          <ClimateSelector
+            value={session.climate}
+            onChange={(climate) => dispatch({ type: "set-climate", climate })}
+          />
+        </RuleSection>
+        {session.twoPlayer ? (
+          <RuleSection number="03" title="Set the Player Button">
+            <p>
+              Give the Button to the human on the Crown's right for a counter-clockwise finger, or
+              on its left for a clockwise finger. Later AI cards do not reset this holder.
+            </p>
+            <fieldset className="segmented-field">
+              <legend>Initial holder</legend>
+              <div>
+                {(["human-1", "human-2"] as const).map((holder) => (
+                  <button
+                    aria-pressed={session.twoPlayer?.buttonHolder === holder}
+                    key={holder}
+                    onClick={() => dispatch({ type: "transfer-button", holder })}
+                    type="button"
+                  >
+                    {playerLabel(session.mode, session.playerNames, holder)}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+          </RuleSection>
+        ) : null}
+        <p className="readiness-note">
+          Setup is complete. The first turn begins at the Deregulation gate and skips London Season.
+        </p>
+      </div>
     </PhaseFrame>
   );
 }
 
 export function DeregulationPhase() {
   const { session, dispatch } = useSession();
+  const [markerSpace, setMarkerSpace] = useState<"ordinary" | "lined" | "star">("ordinary");
+  const [result, setResult] = useState<"passed" | "failed" | null>(null);
+  const primeMinister = session.roles.primeMinister;
+  const crownPrimeMinister =
+    primeMinister.status === "occupied" && primeMinister.occupant === "crown";
+  const canInitiate = markerSpace === "star" || (markerSpace === "lined" && !crownPrimeMinister);
+  const maximumSpend = deregulationMaximumSpend[session.climate];
+
   return (
     <PhaseFrame
       copy={phaseCopy["round.deregulation-vote"]}
       status={<span className="status-label">{session.deregulated ? "Active" : "Regulated"}</span>}
     >
-      <ProcedureList phaseId="round.deregulation-vote" />
-      <button
-        className="button button--primary"
-        disabled={session.deregulated}
-        onClick={() => dispatch({ type: "activate-deregulation" })}
-        type="button"
-      >
-        {session.deregulated ? "Deregulation active" : "Vote passed"}
-      </button>
+      {session.deregulated ? (
+        result === "passed" ? (
+          <aside className="outcome-note" aria-live="polite">
+            <strong>Pass</strong>
+            <p>
+              Lower Company Debt by 1 for every 2 Debt, reset Company Standing to S, and give the
+              Prime Minister a passed-law token. Firms are now available.
+            </p>
+          </aside>
+        ) : (
+          <p className="empty-note">
+            Deregulation is already active. This special vote is no longer available.
+          </p>
+        )
+      ) : (
+        <div className="phase-procedure">
+          <RuleSection number="01" title="Check the special-session gate">
+            <p>
+              This vote occurs only in the 1758 or Long 1710 scenario, at the start of a turn before
+              London Season. Check the physical Company Standing and Debt markers.
+            </p>
+            <fieldset className="segmented-field segmented-field--wrap">
+              <legend>Standing or Debt position</legend>
+              <div>
+                <button
+                  aria-pressed={markerSpace === "ordinary"}
+                  onClick={() => setMarkerSpace("ordinary")}
+                  type="button"
+                >
+                  Neither lined
+                </button>
+                <button
+                  aria-pressed={markerSpace === "lined"}
+                  onClick={() => setMarkerSpace("lined")}
+                  type="button"
+                >
+                  Lined space
+                </button>
+                <button
+                  aria-pressed={markerSpace === "star"}
+                  onClick={() => setMarkerSpace("star")}
+                  type="button"
+                >
+                  Star space
+                </button>
+              </div>
+            </fieldset>
+            <RoleEditor holderOnly role="primeMinister" />
+            <p className="state-reading" aria-live="polite">
+              {markerSpace === "ordinary"
+                ? "No special vote is available this turn."
+                : markerSpace === "star"
+                  ? "The Prime Minister must initiate the vote."
+                  : crownPrimeMinister
+                    ? "The Crown Prime Minister does not voluntarily initiate the vote."
+                    : "The human Prime Minister may initiate the vote."}
+            </p>
+          </RuleSection>
+
+          {canInitiate ? (
+            <RuleSection number="02" title="Resolve the vote">
+              <p>
+                The Prime Minister may vote against the law. The Crown votes last and against it. In
+                the {climateLabels[session.climate]} climate, the Crown may spend up to{" "}
+                <strong>£{maximumSpend}</strong> once, only if that moves the Votes marker to a
+                failing position.
+              </p>
+              <div className="dialog-actions">
+                <button
+                  className="button button--primary"
+                  onClick={() => {
+                    dispatch({ type: "activate-deregulation" });
+                    setResult("passed");
+                  }}
+                  type="button"
+                >
+                  Vote passed
+                </button>
+                <button onClick={() => setResult("failed")} type="button">
+                  Vote failed
+                </button>
+              </div>
+            </RuleSection>
+          ) : null}
+
+          {result === "failed" ? (
+            <aside className="outcome-note" aria-live="polite">
+              <strong>Fail</strong>
+              <p>
+                Increase the VP value of Company shares by 1, to a maximum of +3. The Prime Minister
+                remains in power and the vote may be initiated again on a later eligible turn.
+              </p>
+            </aside>
+          ) : null}
+        </div>
+      )}
     </PhaseFrame>
   );
 }
@@ -287,11 +507,13 @@ export function ChairmanPhase() {
       copy={phaseCopy["round.chairman"]}
       status={
         <span className="status-label">
-          {chairman.status === "occupied" ? actorLabels[chairman.occupant] : chairman.status}
+          {chairman.status === "occupied"
+            ? playerLabel(session.mode, session.playerNames, chairman.occupant)
+            : chairman.status}
         </span>
       }
     >
-      <ActingRole role="chairman" />
+      {chairman.status !== "not-in-play" ? <RoleEditor holderOnly role="chairman" /> : null}
       {chairman.status !== "occupied" ? (
         <p className="empty-note">
           The Chairman office is {chairman.status.replaceAll("-", " ")}. Company Operations skips it
@@ -402,115 +624,14 @@ export function ChairmanPhase() {
 }
 
 export function BonusesPhase() {
-  const { session } = useSession();
   return (
     <PhaseFrame copy={phaseCopy["round.bonuses"]}>
       <div className="textual-procedure">
-        <p className="textual-procedure__lead">
-          Resolve these bonuses for{" "}
-          {session.mode === "solo"
-            ? "the human family and the Crown"
-            : "Human 1, Human 2, and the Crown"}
-          .
-        </p>
-        <ol className="bonus-list">
-          <li>
-            <strong>Fitted Shipyards</strong>
-            <span>Gain £1 for each owned Shipyard with a fitted ship.</span>
-          </li>
-          <li>
-            <strong>Non-invested Workshops</strong>
-            <span>Gain £1 for each owned Workshop that is not invested in a firm.</span>
-          </li>
-          <li>
-            <strong>Cards and laws</strong>
-            <span>Apply any additional bonus printed on the physical game state.</span>
-          </li>
-        </ol>
-        <p className="field-note">
-          Do not count an unfitted Shipyard or a Workshop currently invested in a firm.
+        <p>
+          Players gain £1 for each Shipyard with a fitted ship and each non-invested Workshop they
+          own. Additional bonuses may apply.
         </p>
       </div>
-    </PhaseFrame>
-  );
-}
-
-function actionLabel(action: PresidencyActionId) {
-  if (action === "trade") return "Trade";
-  if (action === "commander") return "Commander";
-  const region = action.slice("governor:".length);
-  return `Governor of ${region[0].toUpperCase() + region.slice(1)}`;
-}
-
-export function PresidencyPhase({ phaseId }: { phaseId: PhaseId }) {
-  const { session, dispatch } = useSession();
-  const local = session.progress.phaseState;
-  const presidency = phaseId.slice("round.presidency.".length);
-  if (!isPresidencyPhaseState(local)) return null;
-
-  const move = (index: number, direction: -1 | 1) => {
-    const destination = index + direction;
-    if (destination < 0 || destination >= local.order.length) return;
-    const order = [...local.order];
-    [order[index], order[destination]] = [order[destination], order[index]];
-    dispatch({ type: "set-presidency-order", order });
-  };
-
-  return (
-    <PhaseFrame
-      copy={phaseCopy[phaseId]}
-      status={
-        <span className="status-label">{presidency[0].toUpperCase() + presidency.slice(1)}</span>
-      }
-    >
-      <ProcedureList phaseId={phaseId} />
-      {local.order.length === 0 ? (
-        <p className="empty-note">
-          No eligible local actors are recorded. Confirm the role ledger before continuing.
-        </p>
-      ) : (
-        <ol className="action-order">
-          {local.order.map((action, index) => {
-            const done = local.completed.includes(action);
-            return (
-              <li key={action}>
-                <label>
-                  <input
-                    checked={done}
-                    onChange={(event) =>
-                      dispatch({
-                        type: "complete-presidency-action",
-                        actionId: action,
-                        complete: event.target.checked,
-                      })
-                    }
-                    type="checkbox"
-                  />
-                  <span>{actionLabel(action)}</span>
-                </label>
-                <div className="action-order__controls">
-                  <button
-                    aria-label={`Move ${actionLabel(action)} earlier`}
-                    disabled={index === 0}
-                    onClick={() => move(index, -1)}
-                    type="button"
-                  >
-                    ↑
-                  </button>
-                  <button
-                    aria-label={`Move ${actionLabel(action)} later`}
-                    disabled={index === local.order.length - 1}
-                    onClick={() => move(index, 1)}
-                    type="button"
-                  >
-                    ↓
-                  </button>
-                </div>
-              </li>
-            );
-          })}
-        </ol>
-      )}
     </PhaseFrame>
   );
 }
@@ -530,7 +651,53 @@ export function FirmRevenuePhase() {
 
   return (
     <PhaseFrame copy={phaseCopy["round.firm-revenue"]}>
-      <ProcedureList phaseId="round.firm-revenue" />
+      <div className="phase-procedure">
+        <RuleSection number="01" title="Pay firm expenses">
+          <p>
+            Pay £1 per firm ship, then pay the higher of £1 per firm share or the firm's current
+            value, using its London and India treasuries.
+          </p>
+          <p>
+            If the firm cannot pay, seek Emergency Investments or dissolve it. Each eligible Company
+            share or uninvested Workshop adds £5; after expenses, remove leftover emergency money
+            and lower firm value once per emergency investment.
+          </p>
+          <p>
+            Crown refuses Emergency Investment by default. Give 4 promises to require Crown to
+            invest eligible Company shares, then Workshops when weak, without exceeding the
+            manager's firm-share count.
+          </p>
+        </RuleSection>
+        <RuleSection number="02" title="Dissolve an insolvent firm">
+          <p>
+            Move each firm share to Debtor's Prison, return every firm ship to its Shipyard, flip
+            the firm board to its family side, and leave invested Workshops invested.
+          </p>
+        </RuleSection>
+        <RuleSection number="03" title="Pay firm dividends">
+          <p>
+            A dividend pays each family £1 per firm share and the manager an additional £1. The
+            manager may waive any number of their own shares. Record total dividends with the firm
+            cube; preserve Hobnobbing only when no dividend was paid, otherwise set it to 0.
+          </p>
+          {session.mode === "solo" ? (
+            <p>
+              If Crown's share dividend is at least the human's share dividend, receive promises
+              equal to Crown shares, to a maximum of 3. Ignore the manager's extra £1 for this
+              comparison.
+            </p>
+          ) : (
+            <p>
+              Compare Crown's share dividend with each human family separately. If Crown is at least
+              each one, resolve the reward; exclude the manager's extra £1. A shareholder may waive
+              dividends only with manager consent.
+            </p>
+          )}
+        </RuleSection>
+        <RuleSection number="04" title="Move remaining cash">
+          <p>Move every pound remaining in the firm's India treasury to its London treasury.</p>
+        </RuleSection>
+      </div>
       <div className="firm-entry">
         <label htmlFor="firm-label">Firm label</label>
         <div>
@@ -567,18 +734,6 @@ export function FirmRevenuePhase() {
           </li>
         ))}
       </ul>
-    </PhaseFrame>
-  );
-}
-
-export function TradeDirectoratePhase() {
-  const { session } = useSession();
-  const role: RoleRef =
-    session.roles.governorGeneral.status === "not-in-play" ? "directorOfTrade" : "governorGeneral";
-  return (
-    <PhaseFrame copy={phaseCopy["round.trade-directorate"]}>
-      <ProcedureList phaseId="round.trade-directorate" />
-      <ActingRole role={role} />
     </PhaseFrame>
   );
 }
@@ -686,7 +841,8 @@ function VacancyHireCard({ index, role }: { index: number; role: RoleRef }) {
       ) : (
         <>
           <p className="state-reading">
-            Current hirer: {ROLE_LABELS[actualHirer ?? "chairman"]} · {actorLabels[hirer.occupant]}
+            Current hirer: {ROLE_LABELS[actualHirer ?? "chairman"]} ·{" "}
+            {playerLabel(session.mode, session.playerNames, hirer.occupant)}
           </p>
           {hirer.occupant === "crown" ? (
             <div className="branch-note">
@@ -700,7 +856,9 @@ function VacancyHireCard({ index, role }: { index: number; role: RoleRef }) {
             </div>
           ) : (
             <div className="branch-note">
-              <strong>{actorLabels[hirer.occupant]} hiring</strong>
+              <strong>
+                {playerLabel(session.mode, session.playerNames, hirer.occupant)} hiring
+              </strong>
               <p>
                 Hiring the hirer's own family requires consent from every other family in the
                 candidate pool. Crown consent costs 2 promises. Receive 1 promise for choosing Crown
@@ -708,7 +866,7 @@ function VacancyHireCard({ index, role }: { index: number; role: RoleRef }) {
               </p>
               {session.mode === "two-player" ? (
                 <ModeNote>
-                  Keep Human 1 and Human 2 separate. If self-hiring, obtain consent from every other
+                  Keep both human families separate. If self-hiring, obtain consent from every other
                   candidate family; do not invent a reward for the unresolved sole-human
                   Crown-nepotism case.
                 </ModeNote>
@@ -721,7 +879,7 @@ function VacancyHireCard({ index, role }: { index: number; role: RoleRef }) {
               <select value={actor} onChange={(event) => setActor(event.target.value as ActorId)}>
                 {actors.map((candidate) => (
                   <option key={candidate} value={candidate}>
-                    {actorLabels[candidate]}
+                    {playerLabel(session.mode, session.playerNames, candidate)}
                   </option>
                 ))}
               </select>
@@ -735,14 +893,16 @@ function VacancyHireCard({ index, role }: { index: number; role: RoleRef }) {
                     <option key={source} value={source}>
                       {ROLE_LABELS[source]} ·{" "}
                       {getRole(session.roles, source).status === "occupied"
-                        ? actorLabels[
+                        ? playerLabel(
+                            session.mode,
+                            session.playerNames,
                             (
                               getRole(session.roles, source) as {
                                 status: "occupied";
                                 occupant: ActorId;
                               }
-                            ).occupant
-                          ]
+                            ).occupant,
+                          )
                         : ""}
                     </option>
                   ))}
@@ -792,7 +952,7 @@ export function HiringPhase() {
             majority/former Chairman may use the sourced Crown-election favors.
           </p>
         )}
-        <RoleEditor role="chairman" />
+        <RoleEditor holderOnly role="chairman" />
       </RuleSection>
 
       <RuleSection number="02" title="Order the vacant office cards">
@@ -823,22 +983,6 @@ export function HiringPhase() {
           ))}
         </section>
       ) : null}
-    </PhaseFrame>
-  );
-}
-
-export function ScoringPhase() {
-  const { session } = useSession();
-  return (
-    <PhaseFrame
-      copy={phaseCopy["game.scoring"]}
-      status={
-        <span className="status-label">
-          {session.progress.endReason === "company-failure" ? "Company failure" : "Scenario end"}
-        </span>
-      }
-    >
-      <ProcedureList phaseId="game.scoring" />
     </PhaseFrame>
   );
 }

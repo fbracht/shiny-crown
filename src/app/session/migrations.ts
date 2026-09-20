@@ -4,6 +4,7 @@ import {
   DIFFICULTIES,
   PHASE_IDS,
   SCENARIOS,
+  SCHEMA_VERSION,
   type GameMode,
   type GameSessionV1,
   type PhaseId,
@@ -16,7 +17,25 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 export function migrateSession(value: unknown): unknown {
   if (!isRecord(value)) return value;
-  if (value.schemaVersion === 1) return value;
+  if (value.schemaVersion === SCHEMA_VERSION) return value;
+  if (value.schemaVersion === 1) {
+    const playerNames = {
+      "human-1": "Player 1",
+      "human-2": "Player 2",
+    };
+    return {
+      ...value,
+      schemaVersion: SCHEMA_VERSION,
+      playerNames,
+      history: Array.isArray(value.history)
+        ? value.history.map((entry) =>
+            isRecord(entry) && isRecord(entry.facts)
+              ? { ...entry, facts: { ...entry.facts, schemaVersion: SCHEMA_VERSION, playerNames } }
+              : entry,
+          )
+        : value.history,
+    };
+  }
   if (value.schemaVersion !== 0) return value;
 
   const rawMode = value.mode ?? value.gameMode;

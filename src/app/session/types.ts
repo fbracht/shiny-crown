@@ -1,4 +1,4 @@
-export const SCHEMA_VERSION = 1 as const;
+export const SCHEMA_VERSION = 2 as const;
 
 export const CLIMATES = ["bull", "stag", "lion", "bear", "peacock"] as const;
 export const DIFFICULTIES = ["easy", "normal", "hard", "expert", "legendary"] as const;
@@ -114,6 +114,7 @@ export type SessionProgress = {
 export type SessionFacts = {
   schemaVersion: typeof SCHEMA_VERSION;
   mode: GameMode;
+  playerNames: Record<HumanId, string>;
   difficulty: Difficulty;
   scenario: Scenario;
   turn: number;

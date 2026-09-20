@@ -47,14 +47,15 @@ describe("local persistence and recovery", () => {
     if (loaded.status === "loaded") {
       expect(loaded.migrated).toBe(true);
       expect(loaded.session).toMatchObject({
-        schemaVersion: 1,
+        schemaVersion: 2,
         mode: "solo",
         scenario: "1758",
         difficulty: "hard",
         climate: "lion",
         turn: 3,
+        playerNames: { "human-1": "Player 1", "human-2": "Player 2" },
       });
     }
-    expect(JSON.parse(storage.getItem(SESSION_STORAGE_KEY) ?? "{}").schemaVersion).toBe(1);
+    expect(JSON.parse(storage.getItem(SESSION_STORAGE_KEY) ?? "{}").schemaVersion).toBe(2);
   });
 });

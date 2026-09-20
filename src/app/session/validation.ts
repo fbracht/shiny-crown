@@ -87,6 +87,13 @@ export function validateSession(value: unknown): ValidationResult {
 
   if (value.schemaVersion !== SCHEMA_VERSION) errors.push("Unsupported schema version.");
   if (value.mode !== "solo" && value.mode !== "two-player") errors.push("mode is invalid.");
+  if (
+    !isRecord(value.playerNames) ||
+    typeof value.playerNames["human-1"] !== "string" ||
+    typeof value.playerNames["human-2"] !== "string"
+  ) {
+    errors.push("playerNames must contain both human player names.");
+  }
   if (!DIFFICULTIES.includes(value.difficulty as never)) errors.push("difficulty is invalid.");
   if (!SCENARIOS.includes(value.scenario as never)) errors.push("scenario is invalid.");
   if (!CLIMATES.includes(value.climate as never)) errors.push("climate is invalid.");

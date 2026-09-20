@@ -1,3 +1,5 @@
+import { playerLabel } from "../app/session/playerLabels";
+import { getRole, ROLE_LABELS } from "../app/session/roles";
 import { useSession } from "../app/session/SessionContext";
 import type {
   ActorId,
@@ -7,49 +9,26 @@ import type {
   RoleRef,
 } from "../app/session/types";
 import { PRESIDENCIES } from "../app/session/types";
-import { getRole, ROLE_LABELS } from "../app/session/roles";
-
-const actorLabels: Record<ActorId, string> = {
-  "human-1": "Human 1",
-  "human-2": "Human 2",
-  crown: "Crown",
-};
 
 function actorsForMode(mode: "solo" | "two-player"): ActorId[] {
   return mode === "solo" ? ["human-1", "crown"] : ["human-1", "human-2", "crown"];
 }
 
-function assignmentValue(assignment: RoleAssignment | GovernorAssignment) {
-  if (assignment.status !== "occupied") return assignment.status;
-  return `occupied:${assignment.occupant}`;
-}
-
-function nextAssignment(value: string, current: RoleAssignment): RoleAssignment {
+function withPrevious(current: RoleAssignment, assignment: RoleAssignment): RoleAssignment {
   const previousOccupant =
     current.status === "occupied" ? current.occupant : current.previousOccupant;
-  if (value === "not-in-play") {
-    return previousOccupant
-      ? { status: "not-in-play", previousOccupant }
-      : { status: "not-in-play" };
-  }
-  if (value === "vacant") {
-    return previousOccupant ? { status: "vacant", previousOccupant } : { status: "vacant" };
-  }
-  const occupant = value.slice("occupied:".length) as ActorId;
-  return previousOccupant
-    ? { status: "occupied", occupant, previousOccupant }
-    : { status: "occupied", occupant };
+  return previousOccupant === undefined ? assignment : { ...assignment, previousOccupant };
 }
 
-export function RoleEditor({ role }: { role: RoleRef }) {
+export function RoleEditor({ role, holderOnly = false }: { role: RoleRef; holderOnly?: boolean }) {
   const { session, dispatch } = useSession();
   const assignment = getRole(session.roles, role);
   const isGovernor = role.startsWith("governor:");
   const association = (assignment as GovernorAssignment).associatedPresidency;
 
-  const changeStatus = (value: string) => {
-    const next = nextAssignment(value, assignment);
-    if (isGovernor && next.status !== "not-in-play" && !association) return;
+  if (holderOnly && assignment.status === "not-in-play") return null;
+
+  const update = (next: RoleAssignment) => {
     dispatch({
       type: "set-role",
       role,
@@ -58,6 +37,24 @@ export function RoleEditor({ role }: { role: RoleRef }) {
           ? { ...next, associatedPresidency: association }
           : next,
     });
+  };
+
+  const setHolder = (holder: ActorId | "vacant") => {
+    update(
+      withPrevious(
+        assignment,
+        holder === "vacant" ? { status: "vacant" } : { status: "occupied", occupant: holder },
+      ),
+    );
+  };
+
+  const setInPlay = (inPlay: boolean) => {
+    if (!inPlay) {
+      update(withPrevious(assignment, { status: "not-in-play" }));
+      return;
+    }
+    if (isGovernor && !association) return;
+    update(withPrevious(assignment, { status: "vacant" }));
   };
 
   const changeAssociation = (presidency: PresidencyId) => {
@@ -71,25 +68,23 @@ export function RoleEditor({ role }: { role: RoleRef }) {
 
   return (
     <div className="role-editor">
-      <label>
+      <div className="role-editor__heading">
         <span>{ROLE_LABELS[role]}</span>
-        <select
-          value={assignmentValue(assignment)}
-          onChange={(event) => changeStatus(event.target.value)}
-        >
-          <option value="not-in-play">Not in play</option>
-          <option disabled={isGovernor && !association} value="vacant">
-            Vacant
-          </option>
-          {actorsForMode(session.mode).map((actor) => (
-            <option disabled={isGovernor && !association} key={actor} value={`occupied:${actor}`}>
-              {actorLabels[actor]}
-            </option>
-          ))}
-        </select>
-      </label>
-      {isGovernor ? (
-        <label>
+        {!holderOnly ? (
+          <button
+            aria-pressed={assignment.status !== "not-in-play"}
+            className="role-editor__availability"
+            disabled={isGovernor && !association}
+            onClick={() => setInPlay(assignment.status === "not-in-play")}
+            type="button"
+          >
+            {assignment.status === "not-in-play" ? "Add" : "In play"}
+          </button>
+        ) : null}
+      </div>
+
+      {isGovernor && !holderOnly ? (
+        <label className="role-editor__association">
           <span>Presidency</span>
           <select
             aria-describedby={`${role}-association-note`}
@@ -97,7 +92,7 @@ export function RoleEditor({ role }: { role: RoleRef }) {
             onChange={(event) => changeAssociation(event.target.value as PresidencyId)}
           >
             <option disabled value="">
-              Choose first
+              Choose
             </option>
             {PRESIDENCIES.map((presidency) => (
               <option key={presidency} value={presidency}>
@@ -106,10 +101,40 @@ export function RoleEditor({ role }: { role: RoleRef }) {
             ))}
           </select>
           <small className="field-note" id={`${role}-association-note`}>
-            {!association ? "Required before this Governor enters play." : "\u00a0"}
+            {!association ? "Choose a Presidency before adding this Governor." : "\u00a0"}
           </small>
         </label>
       ) : null}
+
+      {assignment.status !== "not-in-play" ? (
+        <fieldset className="holder-control">
+          <legend>{ROLE_LABELS[role]} holder</legend>
+          <div>
+            <button
+              aria-label={`${ROLE_LABELS[role]}: Vacant`}
+              aria-pressed={assignment.status === "vacant"}
+              onClick={() => setHolder("vacant")}
+              title="Vacant"
+              type="button"
+            >
+              <span aria-hidden="true">—</span>
+              <span className="visually-hidden">Vacant</span>
+            </button>
+            {actorsForMode(session.mode).map((actor) => (
+              <button
+                aria-pressed={assignment.status === "occupied" && assignment.occupant === actor}
+                key={actor}
+                onClick={() => setHolder(actor)}
+                type="button"
+              >
+                {playerLabel(session.mode, session.playerNames, actor)}
+              </button>
+            ))}
+          </div>
+        </fieldset>
+      ) : (
+        <span className="role-editor__not-in-play">Not in play</span>
+      )}
     </div>
   );
 }
